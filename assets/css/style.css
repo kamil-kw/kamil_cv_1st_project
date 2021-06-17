@@ -16,6 +16,11 @@ body {
 @media screen and (min-width: 360px){
 /* Header style */
 
+.header-menu {
+    height: auto;
+    background-color: orangered;
+}
+
 #menu {
   list-style-type: none;
   text-align: center; 
@@ -25,12 +30,13 @@ body {
 
 #menu li {
     display: inline-block;
-    padding: 5px 20px;
+    padding: 0px 20px;
 }
+
 /* hero image */
 
 .hero-image-area {
-    height: 20vh;
+    height: 150px;
     width: 100vw;
 }
 
@@ -40,20 +46,24 @@ body {
     background: url(../images/honeycomb-long.jpg) no-repeat center center/cover;
 }
 
+/*title area*/
+
 .title-area {
     width: 100vw;
-    height: 15vh;
+    height: 10vh;
     position: relative;
-}
-.title-area {
     border: 1px solid black;
 }
 
 #name {
-    font-size: 150%;
-}
-#title #work-title {
     font-size: 100%;
+    position: absolute;
+    top: 10px;
+}
+
+
+#title #work-title {
+    font-size: 80%;
     position: absolute;
     text-align: right;
     right: 10px;
@@ -61,12 +71,23 @@ body {
     bottom: 20px;
 }
 #title #school-title {
-    font-size: 100%;
+    font-size: 80%;
     position: absolute;
     text-align: right;
     right: 10px;
-    top: 40px;
+    top: 30px;
     bottom: 10px;
 }
+/* Get in touch */
+.get-in-touch {
+    height: 20vh;
+    width: 100vw;
+    border: 1px solid black;
+}
 
-} /*media close*/
+#get-in-touch {
+
+}
+
+} /*media 360 close*/
+
