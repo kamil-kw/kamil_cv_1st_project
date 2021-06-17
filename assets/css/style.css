@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: black;
+}
+
+/* mobile device portrait mode*/
+
+@media screen and (min-width: 360px){
+/* Header style */
+
+#menu {
+  list-style-type: none;
+  text-align: center; 
+  padding: 0;
+  margin: 0
+}
+
+#menu li {
+    display: inline-block;
+    padding: 5px 20px;
+}
+/* hero image */
+
+.hero-image-area {
+    height: 20vh;
+    width: 100vw;
+}
+
+#hero-image {
+    height: 100%;
+    width: 100%;
+    background: url(../images/honeycomb-long.jpg) no-repeat center center/cover;
+}
+
+.title-area {
+    width: 100vw;
+    height: 15vh;
+    position: relative;
+}
+.title-area {
+    border: 1px solid black;
+}
+
+#name {
+    font-size: 150%;
+}
+#title #work-title {
+    font-size: 100%;
+    position: absolute;
+    text-align: right;
+    right: 10px;
+    top: 10px;
+    bottom: 20px;
+}
+#title #school-title {
+    font-size: 100%;
+    position: absolute;
+    text-align: right;
+    right: 10px;
+    top: 40px;
+    bottom: 10px;
+}
+
+} /*media close*/
