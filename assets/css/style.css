@@ -10,10 +10,13 @@ body {
     font-weight: 300;
     color: black;
 }
+hr {
+    border: 1px solid black;
+}
 
 /* mobile device portrait mode*/
 
-@media screen and (min-width: 360px){
+@media screen and (min-width: 360px) and (max-width: 495px){
 /* Header style */
 
 .header-menu {
@@ -84,18 +87,38 @@ body {
 
 }
 table {
-    font-size: 80%;
+    font-size: 75%;
 }
 
 /* About me */
 .about-me {
     margin: auto;
     text-align: center;
-    font-size: 80%;
+    font-size: 75%;
 }
 
 /*footer*/
+.footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height: auto;
+    margin-top: 0;
+}
 
+.footer div {
+    text-align: center;
+    font-size: 50%;
+}
 
+#cooperation {
+    position: relative;
+    float: right;
+}
+    
+#download {
+    position: relative;
+    float: left;
+}
 } /*media 360 close*/
 
