@@ -50,15 +50,14 @@ body {
 
 .title-area {
     width: 100vw;
-    height: 10vh;
+    height: 5vh;
     position: relative;
-    border: 1px solid black;
 }
 
 #name {
     font-size: 100%;
     position: absolute;
-    top: 10px;
+    top: 0;
 }
 
 
@@ -67,7 +66,7 @@ body {
     position: absolute;
     text-align: right;
     right: 10px;
-    top: 10px;
+    top: 0;
     bottom: 20px;
 }
 #title #school-title {
@@ -75,19 +74,28 @@ body {
     position: absolute;
     text-align: right;
     right: 10px;
-    top: 30px;
+    top: 13px;
     bottom: 10px;
 }
 /* Get in touch */
-.get-in-touch {
-    height: 20vh;
-    width: 100vw;
-    border: 1px solid black;
-}
-
-#get-in-touch {
+.table-center {
+    margin-left: auto;
+    margin-right: auto;
 
 }
+table {
+    font-size: 80%;
+}
+
+/* About me */
+.about-me {
+    margin: auto;
+    text-align: center;
+    font-size: 80%;
+}
+
+/*footer*/
+
 
 } /*media 360 close*/
 
