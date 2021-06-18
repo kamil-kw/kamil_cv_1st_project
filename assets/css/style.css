@@ -18,11 +18,10 @@ body {
 
 @media screen and (min-width: 360px) and (max-width: 495px){
 
-    .bottom-margin {
-        margin-bottom: 5px;
+.bottom-margin {
+    margin-bottom: 5px;
     }
     /* Header style */
-
 
 .header-menu {
     height: auto;
@@ -38,9 +37,17 @@ body {
 
 #menu li {
     display: inline-block;
-    padding: 0px 20px;
+    padding: 0px 10px;
 }
 
+li a {
+    text-align: center;
+    color: blanchedalmond;
+}
+
+.main-background {
+    background-color: coral;
+}
 /* hero image */
 
 .hero-image-area {
@@ -73,7 +80,7 @@ body {
     font-size: 80%;
     position: absolute;
     text-align: right;
-    right: 10px;
+    right: 0;
     top: 0;
     bottom: 20px;
 }
@@ -81,7 +88,7 @@ body {
     font-size: 80%;
     position: absolute;
     text-align: right;
-    right: 10px;
+    right: 0;
     top: 13px;
     bottom: 10px;
 }
@@ -95,9 +102,14 @@ table {
     font-size: 75%;
 }
 
+.col-a {
+font-weight: 800;
+column-width: 150px;
+}
+
 /* About me */
 .about-me {
-    margin: auto;
+    margin: 5px 10px;
     text-align: center;
     font-size: 75%;
 }
@@ -125,5 +137,9 @@ table {
     position: relative;
     float: left;
 }
+#download-icon {
+    font-size: 80%;
+}
+
 } /*media 360 close*/
 
