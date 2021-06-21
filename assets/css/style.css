@@ -15,37 +15,178 @@ body {
     border: 1px solid black;
 }
 
-/* mobile device portrait mode*/
+/* old devices below 360px width and galaxy fold*/
+
+@media screen and (max-width: 359px){
+
+    /* Header style */
+    .header-menu {
+        height: auto;
+        background-color: orangered;
+        }
+    
+    #menu {
+        list-style-type: none;
+        text-align: center; 
+        padding: 0;
+        margin: 0;
+          }
+        
+    #menu li {
+        display: inline-block;
+        padding: 0px 5px;
+    }
+    
+    li a {
+        text-align: center;
+        color: blanchedalmond;
+        font-size: 2vh;
+    }
+    
+    .main-background {
+        background-color: gray;
+    }
+    
+    /* hero image */
+    
+    .hero-image-area {
+        height: 150px;
+        width: 100vw;
+    }
+    
+    #hero-image {
+        height: 100%;
+        width: 100%;
+        background: url(../images/hero1-1.jpg) no-repeat center center/cover;
+    }
+    
+    /*title area*/
+    
+    .title-area {
+        width: 100vw;
+        height: 5vh;
+        position: relative;
+    }
+    
+    #name {
+        font-size: 4.1vw;
+        position: absolute;
+        top: 5px;
+        left: 5px;
+    }
+    
+    #title #work-title {
+        font-size: 3.8vw;
+        position: absolute;
+        text-align: right;
+        right: 5px;
+    }
+    
+    #title #school-title {
+        font-size: 3.8vw;
+        position: absolute;
+        text-align: right;
+        right: 5px;
+        bottom: 0;
+        top: 15px;
+    }
+    
+    /* Get in touch */
+    
+    .table-center {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    table {
+        font-size: 4vw;
+    }
+    
+    .col-a {
+    font-weight: 800;
+    column-width: 150px;
+    }
+    
+    /* About me */
+    .about-me {
+        margin: 5px;
+        text-align: center;
+        font-size: 0.6rem;
+        overflow: hidden;
+        height: auto;
+    }
+    
+    
+    
+    .bottom-margin {
+        margin-bottom: 1.5vw;
+        }
+    
+    /*footer*/
+    
+    .footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: auto;
+        margin-top: 0;
+    }
+    
+    .footer div {
+        text-align: center;
+        font-size: 2.4vw;
+    }
+    
+    #cooperation {
+        position: relative;
+        float: right;
+        right: 5px;
+    }
+        
+    #download {
+        position: relative;
+        float: left;
+        left: 5px;
+    }
+    
+    #download-icon {
+        font-size: 80%;
+    }
+    
+    }
+
+/* popular mobile device portrait mode*/
 
 @media screen and (min-width: 360px) and (max-width: 420px){
 
     /* Header style */
-
 .header-menu {
     height: auto;
     background-color: orangered;
-}
+    }
 
 #menu {
-  list-style-type: none;
-  text-align: center; 
-  padding: 0;
-  margin: 0
-}
-
+    list-style-type: none;
+    text-align: center; 
+    padding: 0;
+    margin: 0;
+      }
+    
 #menu li {
     display: inline-block;
-    padding: 0px 10px;
+    padding: 0px 5px;
 }
 
 li a {
     text-align: center;
     color: blanchedalmond;
+    font-size: 2vh;
 }
 
 .main-background {
-    background-color: coral;
+    background-color: gray;
 }
+
 /* hero image */
 
 .hero-image-area {
@@ -56,7 +197,7 @@ li a {
 #hero-image {
     height: 100%;
     width: 100%;
-    background: url(../images/hero1.jpg) no-repeat center center/cover;
+    background: url(../images/hero1-1.jpg) no-repeat center center/cover;
 }
 
 /*title area*/
@@ -68,36 +209,37 @@ li a {
 }
 
 #name {
-    font-size: 16px;
+    font-size: 4.1vw;
     position: absolute;
-    top: 0;
+    top: 5px;
+    left: 5px;
 }
-
 
 #title #work-title {
-    font-size: 14px;
+    font-size: 3.8vw;
     position: absolute;
     text-align: right;
-    right: 0;
-    top: 0;
-    bottom: 20px;
+    right: 5px;
 }
+
 #title #school-title {
-    font-size: 14px;
+    font-size: 3.8vw;
     position: absolute;
     text-align: right;
-    right: 0;
-    top: 13px;
-    bottom: 10px;
+    right: 5px;
+    bottom: 0;
+    top: 15px;
 }
+
 /* Get in touch */
+
 .table-center {
     margin-left: auto;
     margin-right: auto;
-
 }
+
 table {
-    font-size: 12px;
+    font-size: 3.9vw;
 }
 
 .col-a {
@@ -107,15 +249,21 @@ column-width: 150px;
 
 /* About me */
 .about-me {
-    margin: 10px;
+    margin: 5px;
     text-align: center;
-    font-size: 3vw;
+    font-size: 1.95vh;
+    overflow: hidden;
+    height: auto;
 }
 
+
+
 .bottom-margin {
-    margin-bottom: 2.2vw;
+    margin-bottom: 1.5vw;
     }
+
 /*footer*/
+
 .footer {
     position: absolute;
     bottom: 0;
@@ -126,21 +274,34 @@ column-width: 150px;
 
 .footer div {
     text-align: center;
-    font-size: 55%;
+    font-size: 2.4vw;
 }
 
 #cooperation {
     position: relative;
     float: right;
+    right: 5px;
 }
     
 #download {
     position: relative;
     float: left;
+    left: 5px;
 }
+
 #download-icon {
     font-size: 80%;
 }
 
-} /*media 360 close*/
+} /*media 360px-420px close*/
 
+
+
+/* smartphones in landscape mode */
+@media screen and (min-width: 421px) and (max-width: 767px){}
+/* Android tablets and iPads in portrait mode */
+@media screen and (min-width: 768px) and (max-width: 1023px){}
+/* Android tablets and iPads in landscape mode, older desktop/laptop monitors */
+@media screen and (min-width: 1024px) and (max-width: 1365px){}
+/* iPad PRO, HDready and FullHD desktop laptop monitors */
+@media screen and (min-width: 1366px){}
