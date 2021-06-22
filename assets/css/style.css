@@ -19,10 +19,15 @@ body {
     background-color: gray;
 }
 
-footer {
-    position: static;
-    bottom: 0;
+ 
+#left {
+    float:left;
 }
+
+#right {
+    float:right;
+}
+
 /* old devices below 360px width and galaxy fold*/
 
 @media screen and (max-width: 359px){
@@ -45,6 +50,7 @@ footer {
         width: auto;
         height: auto;
         background-color: rgba(80, 83, 83, .7);
+        margin: 0 auto;
     }
     
     li a {
@@ -115,7 +121,7 @@ footer {
         text-align: center;
         font-size: 3.35vw;
         overflow: auto;
-        height: auto;
+        height: 300px;
         position: relative;
     }
     
@@ -128,17 +134,17 @@ footer {
     /*footer*/
     
     .footer {
-        position: relative;
+        position: fixed;
         bottom: 0;
         width: 100%;
         height: 50px;
+        background-color: blanchedalmond;
     }
     
     .footer div {
         text-align: center;
         font-size: 2.4vw;
         margin-bottom: 5px;
-        position: relative;
     }
     
     #cooperation {
@@ -164,10 +170,6 @@ footer {
 
 @media screen and (min-width: 360px) and (max-width: 420px){
 
-    /* Header style */
-   
-    /* Header style */
-   
     #menu {
         position: fixed;
         width: 100vw;
@@ -254,7 +256,7 @@ footer {
         text-align: center;
         font-size: 3.35vw;
         overflow: auto;
-        height: auto;
+        height: 300px;
         position: relative;
     }
     
@@ -266,18 +268,295 @@ footer {
     
     /*footer*/
     
-    /*.footer {
-        position: relative;
+    .footer {
+        position: fixed;
         bottom: 0;
         width: 100%;
-        height: 50px;
-    }*/
- 
+        height: 55px;
+        background-color: blanchedalmond;
+    }
+    
     .footer div {
         text-align: center;
         font-size: 2.4vw;
         margin-bottom: 5px;
+    }
+    
+    #cooperation {
+        
+        float: right;
+        right: 5px;
+        bottom: 0;
+    }
+        
+    #download {
+        
+        float: left;
+        left: 5px;
+    }
+    
+    #download-icon {
+        font-size: 80%;
+        position: inherit;
+ 
+    }
+    
+    }
+
+/* smartphones in landscape mode */
+@media screen and (min-width: 421px) and (max-width: 767px){
+
+        /* Header style */
+       
+        #menu {
+            position: fixed;
+            width: 100vw;
+            height: 10px;
+            text-align: center;
+        
+        }
+    
+        .header-menu ul li {
+            display: inline-block;
+            padding: 0px 10px;
+            list-style-type: none;
+            text-align: center;
+            width: auto;
+            height: auto;
+            background-color: rgba(80, 83, 83, .7);
+            margin: 0 auto;
+        }
+        
+        li a {
+            text-align: center;
+            color: blanchedalmond;
+            font-size: 12px;
+        }
+
+    
+    
+        
+        /* hero image */
+        
+        .hero-image-area {
+            height: 200px;
+            width: 100vw;
+        }
+        
+        #hero-image {
+            height: 100%;
+            width: 100%;
+            background: url(../images/hero1-1.jpg) no-repeat center center/cover;
+        }
+        
+        /*title area*/
+        
+        .title-area {
+            width: 100vw;
+            height: 7.5vw;
+            position: relative;
+        }
+        
+        #name {
+            font-size: 3vw;
+            position: relative;
+            float: left;
+            top: 5px;
+            left: 5px;
+        }
+        
+        #title {
+            font-size: 1.5vw;
+            position: relative;
+            text-align: right;
+            float: right;
+            right: 5px;
+            top: 0;
+        }
+        
+        /* Get in touch */
+        
+        .table-center {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        table {
+            font-size: 2.7vw;
+        }
+        
+        .col-a {
+        font-weight: 800;
+        column-width: 150px;
+        }
+        
+        /* About me */
+        .about-me {
+            margin: 5px;
+            text-align: center;
+            font-size: 2vw;
+            overflow: auto;
+            height: 700px;
+            position: relative;
+        }
+        
+        
+        
+        .bottom-margin {
+            margin-bottom: 1.5vw;
+            }
+        
+        /*footer*/
+        
+        .footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 65px;
+            background-color: blanchedalmond;
+        }
+        
+        .footer div {
+            text-align: center;
+            font-size: 1.5vw;
+            margin-bottom: 5px;
+        }
+        
+        #cooperation {
+            
+            float: right;
+            right: 5px;
+            bottom: 0;
+        }
+            
+        #download {
+            
+            float: left;
+            left: 5px;
+        }
+        
+        #download-icon {
+            font-size: 80%;
+        }
+        
+    }
+
+/* Android tablets and iPads in portrait mode */
+@media screen and (min-width: 768px) and (max-width: 1023.99px){
+    /* Header style */
+       
+    #menu {
+        position: fixed;
+        width: 100vw;
+        height: 10px;
+        text-align: center;
+    
+    }
+
+    .header-menu ul li {
+        display: inline-block;
+        padding: 0px 10px;
+        list-style-type: none;
+        text-align: center;
+        width: auto;
+        height: auto;
+        background-color: rgba(80, 83, 83, .7);
+        margin: 0 auto;
+    }
+    
+    li a {
+        text-align: center;
+        color: blanchedalmond;
+        font-size: 3vw;
+    }
+
+
+
+    
+    /* hero image */
+    
+    .hero-image-area {
+        height: 350px;
+        width: 100vw;
+    }
+    
+    #hero-image {
+        height: 100%;
+        width: 100%;
+        background: url(../images/hero1-1.jpg) no-repeat center center/cover;
+    }
+    
+    /*title area*/
+    
+    .title-area {
+        width: 100vw;
+        height: 9.3vw;
         position: relative;
+    }
+    
+    #name {
+        font-size: 4vw;
+        position: relative;
+        float: left;
+        top: 5px;
+        left: 5px;
+    }
+    
+    #title {
+        font-size: 2vw;
+        position: relative;
+        text-align: right;
+        float: right;
+        right: 5px;
+        top: 0;
+    }
+    
+    /* Get in touch */
+    
+    .table-center {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    table {
+        font-size: 3.5vw;
+    }
+    
+    .col-a {
+    font-weight: 800;
+    column-width: 150px;
+    }
+    
+    /* About me */
+    .about-me {
+        margin: 5px;
+        text-align: center;
+        font-size: 3vw;
+        overflow: auto;
+        height: 600px;
+        position: relative;
+    }
+    
+    
+    
+    .bottom-margin {
+        margin-bottom: 1.5vw;
+        }
+    
+    /*footer*/
+    
+    .footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 100px;
+        background-color: blanchedalmond;
+    }
+    
+    .footer div {
+        text-align: center;
+        font-size: 1.5vw;
+        margin-bottom: 5px;
     }
     
     #cooperation {
@@ -298,11 +577,6 @@ footer {
     }
     
 }
-
-/* smartphones in landscape mode */
-@media screen and (min-width: 421px) and (max-width: 767px){}
-/* Android tablets and iPads in portrait mode */
-@media screen and (min-width: 768px) and (max-width: 1023px){}
 /* Android tablets and iPads in landscape mode, older desktop/laptop monitors */
 @media screen and (min-width: 1024px) and (max-width: 1365px){}
 /* iPad PRO, HDready and FullHD desktop laptop monitors */
