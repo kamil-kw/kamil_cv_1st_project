@@ -16,7 +16,7 @@ body {
 }       
 
 .main-background {
-    background-color: gray;
+    background-color: #45a7c4;
 }
 
  
@@ -26,6 +26,11 @@ body {
 
 #right {
     float:right;
+}
+
+.work-task li {
+    list-style-type: circle;
+    text-align: left;
 }
 
 /* old devices below 360px width and galaxy fold*/
@@ -102,8 +107,8 @@ body {
     /* Get in touch */
     
     .table-center {
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 5px;
+       
     }
     
     table {
@@ -112,8 +117,16 @@ body {
     
     .col-a {
     font-weight: 800;
-    column-width: 150px;
+    column-width: 100px;
     }
+
+    .social {
+        position: relative;
+        float: right;
+        right: 5px;
+        list-style-type: none;
+    }
+
     
     /* About me */
     .about-me {
@@ -125,12 +138,20 @@ body {
         position: relative;
     }
     
-    
-    
+
     .bottom-margin {
         margin-bottom: 1.5vw;
         }
     
+    /* work expirence */
+    .work-expirence {
+        margin: 5px;
+        text-align: center;
+        font-size: 3.35vw;
+        overflow: auto;
+        height: 300px;
+        position: relative;
+    }
     /*footer*/
     
     .footer {
@@ -247,7 +268,14 @@ body {
     
     .col-a {
     font-weight: 800;
-    column-width: 150px;
+    column-width: 100px;
+    }
+
+    .social {
+        position: relative;
+        float: right;
+        right: 5px;
+        list-style-type: none;
     }
     
     /* About me */
@@ -387,7 +415,14 @@ body {
         
         .col-a {
         font-weight: 800;
-        column-width: 150px;
+        column-width: 100px;
+        }
+
+        .social {
+            position: relative;
+            float: right;
+            right: 5px;
+            list-style-type: none;
         }
         
         /* About me */
@@ -514,7 +549,7 @@ body {
     /* Get in touch */
     
     .table-center {
-        margin-left: auto;
+        margin-left: 60px;
         margin-right: auto;
     }
     
@@ -524,7 +559,19 @@ body {
     
     .col-a {
     font-weight: 800;
-    column-width: 150px;
+    column-width: 100px;
+    }
+
+    .social {
+        position: relative;
+        float: right;
+        right: 5px;
+        top: 10px;
+        list-style-type: none;
+    }
+
+    .social li a {
+        font-size: 200%;
     }
     
     /* About me */
