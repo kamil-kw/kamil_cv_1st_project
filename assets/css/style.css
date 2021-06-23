@@ -16,10 +16,9 @@ body {
 }       
 
 .main-background {
-    background-color: #45a7c4;
+    background-color: silver;
 }
 
- 
 #left {
     float:left;
 }
@@ -27,10 +26,12 @@ body {
 #right {
     float:right;
 }
-
-.work-task li {
+.circle {
+    list-style-position: inside;
     list-style-type: circle;
-    text-align: left;
+}
+.social a i {
+    color: black;
 }
 
 /* old devices below 360px width and galaxy fold*/
@@ -55,10 +56,9 @@ body {
         width: auto;
         height: auto;
         background-color: rgba(80, 83, 83, .7);
-        margin: 0 auto;
     }
     
-    li a {
+    .header-menu ul li a {
         text-align: center;
         color: blanchedalmond;
         font-size: 12px;
@@ -127,6 +127,8 @@ body {
         list-style-type: none;
     }
 
+
+
     
     /* About me */
     .about-me {
@@ -152,6 +154,10 @@ body {
         height: 300px;
         position: relative;
     }
+    
+ 
+
+
     /*footer*/
     
     .footer {
@@ -209,7 +215,7 @@ body {
         background-color: rgba(80, 83, 83, .7);
     }
     
-    li a {
+    .header-menu ul li a {
         text-align: center;
         color: blanchedalmond;
         font-size: 12px;
@@ -288,12 +294,20 @@ body {
         position: relative;
     }
     
-    
-    
     .bottom-margin {
         margin-bottom: 1.5vw;
         }
     
+    /* work expirence */
+
+    .work-expirence {
+        margin: 5px;
+        text-align: center;
+        font-size: 3.35vw;
+        overflow: auto;
+        height: 300px;
+        position: relative;
+    }
     /*footer*/
     
     .footer {
@@ -355,7 +369,7 @@ body {
             margin: 0 auto;
         }
         
-        li a {
+        .header-menu ul li a {
             text-align: center;
             color: blanchedalmond;
             font-size: 12px;
@@ -435,7 +449,16 @@ body {
             position: relative;
         }
         
-        
+         /* work expirence */
+    
+    .work-expirence {
+        margin: 5px;
+        text-align: center;
+        font-size: 3.35vw;
+        overflow: auto;
+        height: 300px;
+        position: relative;
+    }
         
         .bottom-margin {
             margin-bottom: 1.5vw;
@@ -477,7 +500,7 @@ body {
     }
 
 /* Android tablets and iPads in portrait mode */
-@media screen and (min-width: 768px) and (max-width: 1023.99px){
+@media screen and (min-width: 768px) and (max-width: 1023px){
     /* Header style */
        
     #menu {
@@ -499,7 +522,7 @@ body {
         margin: 0 auto;
     }
     
-    li a {
+    .header-menu ul li a {
         text-align: center;
         color: blanchedalmond;
         font-size: 3vw;
@@ -590,6 +613,17 @@ body {
         margin-bottom: 1.5vw;
         }
     
+    /* work expirence */
+    
+    .work-expirence {
+        margin: 5px;
+        text-align: center;
+        font-size: 3.35vw;
+        overflow: auto;
+        height: 300px;
+        position: relative;
+    }
+
     /*footer*/
     
     .footer {
@@ -625,6 +659,320 @@ body {
     
 }
 /* Android tablets and iPads in landscape mode, older desktop/laptop monitors */
-@media screen and (min-width: 1024px) and (max-width: 1365px){}
+@media screen and (min-width: 1024px) and (max-width: 1365px){
+    /* Header style */
+       
+    #menu {
+        position: fixed;
+        width: 100vw;
+        height: 10px;
+        text-align: center;
+    
+    }
+
+    .header-menu ul li {
+        display: inline-block;
+        padding: 0px 10px;
+        list-style-type: none;
+        text-align: center;
+        width: auto;
+        height: auto;
+        background-color: rgba(80, 83, 83, .7);
+        margin: 0 auto;
+    }
+    
+    .header-menu ul li a {
+        text-align: center;
+        color: blanchedalmond;
+        font-size: 3vw;
+    }
+
+
+
+    
+    /* hero image */
+    
+    .hero-image-area {
+        height: 350px;
+        width: 100vw;
+    }
+    
+    #hero-image {
+        height: 100%;
+        width: 100%;
+        background: url(../images/hero1-1.jpg) no-repeat center center/cover;
+    }
+    
+    /*title area*/
+    
+    .title-area {
+        width: 100vw;
+        height: 9.3vw;
+        position: relative;
+    }
+    
+    #name {
+        font-size: 4vw;
+        position: relative;
+        float: left;
+        top: 5px;
+        left: 5px;
+    }
+    
+    #title {
+        font-size: 2vw;
+        position: relative;
+        text-align: right;
+        float: right;
+        right: 5px;
+        top: 0;
+    }
+    
+    /* Get in touch */
+    
+    .table-center {
+        margin-left: 60px;
+        margin-right: auto;
+    }
+    
+    table {
+        font-size: 3.5vw;
+    }
+    
+    .col-a {
+    font-weight: 800;
+    column-width: 100px;
+    }
+
+    .social {
+        position: relative;
+        float: right;
+        right: 5px;
+        top: 10px;
+        list-style-type: none;
+    }
+
+    .social li a {
+        font-size: 200%;
+    }
+    
+    /* About me */
+    .about-me {
+        margin: 5px;
+        text-align: center;
+        font-size: 3vw;
+        overflow: auto;
+        height: 600px;
+        position: relative;
+    }
+    
+    
+    
+    .bottom-margin {
+        margin-bottom: 1.5vw;
+        }
+    
+    /* work expirence */
+    
+    .work-expirence {
+        margin: 5px;
+        text-align: center;
+        font-size: 3.35vw;
+        overflow: auto;
+        height: 300px;
+        position: relative;
+    }
+
+    /*footer*/
+    
+    .footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 100px;
+        background-color: blanchedalmond;
+    }
+    
+    .footer div {
+        text-align: center;
+        font-size: 1.5vw;
+        margin-bottom: 5px;
+    }
+    
+    #cooperation {
+        
+        float: right;
+        right: 5px;
+        bottom: 0;
+    }
+        
+    #download {
+        
+        float: left;
+        left: 5px;
+    }
+    
+    #download-icon {
+        font-size: 80%;
+    }
+    
+}
 /* iPad PRO, HDready and FullHD desktop laptop monitors */
-@media screen and (min-width: 1366px){}
+@media screen and (min-width: 1366px){
+    /* Header style */
+       
+    #menu {
+        position: fixed;
+        width: 100vw;
+        height: 10px;
+        text-align: center;
+    
+    }
+
+    .header-menu ul li {
+        display: inline-block;
+        padding: 0px 10px;
+        list-style-type: none;
+        text-align: center;
+        width: auto;
+        height: auto;
+        background-color: rgba(80, 83, 83, .7);
+        margin: 0 auto;
+    }
+    
+    .header-menu ul li a {
+        text-align: center;
+        color: blanchedalmond;
+        font-size: 3vw;
+    }
+
+
+
+    
+    /* hero image */
+    
+    .hero-image-area {
+        height: 350px;
+        width: 100vw;
+    }
+    
+    #hero-image {
+        height: 100%;
+        width: 100%;
+        background: url(../images/hero1-1.jpg) no-repeat center center/cover;
+    }
+    
+    /*title area*/
+    
+    .title-area {
+        width: 100vw;
+        height: 9.3vw;
+        position: relative;
+    }
+    
+    #name {
+        font-size: 4vw;
+        position: relative;
+        float: left;
+        top: 5px;
+        left: 5px;
+    }
+    
+    #title {
+        font-size: 2vw;
+        position: relative;
+        text-align: right;
+        float: right;
+        right: 5px;
+        top: 0;
+    }
+    
+    /* Get in touch */
+    
+    .table-center {
+        margin-left: 60px;
+        margin-right: auto;
+    }
+    
+    table {
+        font-size: 3.5vw;
+    }
+    
+    .col-a {
+    font-weight: 800;
+    column-width: 100px;
+    }
+
+    .social {
+        position: relative;
+        float: right;
+        right: 5px;
+        top: 10px;
+        list-style-type: none;
+    }
+
+    .social li a {
+        font-size: 200%;
+    }
+    
+    /* About me */
+    .about-me {
+        margin: 5px;
+        text-align: center;
+        font-size: 3vw;
+        overflow: auto;
+        height: 600px;
+        position: relative;
+    }
+    
+    
+    
+    .bottom-margin {
+        margin-bottom: 1.5vw;
+        }
+    
+    /* work expirence */
+    
+    .work-expirence {
+        margin: 5px;
+        text-align: center;
+        font-size: 3.35vw;
+        overflow: auto;
+        height: 300px;
+        position: relative;
+    }
+
+    /*footer*/
+    
+    .footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 100px;
+        background-color: blanchedalmond;
+    }
+    
+    .footer div {
+        text-align: center;
+        font-size: 1.5vw;
+        margin-bottom: 5px;
+    }
+    
+    #cooperation {
+        
+        float: right;
+        right: 5px;
+        bottom: 0;
+    }
+        
+    #download {
+        
+        float: left;
+        left: 5px;
+    }
+    
+    #download-icon {
+        font-size: 80%;
+    }
+    
+}
