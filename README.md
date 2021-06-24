@@ -35,7 +35,7 @@ Due to fact that I would like to change may cariere path in future I would like 
 
 This project will show my work history and path of becoming a software developer from zero to hero :)
 
-### 1.1 Strategy
+## 1.1 Strategy
 
 ### * Project Goals 
 
@@ -60,6 +60,7 @@ The reason for this web page is to show my skills to potential recruiters and al
 * The website is responsive accross all devices (mobile, tablet and desktop)
 * Content is displayed in a clear and understanding format
 * To have ability to contact with creator
+* User can download printable version of CV
 
 
 ### 2. Features

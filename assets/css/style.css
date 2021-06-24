@@ -21,10 +21,12 @@ body {
 
 #left {
     float:left;
+    margin-left: 5%;
 }
 
 #right {
     float:right;
+    margin-right: 5%;
 }
 .circle {
     list-style-position: inside;
@@ -50,7 +52,7 @@ body {
 
     .header-menu ul li {
         display: inline-block;
-        padding: 0px 10px;
+        padding: 0px auto;
         list-style-type: none;
         text-align: center;
         width: auto;
@@ -92,27 +94,23 @@ body {
         position: relative;
         float: left;
         top: 5px;
-        left: 5px;
+        margin-left: 5%;
     }
-    
+         
     #title {
         font-size: 2vw;
         position: relative;
         text-align: right;
         float: right;
-        right: 5px;
+        margin-right: 5%;
         top: 0;
     }
     
     /* Get in touch */
     
-    .table-center {
-        margin-left: 5px;
-       
-    }
-    
     table {
         font-size: 4vw;
+        margin-left: 5%;
     }
     
     .col-a {
@@ -123,20 +121,18 @@ body {
     .social {
         position: relative;
         float: right;
-        right: 5px;
+        margin-right: 5%;
         list-style-type: none;
+        font-size: 5.8vw;
     }
-
-
-
     
     /* About me */
     .about-me {
-        margin: 5px;
+        margin: 2% 5%;
         text-align: center;
         font-size: 3.35vw;
         overflow: auto;
-        height: 300px;
+        height: 350px;
         position: relative;
     }
     
@@ -249,7 +245,7 @@ body {
         position: relative;
         float: left;
         top: 5px;
-        left: 5px;
+        margin-left: 5%;
     }
     
     #title {
@@ -257,19 +253,15 @@ body {
         position: relative;
         text-align: right;
         float: right;
-        right: 5px;
+        margin-right: 5%;
         top: 0;
     }
     
     /* Get in touch */
     
-    .table-center {
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
     table {
-        font-size: 4vw;
+        font-size: 3.8vw;
+        margin-left: 5%;
     }
     
     .col-a {
@@ -280,17 +272,18 @@ body {
     .social {
         position: relative;
         float: right;
-        right: 5px;
+        margin-right: 5%;
         list-style-type: none;
+        font-size: 5vw;
     }
     
     /* About me */
     .about-me {
-        margin: 5px;
+        margin: 2% 5%;
         text-align: center;
         font-size: 3.35vw;
         overflow: auto;
-        height: 300px;
+        height: 60%;
         position: relative;
     }
     
@@ -404,7 +397,7 @@ body {
             position: relative;
             float: left;
             top: 5px;
-            left: 5px;
+            margin-left: 5%;
         }
         
         #title {
@@ -412,40 +405,37 @@ body {
             position: relative;
             text-align: right;
             float: right;
-            right: 5px;
+            margin-right: 5%;
             top: 0;
         }
         
         /* Get in touch */
         
-        .table-center {
-            margin-left: auto;
-            margin-right: auto;
-        }
-        
         table {
-            font-size: 2.7vw;
+            font-size: 2vw;
+            margin-left: 5%;
         }
         
         .col-a {
         font-weight: 800;
-        column-width: 100px;
+        column-width: 200px;
         }
 
         .social {
             position: relative;
             float: right;
-            right: 5px;
+            margin-right: 5%;
             list-style-type: none;
+            font-size: 3vw;
         }
         
         /* About me */
         .about-me {
-            margin: 5px;
+            margin: 2% 5%;
             text-align: center;
             font-size: 2vw;
             overflow: auto;
-            height: 700px;
+            height: 500px;
             position: relative;
         }
         
@@ -557,7 +547,7 @@ body {
         position: relative;
         float: left;
         top: 5px;
-        left: 5px;
+        margin-left: 5%;
     }
     
     #title {
@@ -565,19 +555,16 @@ body {
         position: relative;
         text-align: right;
         float: right;
-        right: 5px;
+        margin-right: 5%;
         top: 0;
     }
     
     /* Get in touch */
     
-    .table-center {
-        margin-left: 60px;
-        margin-right: auto;
-    }
     
     table {
         font-size: 3.5vw;
+        margin-left: 5%;
     }
     
     .col-a {
@@ -588,13 +575,10 @@ body {
     .social {
         position: relative;
         float: right;
-        right: 5px;
+        margin-right: 5%;
         top: 10px;
         list-style-type: none;
-    }
-
-    .social li a {
-        font-size: 200%;
+        font-size: 5vw;
     }
     
     /* About me */
@@ -716,7 +700,7 @@ body {
         position: relative;
         float: left;
         top: 5px;
-        left: 5px;
+        margin-left: 5%;
     }
     
     #title {
@@ -724,38 +708,30 @@ body {
         position: relative;
         text-align: right;
         float: right;
-        right: 5px;
+        margin-right: 5%;
         top: 0;
     }
     
     /* Get in touch */
-    
-    .table-center {
-        margin-left: 60px;
-        margin-right: auto;
-    }
-    
+
     table {
-        font-size: 3.5vw;
+        font-size: 3vw;
+        margin-left: 5%;
     }
     
     .col-a {
     font-weight: 800;
-    column-width: 100px;
+    column-width: 300px;
     }
 
     .social {
         position: relative;
         float: right;
-        right: 5px;
+        margin-right: 5%;
         top: 10px;
         list-style-type: none;
     }
 
-    .social li a {
-        font-size: 200%;
-    }
-    
     /* About me */
     .about-me {
         margin: 5px;
@@ -779,7 +755,7 @@ body {
         text-align: center;
         font-size: 3.35vw;
         overflow: auto;
-        height: 300px;
+        height: 600px;
         position: relative;
     }
 
@@ -875,7 +851,7 @@ body {
         position: relative;
         float: left;
         top: 5px;
-        left: 5px;
+        margin-left: 5%;
     }
     
     #title {
@@ -883,19 +859,16 @@ body {
         position: relative;
         text-align: right;
         float: right;
-        right: 5px;
+        margin-right: 5%;
         top: 0;
     }
     
     /* Get in touch */
     
-    .table-center {
-        margin-left: 60px;
-        margin-right: auto;
-    }
-    
+
     table {
         font-size: 3.5vw;
+        margin-left: 5%;
     }
     
     .col-a {
@@ -906,13 +879,9 @@ body {
     .social {
         position: relative;
         float: right;
-        right: 5px;
+        margin-right: 5%;
         top: 10px;
         list-style-type: none;
-    }
-
-    .social li a {
-        font-size: 200%;
     }
     
     /* About me */
@@ -924,7 +893,6 @@ body {
         height: 600px;
         position: relative;
     }
-    
     
     
     .bottom-margin {
