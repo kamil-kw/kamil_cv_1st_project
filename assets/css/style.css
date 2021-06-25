@@ -4,7 +4,9 @@
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
 }
+
 body {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
@@ -12,8 +14,11 @@ body {
     font-size: 1em;
 }
 
+
 .line {
     border: 1px solid black;
+    margin-right: 5%;
+    margin-left: 5%;
 }       
 
 .main-background {
@@ -29,10 +34,12 @@ body {
     float:right;
     margin-right: 5%;
 }
+
 .circle {
     list-style-position: inside;
     list-style-type: circle;
 }
+
 .social a i {
     color: black;
 }
@@ -44,7 +51,6 @@ body {
         width: 100vw;
         height: 5px;
         text-align: center;
-    
 }
 
 .header-menu ul li {
@@ -67,8 +73,9 @@ body {
 /* hero image */
     
 .hero-image-area {
-        height: 20vh;
-        width: 100vw;
+        height: 200px;
+        width: 90vw;
+        margin-left: 5%;
 }
     
 #hero-image {
@@ -124,27 +131,26 @@ table {
     
 /* About me */
 .about-me {
-        padding: 2% 5%;
+        margin-left: 5%;
+        margin-right: 5%;
         text-align: center;
-        height: 300px;
-
+        height: 350px;
+        width: 90vw;
         position: relative;
         overflow: auto;
 }
 
 .about-me div h1 {
         font-size: 1rem;
-
 }
+
 .about-me div p {
         font-size: 0.75rem;
 }
 
 .bottom-margin {
-
-    margin-bottom: 1.5vw;
-
-    }
+        margin-bottom: 1.5vw;
+}
     
 /* work expirence */
 .work-expirence {
@@ -162,9 +168,11 @@ table {
 .footer {
         position: fixed;
         bottom: 0;
-        width: 100vw;
+        width: 90vw;
         height: 10vh;
         background-color: blanchedalmond;
+        margin-left: 5%;
+        border: 1px solid black;
 }
     
 .footer div {
@@ -187,4 +195,66 @@ table {
 #download-icon {
         font-size: 80%;
 }
+
+@media screen and (max-width: 279px) {
+
+        .header-menu ul li a {
+        text-align: center;
+        color: blanchedalmond;
+        font-size: 0.5rem;
+}
+
+/* About me */
+
+.about-me {
+        height: 300px;
+}
+
+.about-me div h1 {
+        font-size: 0.75rem;
+}
+
+.about-me div p {
+        font-size: 0.5rem;
+}
+
+/*footer*/
     
+.footer {
+        position: fixed;
+        bottom: 0;
+        width: 90vw;
+        height: 20vh;
+        background-color: blanchedalmond;
+        margin-right: 5%;
+}
+    
+.footer div {
+        text-align: center;
+        font-size: 0.39rem;
+        margin: 5px;
+}
+
+}
+
+/* Old phone generations like iPhone 5S. Galaxy fold */
+
+@media screen and (min-width: 280px) and (max-width: 320px){
+
+        /* About me */
+
+.about-me {
+        height: 200px;
+}
+
+.about-me div h1 {
+        font-size: 0.78rem;
+}
+
+.about-me div p {
+        font-size: 0.56rem;
+}
+
+}
+
+
