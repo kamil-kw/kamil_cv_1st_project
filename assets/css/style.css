@@ -14,6 +14,7 @@ body {
 }
 
 
+
 .line {
     border: 1px solid black;
     margin-right: 5%;
@@ -164,21 +165,24 @@ table {
 
 /* Contact Form */
 
+        /* cooperation type*/
 
 fieldset input, textarea {
         float: right;
         margin-right: 5%;
         margin-top: 1%;
-
         width: 40vw;
-
+        font-size: 80%;
         
 
 }
+
+        /* contact details form */
+
 textarea {
         margin-bottom: 2%;
         width: 40vw;
-
+        font-family: inherit;
 }
 
 
@@ -186,12 +190,30 @@ fieldset {
         border: 1px solid black;
         margin-right: 5%;
         margin-left: 5%;
-
 }
+
 fieldset label {
         float: left;
         margin-left: 5%;
         clear:both;
+}
+
+        /* buttons */
+
+.button1, .button2 {
+        background-color: #505353B3;
+        color: #FFEBCD;
+
+}
+.button1 {
+        float: left;
+        margin-top: -3%;
+        margin-left: 30%;
+}
+.button2 {
+        float: right;
+        margin-top: -3%;
+        margin-right: 30%;
 }
 
 /*footer*/
@@ -211,13 +233,13 @@ fieldset label {
         font-size: 0.39rem;
         margin-bottom: 5px;
 }
-    
+        /* cooperation footer (right) */
 #cooperation {
         
         float: right;
         margin-right: 5%;
 }
-        
+        /* download footer (left) */
 #download {
         float: left;
         margin-left: 5%;
@@ -275,7 +297,7 @@ fieldset label {
         /* About me */
 
 .about-me {
-        height: 200px;
+        height: 250px;
 }
 
 .about-me div h1 {
@@ -283,9 +305,27 @@ fieldset label {
 }
 
 .about-me div p {
-        font-size: 0.56rem;
+        font-size: 0.577rem;
+}
+/*footer*/
+    
+.footer {
+        position: fixed;
+        bottom: 0;
+        width: 90vw;
+        height: 10vh;
+        background-color: blanchedalmond;
+        margin-right: 5%;
+}
+    
+.footer div {
+        text-align: center;
+        font-size: 0.32rem;
+        margin: 5px;
+        
 }
 
+/* end of 280-320px*/
 }
 
 
