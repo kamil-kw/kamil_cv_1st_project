@@ -161,6 +161,27 @@ table {
         position: relative;
 }
 
+/* Contact Form */
+
+
+fieldset input, textarea {
+        float: right;
+        margin-right: 5%;
+        margin-top: 2%;
+}
+textarea {
+        margin-bottom: 2%;
+}
+
+
+fieldset {
+        border: 1px solid black;
+        margin: 0 3%;
+}
+fieldset label {
+        float: left;
+        margin-left: 5%;
+}
 
 /*footer*/
     
