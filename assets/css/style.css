@@ -137,6 +137,7 @@ table {
         width: 90vw;
         position: relative;
         overflow: auto;
+        margin-bottom: 10vh;
 }
 
 .about-me div h1 {
@@ -167,20 +168,30 @@ table {
 fieldset input, textarea {
         float: right;
         margin-right: 5%;
-        margin-top: 2%;
+        margin-top: 1%;
+
+        width: 40vw;
+
+        
+
 }
 textarea {
         margin-bottom: 2%;
+        width: 40vw;
+
 }
 
 
 fieldset {
         border: 1px solid black;
-        margin: 0 3%;
+        margin-right: 5%;
+        margin-left: 5%;
+
 }
 fieldset label {
         float: left;
         margin-left: 5%;
+        clear:both;
 }
 
 /*footer*/
