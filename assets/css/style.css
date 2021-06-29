@@ -13,25 +13,23 @@ body {
     font-size: 1em;
 }
 
-
-
 .line {
     border: 1px solid black;
     margin-right: 5%;
     margin-left: 5%;
-}       
+}
 
 .main-background {
     background-color: silver;
 }
 
 #left {
-    float:left;
+    float: left;
     margin-left: 5%;
 }
 
 #right {
-    float:right;
+    float: right;
     margin-right: 5%;
 }
 
@@ -60,7 +58,7 @@ body {
         text-align: center;
         width: auto;
         height: auto;
-        background-color: rgba(80, 83, 83, .7);
+        background-color: rgba(80, 83, 83, 0.7);
 }
 
 .header-menu ul li a {
@@ -73,21 +71,22 @@ body {
         color: blanchedalmond;
 }
 .header-menu ul li a:visited {
-        color:rgba(0, 204, 255, 0.534);
+        color: rgba(0, 204, 255, 0.534);
 }
 .header-menu ul li a:hover {
         border-bottom: 1px solid green;
 }
 
 .header-menu ul li a:active {
-        color:black;
+        color: black;
 }
 
 .active {
-        border-bottom: 3px solid blanchedalmond;
+        border: 2px solid blanchedalmond;
 }
+
 /* hero image */
-    
+
 .hero-image-area {
         height: 200px;
         width: 90vw;
@@ -100,8 +99,8 @@ body {
         background: url(../images/hero1-1.jpg) no-repeat center center/cover;
 }
     
-/*title area*/
-    
+/* title area */
+
 .title-area {
         width: 100vw;
         height: 10vw;
@@ -134,7 +133,7 @@ table {
     
 .col-a {
     font-weight: 800;
-    column-width: 100px;
+    column-width: 400px;
 }
 
 .social {
@@ -142,7 +141,7 @@ table {
         float: right;
         margin-right: 5%;
         list-style-type: none;
-        font-size: 5.8vw;
+        font-size: 5.2vw;
 }
     
 /* About me */
@@ -182,14 +181,14 @@ table {
         margin-bottom: 10vh;
 }
 
-.work-expirence h1 {
+.work-expirence div h1 {
         text-transform: uppercase;
 }
 
 
 /* Contact Form */
 
-        /* cooperation type*/
+/* cooperation type */
 
 fieldset input, textarea {
         float: right;
@@ -201,7 +200,7 @@ fieldset input, textarea {
 
 }
 
-        /* contact details form */
+/* contact details form */
 
 textarea {
         margin-bottom: 2%;
@@ -219,10 +218,10 @@ fieldset {
 fieldset label {
         float: left;
         margin-left: 5%;
-        clear:both;
+        clear: both;
 }
 
-        /* buttons */
+/* buttons */
 
 .button1, .button2 {
         background-color: #505353B3;
@@ -240,7 +239,7 @@ fieldset label {
         margin-right: 30%;
 }
 
-/*footer*/
+/* footer */
     
 .footer {
         position: fixed;
@@ -257,13 +256,15 @@ fieldset label {
         font-size: 0.39rem;
         margin-bottom: 5px;
 }
-        /* cooperation footer (right) */
+
+/* cooperation footer (right) */
 #cooperation {
         
         float: right;
         margin-right: 5%;
 }
-        /* download footer (left) */
+
+/* download footer (left) */
 #download {
         float: left;
         margin-left: 5%;
@@ -294,7 +295,7 @@ fieldset label {
         font-size: 0.5rem;
 }
 
-/*footer*/
+/* footer */
     
 .footer {
         position: fixed;
@@ -317,9 +318,7 @@ fieldset label {
 /* Old phone generations like iPhone 5S. Galaxy fold */
 
 @media screen and (min-width: 280px) and (max-width: 320px){
-
         /* About me */
-
 .about-me {
         height: 250px;
 }
@@ -331,7 +330,8 @@ fieldset label {
 .about-me div p {
         font-size: 0.577rem;
 }
-/*footer*/
+
+/* footer */
     
 .footer {
         position: fixed;
@@ -349,13 +349,12 @@ fieldset label {
         
 }
 
-/* end of 280-320px*/
+/* end of 280-320px */
 }
 
 /* tablets 768px-1024px */
 
 @media screen and (min-width: 768px) and (max-width: 1023px){
-
 /* hero image */
 
 .hero-image-area {
@@ -368,7 +367,7 @@ fieldset label {
         font-size: 1.7rem;
 }
 
-/*title area*/
+/* title area */
     
 .title-area {
         height: 9vw;
@@ -391,7 +390,7 @@ table {
 }
     
 .col-a {
-    column-width: 200px;
+    column-width: 300px;
 }
 
 .social {
@@ -432,7 +431,7 @@ table {
         font-size: 1.4rem;
 }
 
-/*footer*/
+/* footer */
     
 .footer {
         height: 10vh;
@@ -443,7 +442,7 @@ table {
         
 }
 
-/* end of tablets 768px-1024px*/
+/* end of tablets 768px-1024px */
 }
 
 /* tablets 1024px-up */
@@ -462,7 +461,7 @@ table {
         border: 1px solid black;
         margin-right: 10%;
         margin-left: 10%;
-}  
+}
 
 /* hero image */
 
@@ -478,7 +477,7 @@ table {
         font-size: 2rem;
 }
 
-/*title area*/
+/* title area */
     
 .title-area {
         height: 9vw;
@@ -551,7 +550,7 @@ table {
         font-size: 1.7rem;
 }
 
-/*footer*/
+/* footer */
     
 .footer {
         height: 8vh;
@@ -566,7 +565,7 @@ table {
 
 /* Contact Form */
 
-/* cooperation type*/
+/* cooperation type */
 
 fieldset input, textarea {
         float: right;
@@ -593,7 +592,7 @@ fieldset {
 fieldset label {
         float: left;
         margin-left: 5%;
-        clear:both;
+        clear: both;
 
 }
         
@@ -617,6 +616,6 @@ fieldset label {
 }
   
 
-/* end of tablets 1024px up*/
+/* end of tablets 1024px up */
 }
 
