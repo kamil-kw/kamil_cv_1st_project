@@ -68,6 +68,7 @@ body {
         font-size: 0.8rem;
         text-decoration: none;
 }
+
 .header-menu ul li a:link {
         color: blanchedalmond;
 }
@@ -304,6 +305,7 @@ fieldset label {
         margin: 5px;
 }
 
+
 }
 
 /* Old phone generations like iPhone 5S. Galaxy fold */
@@ -343,5 +345,97 @@ fieldset label {
 
 /* end of 280-320px*/
 }
+/* tablets 768px-1024px */
 
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+/* hero image */
+
+.hero-image-area {
+        height: 300px;
+}
+
+/* Header style */
+
+.header-menu ul li a {
+        font-size: 1.7rem;
+}
+
+/*title area*/
+    
+.title-area {
+        height: 9vw;
+}
+    
+#name {
+        font-size: 3.6vw;
+        top: 10px;
+
+}
+         
+#title {
+        font-size: 1.8vw;
+}
+    
+/* Get in touch */
+    
+table {
+        font-size: 3vw;
+}
+    
+.col-a {
+    column-width: 200px;
+}
+
+.social {
+        font-size: 4vw;
+}
+    
+/* About me */
+
+.about-me {
+        height: 400px;
+}
+
+.about-me div h1 {
+        font-size: 2rem;
+}
+
+.about-me div p {
+        font-size: 1.3rem;
+}
+
+/* work expirence */
+
+.work-expirence {
+        height: 400px;
+        margin-bottom: 10vh;
+}
+
+.work-expirence div h1 {
+        font-size: 2rem;
+}
+
+.work-expirence div p {
+        font-size: 1.3rem;
+        text-decoration: underline;
+}
+
+.work-task li {
+        font-size: 1.4rem;
+}
+
+/*footer*/
+    
+.footer {
+        height: 10vh;
+}
+    
+.footer div {
+        font-size: 0.9rem;
+        
+}
+
+/* end of tablets 768px-1024px*/
+}
 
