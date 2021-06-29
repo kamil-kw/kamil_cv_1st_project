@@ -75,7 +75,6 @@ body {
         color:rgba(0, 204, 255, 0.534);
 }
 .header-menu ul li a:hover {
-        color: green;
         border-bottom: 1px solid green;
 }
 
@@ -84,9 +83,8 @@ body {
 }
 
 .active {
-        color:red;
+        border-bottom: 3px solid blanchedalmond;
 }
-    
 /* hero image */
     
 .hero-image-area {
