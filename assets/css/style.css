@@ -450,10 +450,26 @@ table {
 
 @media screen and (min-width: 1024px){
 
+#left {
+        margin-left: 10%;
+}
+            
+#right {
+        margin-right: 10%;
+}
+
+.line {
+        border: 1px solid black;
+        margin-right: 10%;
+        margin-left: 10%;
+}  
+
 /* hero image */
 
 .hero-image-area {
         height: 350px;
+        width: 80vw;
+        margin-left: 10%;
 }
 
 /* Header style */
@@ -471,17 +487,20 @@ table {
 #name {
         font-size: 3.8vw;
         top: 10px;
+        margin-left: 10%;
 
 }
          
 #title {
         font-size: 1.8vw;
+        margin-right: 10%;
 }
     
 /* Get in touch */
     
 table {
         font-size: 3vw;
+        margin-left: 10%;
 }
     
 .col-a {
@@ -490,12 +509,16 @@ table {
 
 .social {
         font-size: 4vw;
+        margin-right: 10%;
 }
     
 /* About me */
 
 .about-me {
         height: 600px;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80vw;
 }
 
 .about-me div h1 {
@@ -511,6 +534,8 @@ table {
 .work-expirence {
         height: 590px;
         margin-bottom: 10vh;
+        margin-left: 10%;
+        margin-right: 10%;
 }
 
 .work-expirence div h1 {
@@ -529,13 +554,68 @@ table {
 /*footer*/
     
 .footer {
-        height: 10vh;
+        height: 8vh;
+        width: 80vw;
+        margin-left: 10%;
 }
     
 .footer div {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         
 }
+
+/* Contact Form */
+
+/* cooperation type*/
+
+fieldset input, textarea {
+        float: right;
+        margin-right: 5%;
+        margin-top: 1%;
+        width: 30vw;
+        font-size: 60%;
+}
+        
+/* contact details form */
+        
+textarea {
+        margin-bottom: 2%;
+}
+        
+        
+fieldset {
+        border: 1px solid black;
+        margin-right: 5%;
+        margin-left: 5%;
+        font-size: 1.7rem;
+}
+        
+fieldset label {
+        float: left;
+        margin-left: 5%;
+        clear:both;
+
+}
+        
+/* buttons */
+        
+.button1, .button2 {
+        background-color: #505353B3;
+        color: #FFEBCD;
+        font-size: 1.5rem;
+}
+.button1 {
+        float: left;
+        margin-top: -3%;
+        margin-left: 30%;
+}
+
+.button2 {
+        float: right;
+        margin-top: -3%;
+        margin-right: 30%;
+}
+  
 
 /* end of tablets 1024px up*/
 }
