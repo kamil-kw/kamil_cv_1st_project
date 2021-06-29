@@ -159,6 +159,7 @@ table {
 
 .about-me div h1 {
         font-size: 1rem;
+        text-transform: uppercase;
 }
 
 .about-me div p {
@@ -180,6 +181,11 @@ table {
         position: relative;
         margin-bottom: 10vh;
 }
+
+.work-expirence h1 {
+        text-transform: uppercase;
+}
+
 
 /* Contact Form */
 
@@ -345,9 +351,10 @@ fieldset label {
 
 /* end of 280-320px*/
 }
+
 /* tablets 768px-1024px */
 
-@media screen and (min-width: 768px) and (max-width: 1024px){
+@media screen and (min-width: 768px) and (max-width: 1023px){
 
 /* hero image */
 
@@ -437,5 +444,99 @@ table {
 }
 
 /* end of tablets 768px-1024px*/
+}
+
+/* tablets 1024px-up */
+
+@media screen and (min-width: 1024px){
+
+/* hero image */
+
+.hero-image-area {
+        height: 350px;
+}
+
+/* Header style */
+
+.header-menu ul li a {
+        font-size: 2rem;
+}
+
+/*title area*/
+    
+.title-area {
+        height: 9vw;
+}
+    
+#name {
+        font-size: 3.8vw;
+        top: 10px;
+
+}
+         
+#title {
+        font-size: 1.8vw;
+}
+    
+/* Get in touch */
+    
+table {
+        font-size: 3vw;
+}
+    
+.col-a {
+    column-width: 300px;
+}
+
+.social {
+        font-size: 4vw;
+}
+    
+/* About me */
+
+.about-me {
+        height: 600px;
+}
+
+.about-me div h1 {
+        font-size: 2.5rem;
+}
+
+.about-me div p {
+        font-size: 1.8rem;
+}
+
+/* work expirence */
+
+.work-expirence {
+        height: 590px;
+        margin-bottom: 10vh;
+}
+
+.work-expirence div h1 {
+        font-size: 2.5rem;
+}
+
+.work-expirence div p {
+        font-size: 1.8rem;
+        text-decoration: underline;
+}
+
+.work-task li {
+        font-size: 1.7rem;
+}
+
+/*footer*/
+    
+.footer {
+        height: 10vh;
+}
+    
+.footer div {
+        font-size: 1.2rem;
+        
+}
+
+/* end of tablets 1024px up*/
 }
 
