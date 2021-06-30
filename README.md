@@ -75,7 +75,7 @@ For creating wireframes I did use a [Balsamiq](https://balsamiq.com/), which hel
 
 About me - home page Wireframes:
 
-![About me](../assets/images/about_me_screenshot.PNG)
+![About me](assets/images/about_me_screenshot.PNG)
 
 
 ## 1.4. Surface
