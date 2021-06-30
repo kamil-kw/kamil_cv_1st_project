@@ -73,7 +73,10 @@ To be able to provide for users the best expirence on device which they use my w
 
 For creating wireframes I did use a [Balsamiq](https://balsamiq.com/), which help me with defininig layout for 2 types of devices (desktop and mobile).
 
-Wireframes:
+About me - home page Wireframes:
+
+![About me](../assets/images/about_me_screenshot.PNG)
+
 
 ## 1.4. Surface
 
