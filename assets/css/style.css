@@ -185,6 +185,9 @@ table {
         text-transform: uppercase;
 }
 
+span {
+        font-style: italic;
+}
 
 /* Contact Form */
 
