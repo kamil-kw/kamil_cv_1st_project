@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <!-- Metadata -->
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,145 +13,142 @@
     </head>
     <body class="main-background">
         <header>
-            <div id="menu">
-                <nav class="header-menu">
-                    <ul>
-                        <li id="left">
-                            <a href="index.html"><i class="fas fa-home"></i> About me</a>
-                        </li>
-                        <li>
-                            <a href="resume.html"><i class="fas fa-info-circle"></i> Resume</a>
-                        </li>
-                        <li id="right">
-                            <a href="contact.html" class="active"><i class="fas fa-comments"></i> Contact</a>
-                        </li>
-                    </ul>
+            <!-- Navigation bar -->
+            <nav class="header-menu">
+                <ul>
+                    <li id="left"> <!-- About me/home page left position -->
+                        <a href="index.html"><i class="fas fa-home"></i> About me</a>
+                    </li>
+                    <li> <!-- Resume/CV page center position -->
+                        <a href="resume.html"><i class="fas fa-info-circle"></i> Resume</a>
+                    </li>
+                    <li id="right"> <!-- Contact/contact form page right position - current page -->
+                        <a href="contact.html" class="active"><i class="fas fa-comments"></i> Contact</a>
+                    </li>
+                </ul>
                 </nav>
-            </div>
         </header>
         <section>
+            <!-- Hero image section - CSS based -->
             <section class="hero-image-area">
                 <div id="hero-image"></div>
             </section>
-
             <section>
+                <!-- Name and title section -->
                 <div class="title-area">
-                    <div id="name">
+                    <div id="name"> <!-- Name -->
                         <h1>Kamil Kwiatkowski</h1>
                     </div>
-                    <div id="title">
-                        <h2>Quality Engineer</h2>
-                        <h2>Full Stack Developer Student</h2>
+                    <div id="title"> <!-- title -->
+                        <h2>Quality Engineer</h2> <!-- curent work title -->
+                        <h2>Full Stack Developer Student</h2> <!-- curent school title -->
                     </div>
                 </div>
                 
             </section>
-                <hr class="line">
+            <hr class="line"> <!-- line to add visual separation between the sections -->
+            <!-- Contact information and social media links -->
+
             <section>
-                    <div>
-                        <ul class="social">
-                            <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
-                            <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram-square"></i></a></li>
-                            <li><a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                <div>
-                    <table class="table-center">
-                        <tr>
-                            <th></th>
-                
-                            <th></th>
-                        </tr>
-                        <tr>
-                            <td class="col-a">Name: </td>
-                    
-                            <td>Kamil Kwiatkowski</td>
-                        </tr>
-                        <tr>
-                            <td class="col-a">City: </td>
-                    
-                            <td>Waalwijk</td>
-                        </tr>
-                        <tr>
-                            <td class="col-a">Country: </td>
-                    
-                            <td>Netherlands</td>
-                        </tr>
-                        <tr>
-                            <td class="col-a">Email Address: </td>
-                        
-                            <td>kwiatekexc@gmail.com</td>
-                        </tr>
-                    </table>
-                </div>
+                <!-- Social media  -->
+                <ul class="social">
+                    <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram-square"></i></a></li>
+                    <li><a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+                <!-- Personal contact informations - table format -->
+                <table class="table-center">
+                    <tr>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <!-- Name row -->
+                    <tr>
+                        <td class="col-a">Name: </td>
+                        <td>Kamil Kwiatkowski</td>
+                    </tr>
+                    <!-- City row -->
+                    <tr>
+                        <td class="col-a">City: </td>
+                        <td>Waalwijk</td>
+                    </tr>
+                    <!-- Country row -->
+                    <tr>
+                        <td class="col-a">Country: </td>
+                        <td>Netherlands</td>
+                    </tr>
+                    <!-- Email row -->
+                    <tr>
+                        <td class="col-a">Email Address: </td>
+                        <td>kwiatekexc@gmail.com</td>
+                    </tr>
+                </table>
             </section>
+            <!-- End of contact information and social media links-->
+
             <hr class="line">
-            <section class="work-expirence">
 
-                <div>
+            <!-- Middle section - contact form -->
+            <section class="contact-form">
+                <h1><i class="fas fa-handshake"></i> Are you intrested in cooperation with me?</h1><!-- Middle section header -->
+                <p>Leave Your details below:</p>
 
-                    <h1><i class="fas fa-handshake"></i> Are you intrested in cooperation with me?</h1>
-                    <p>Leave Your details below:</p>
-
-                </div>
-                <div>
-
-                    <form action="/test.php" method="POST" target="_blank">
-                        <fieldset>
-
-                            <legend>What type of cooperation are you intrested in?</legend>
-                            <div>
-                                <label for="project">Project</label>
-                                <input type="radio" id="project" name="cooperation-type" value="Project">
-                            </div>
-                            <br>
-                            <div>
-                
-                                <label for="hiring">Hiring</label>
-                                <input type="radio" id="hirng" name="cooperation-type" value="Hiring">
-                        
-                            </div>
-                        </fieldset>
-                        <fieldset>
-
-                            <legend>Your contact details:</legend>
-                            <label for="contact-name">Name:</label>
-                            <input type="text" id="contact-name" name="contact-details" placeholder="Your name" required>
-                            <br>
-
-                            <label for="contact-email">Email Addres:</label>
-                            <input type="email" id="contact-email" name="contact-details" placeholder="Email@Address.add" required>
-                            <br>
-                            
-                            <label for="words-to-author">Words to author:</label>
-                            <textarea id="words-to-author" name="contact-details" row="6" col="8" placeholder="Leave message"></textarea>
-                        </fieldset>
+                <!-- Contact form -->
+                <form action="/test.php" method="POST" target="_blank">
+                    <!-- Cooperation type -->
+                    <fieldset>
+                        <legend>What type of cooperation are you intrested in?</legend>
+                        <label for="project">Project</label>
+                        <input type="radio" id="project" name="cooperation-type" value="Project">
                         <br>
-                        <div class="buttons">
-                            <input type="submit" value="Send" class="button1">
-                            <input type="reset" Value="Clear Form"class="button2">
-                        </div>
-                    </form>
-
-                </div>
+                        <label for="hiring">Hiring</label>
+                        <input type="radio" id="hirng" name="cooperation-type" value="Hiring">
+                    </fieldset>
+                    <!-- Visitor contact details -->
+                    <fieldset>
+                        <legend>Your contact details:</legend>
+                        <!-- Visitor name -->
+                        <label for="contact-name">Name:</label>
+                        <input type="text" id="contact-name" name="contact-details" placeholder="Your name" required>
+                        <br>
+                        <!-- Visitor email -->
+                        <label for="contact-email">Email Addres:</label>
+                        <input type="email" id="contact-email" name="contact-details" placeholder="Email@Address.add" required>
+                        <br>
+                        <!-- Visitor comments -->
+                        <label for="words-to-author">Words to author:</label>
+                        <textarea id="words-to-author" name="contact-details" row="6" col="8" placeholder="Leave message"></textarea>
+                    </fieldset>
+                    <br>
+                    <!-- form buttons -->
+                    <div class="buttons">
+                        <input type="submit" value="Send" class="button1">
+                        <input type="reset" Value="Clear Form"class="button2">
+                    </div>
+                </form>
             </section>
+            <!-- End of contact form section-->
         </section>
+        <!-- End of middle section-->
+
+        <!-- Footer -->
         <footer class="footer">
-            <div>
-                <div id="cooperation">
-                    <h3>Are You interested in cooperation with me?</h3>
-                    <hr>
-                    <p>I cant wait to meet you</p> 
-                    <h3>Please visit contact page</h3>
-                </div>
-                <div id="download">
-                    <h3>Did you like my story?</h3> 
-                    <hr>
-                    <p>Here you can download my CV</p>
-                    <h1><i class="fas fa-download"></i></h1>
-                </div>
+            <!-- Cooperation -->
+            <div id="cooperation">
+                <h3>Are You interested in cooperation with me?</h3>
+                <hr>
+                <p>I cant wait to meet you</p> 
+                <h3>Please visit contact page</h3>
+            </div>
+            <!-- CV download -->
+            <div id="download">
+                <h3>Did you like my story?</h3> 
+                <hr>
+                <p>Here you can download my CV</p>
+                <h1><i class="fas fa-download"></i></h1>
             </div>
         </footer>
+        <!-- End of footer-->
 
         <!-- font awesome script -->
         <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>

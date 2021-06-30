@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <!-- Metadata -->
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,86 +13,89 @@
     </head>
     <body class="main-background">
         <header>
-            <div id="menu">
-                <nav class="header-menu">
-                    <ul>
-                        <li id="left">
-                            <a href="index.html"><i class="fas fa-home"></i> About me</a>
-                        </li>
-                        <li>
-                            <a href="resume.html" class="active"><i class="fas fa-info-circle"></i> Resume</a>
-                        </li>
-                        <li id="right">
-                            <a href="contact.html"><i class="fas fa-comments"></i> Contact</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
+            <!-- Navigation bar -->
+            <nav class="header-menu">
+                <ul>
+                    <li id="left"> <!-- About me/home page left position -->
+                        <a href="index.html"><i class="fas fa-home"></i> About me</a>
+                    </li>
+                    <li> <!-- Resume/CV page center position  - current page  -->
+                        <a href="resume.html" class="active"><i class="fas fa-info-circle"></i> Resume</a>
+                    </li>
+                    <li id="right"> <!-- Contact/contact form page right position -->
+                        <a href="contact.html"><i class="fas fa-comments"></i> Contact</a>
+                    </li>
+                </ul>
+            </nav>
         </header>
         <section>
+            <!-- Hero image section - CSS based -->
             <section class="hero-image-area">
                 <div id="hero-image"></div>
             </section>
             <section>
+                <!-- Name and title section -->
                 <div class="title-area">
-                    <div id="name">
+                    <div id="name"> <!-- Name -->
                         <h1>Kamil Kwiatkowski</h1>
                     </div>
-                    <div id="title">
+                    <div id="title"> <!-- title -->
                         <h2>Quality Engineer</h2>
                         <h2>Full Stack Developer Student</h2>
                     </div>
                 </div>
-                
             </section>
-            <hr class="line">
+            <hr class="line"> <!-- line to add visual separation between the sections -->
+            <!-- Contact information and social media links -->
             <section>
-                <div>
-                    <ul class="social">
-                        <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
-                        <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram-square"></i></a></li>
-                        <li><a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-                    </ul>
-                </div>
-                <div>
-                    <table class="table-center">
-                        <tr>
-                            <th></th>
-                
-                            <th></th>
+                <!-- Social media  -->
+                <ul class="social">
+                    <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram-square"></i></a></li>
+                    <li><a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+                <!-- Personal contact informations - table format -->
+
+                <table class="table-center">
+                    <tr>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <!-- Name row -->
+                    <tr>
+                        <td class="col-a">Name: </td>
+                        <td>Kamil Kwiatkowski</td>
+                    </tr>
+                    <!-- City row -->
+                    <tr>
+                        <td class="col-a">City: </td>
+                        <td>Waalwijk</td>
+                    </tr>
+                    <!-- Country row -->
+                    <tr>
+                        <td class="col-a">Country: </td>
+                        <td>Netherlands</td>
+                    </tr>
+                    <!-- Email row -->
+                    <tr>
+                        <td class="col-a">Email Address: </td>
+                        <td>kwiatekexc@gmail.com</td>
                         </tr>
-                        <tr>
-                            <td class="col-a">Name: </td>
-                    
-                            <td>Kamil Kwiatkowski</td>
-                        </tr>
-                        <tr>
-                            <td class="col-a">City: </td>
-                    
-                            <td>Waalwijk</td>
-                        </tr>
-                        <tr>
-                            <td class="col-a">Country: </td>
-                    
-                            <td>Netherlands</td>
-                        </tr>
-                        <tr>
-                            <td class="col-a">Email Address: </td>
-                        
-                            <td>kwiatekexc@gmail.com</td>
-                        </tr>
-                    </table>
-                </div>
+                </table>
             </section>
+            <!-- End of contact information and social media links-->
+
             <hr class="line">
+
+            <!-- Middle section - work expirence -->
             <section class="work-expirence">
                 <div>
-                    <h1><i class="fas fa-briefcase"></i> WORK EXPERIENCE</h1>
+                    <h1><i class="fas fa-briefcase"></i> WORK EXPERIENCE</h1> <!-- Middle section header -->
                 </div>
                 <div>
-                    <h1>QUALITY ENGINEER</h1>
-                    <p>syncreon | Nov 2017 - Present</p>
-                    <div class="work-task">
+                    <h1>QUALITY ENGINEER</h1> <!-- Work history header -->
+                    <p>syncreon | Nov 2017 - Present</p> <!-- work time frame -->
+                    <div class="work-task"> <!-- list of work tasks -->
                         <ul>
                             <li class="circle">Primary contact for external customer queries/ complaints and
                                 meeting appropriate SLA's</li>
@@ -107,9 +111,9 @@
                         </ul>
                     </div>
                     <hr>
-                    <h1>LEAD QUALITY AUDITOR</h1>
-                    <p>syncreon | Apr 2013 - Oct 2017</p>
-                    <div class="work-task">
+                    <h1>LEAD QUALITY AUDITOR</h1> <!-- Work history header -->
+                    <p>syncreon | Apr 2013 - Oct 2017</p> <!-- work time frame -->
+                    <div class="work-task"> <!-- list of work tasks -->
                         <ul>
                             <li class="circle">Creating internal process procedures and documents</li>
                             <li class="circle">Leading the Quality Team</li>
@@ -123,9 +127,9 @@
                         </ul>
                     </div>
                     <hr>
-                    <h1>QUALITY AUDITOR</h1>
-                    <p>syncreon | Feb 2011 - Mar 2013</p>
-                    <div class="work-task">
+                    <h1>QUALITY AUDITOR</h1> <!-- Work history header -->
+                    <p>syncreon | Feb 2011 - Mar 2013</p> <!-- work time frame -->
+                    <div class="work-task"> <!-- list of work tasks -->
                         <ul>
                             <li class="circle">Creating work instructions for quality processes</li>
                             <li class="circle">Analyzing trends of the performance checks, and providing feedback
@@ -138,9 +142,9 @@
                         </ul>
                     </div>
                     <hr>
-                    <h1>Shipping 1ST OPERATOR</h1>
-                    <p>syncreon | Jun 2008 - Jan 2011</p>
-                    <div class="work-task">
+                    <h1>Shipping 1ST OPERATOR</h1> <!-- Work history header -->
+                    <p>syncreon | Jun 2008 - Jan 2011</p> <!-- work time frame -->
+                    <div class="work-task"> <!-- list of work tasks -->
                         <ul>
                             <li class="circle">Maintain safe, efficient warehouse through adherence to defined
                                 warehouse layout, pallet consolidation, and general housekeeping
@@ -156,9 +160,9 @@
                         </ul>
                     </div>
                     <hr>
-                    <h1>Sales Representative - Fastening Technology</h1>
-                    <p>Dominika | May 2007 - May 2008</p>
-                    <div class="work-task">
+                    <h1>Sales Representative - Fastening Technology</h1> <!-- Work history header -->
+                    <p>Dominika | May 2007 - May 2008</p> <!-- work time frame -->
+                    <div class="work-task"> <!-- list of work tasks -->
                         <ul>
                             <li class="circle">Established, develops and maintains business relationships with
                                 current customers and prospective customers in the assigned
@@ -173,9 +177,9 @@
                         </ul>
                     </div>
                     <hr>
-                    <h1>Operator</h1>
-                    <p>Tendstructure Triberti | May 2006 - Dec 2006</p>
-                    <div class="work-task">
+                    <h1>Operator and driver</h1> <!-- Work history header -->
+                    <p>Tendstructure Triberti | May 2006 - Dec 2006</p> <!-- work time frame -->
+                    <div class="work-task"> <!-- list of work tasks -->
                         <ul>
                             <li class="circle">Working with putting the tends, during the events</li>
                             <li class="circle">Working in the team, in just in time environmental</li>
@@ -185,9 +189,9 @@
                         </ul>
                     </div>
                     <hr>
-                    <h1>Customer Advisor, Marchendiser</h1>
-                    <p>Makro | Oct 2005 - Apr 2006</p>
-                    <div class="work-task">
+                    <h1>Customer Advisor, Marchendiser</h1> <!-- Work history header -->
+                    <p>Makro | Oct 2005 - Apr 2006</p> <!-- work time frame -->
+                    <div class="work-task"> <!-- list of work tasks -->
                         <ul>
                             <li class="circle">To work as part of a team delivering a first class, professional
                                 customer service, using a range of communication methods, to ensure
@@ -198,30 +202,32 @@
                             <li class="circle">Stock control</li>
                         </ul>
                     </div>
-                    <hr>
                 </div>
-
                 <hr>
             </section>
         </section>
+        <!-- End of middle section -->
+
+        <!-- Footer -->
         <footer class="footer">
-            <div>
+            <!-- Cooperation -->
                 <div id="cooperation">
                     <h3>Are You interested in cooperation with me?</h3>
                     <hr>
                     <p>I cant wait to meet you</p> 
                     <h3>Please visit contact page</h3>
                 </div>
+                <!-- CV download -->
                 <div id="download">
                     <h3>Did you like my story?</h3> 
                     <hr>
                     <p>Here you can download my CV</p>
                     <h1><i class="fas fa-download"></i></h1>
                 </div>
-            </div>
         </footer>
+        <!-- End of footer-->
 
-            <!-- font awesome script -->
-            <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
+        <!-- font awesome script -->
+        <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
     </body>
 </html>
