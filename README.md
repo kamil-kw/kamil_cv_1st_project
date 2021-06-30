@@ -77,6 +77,14 @@ About me - home page Wireframes:
 
 ![About me](assets/images/about_me_screenshot.PNG)
 
+Resume - Work history page Wireframes:
+
+![Resume](assets/images/resume_screenshot.PNG)
+
+Contact - Get in touch page Wireframes:
+
+![Contact](assets/images/about_me_screenshot.PNG)
+
 
 ## 1.4. Surface
 
