@@ -160,6 +160,10 @@ table {
         font-size: 1rem;
         text-transform: uppercase;
 }
+.about-me div:first-child {
+        text-decoration: underline double black;
+        
+}
 
 .about-me div p {
         font-size: 0.75rem;
@@ -183,6 +187,10 @@ table {
 
 .work-expirence div h1 {
         text-transform: uppercase;
+}
+
+.work-expirence div:first-child {
+        text-decoration: underline double black;
 }
 
 span {
@@ -258,7 +266,7 @@ span {
         position: fixed;
         bottom: 0;
         width: 90vw;
-        height: 10vh;
+        height: 11vw;
         background-color: blanchedalmond;
         margin-left: 5%;
         border: 1px solid black;
@@ -304,6 +312,8 @@ span {
         font-size: 0.75rem;
 }
 
+
+
 .about-me div p {
         font-size: 0.5rem;
 }
@@ -327,12 +337,11 @@ span {
 
 }
 
-
 /* phone generations like iPhone 5S. Galaxy fold */
 @media screen and (min-width: 280px) and (max-width: 320px){
         /* About me */
 .about-me {
-        height: 250px;
+        height: 215px;
 }
 
 .about-me div h1 {
@@ -343,21 +352,23 @@ span {
         font-size: 0.577rem;
 }
 
+/* work expirence */
+.work-expirence {
+        height: 370px;
+        margin-bottom: 8vh;
+}
+
+.work-expirence div h1 {
+        text-transform: uppercase;
+}
 /* footer */
     
 .footer {
-        position: fixed;
-        bottom: 0;
-        width: 90vw;
-        height: 10vh;
-        background-color: blanchedalmond;
-        margin-right: 5%;
+        height: 12vw;
 }
     
 .footer div {
-        text-align: center;
-        font-size: 0.32rem;
-        margin: 5px;
+        font-size: 0.349rem;
         
 }
 
@@ -375,74 +386,80 @@ span {
 
 /* end of 280-320px */
 }
-/* screen 321px-767px */
+
+/* screen 321px-420px */
 @media screen and (min-width: 321px) and (max-width: 767px){
 
-        .hero-image-area {
-                height: 170px;
-        }
-
-          /* Get in touch */
-            
-        table {
-                font-size: 2.7vw;
-        }
-        .col-a {
-                font-weight: 800;
-                column-width: 200px;
-            }
-
-        .social {
-                font-size: 3.8vw;
-        }
-
-
-        /* About me */
-        .about-me {
-
-                height: 350px;
-
-        }
-        
-        .about-me div h1 {
-                font-size: 1.3rem;
-                text-transform: uppercase;
-        }
-        
-        .about-me div p {
-                font-size: 0.9rem;
-        }
-        
-        .bottom-margin {
-                margin-bottom: 1.5vw;
-        }
-/* footer */
-
-footer div {
-        font-size: 2rem;
+.hero-image-area {
+        height: 170px;
 }
 
-        /* cooperation footer (right) */
-        #cooperation {
-                
-                float: right;
-                margin-right: 5%;
-        }
+/* Get in touch */
+            
+table {
+        font-size: 3vw;
+}
 
-        /* download footer (left) */
-        #download {
-                float: left;
-                margin-left: 5%;
-        }
+.col-a {
+        font-weight: 800;
+        column-width: 150px;
+}
+
+.social {
+        font-size: 4.2vw;
+}
+
+
+/* About me */
+.about-me {
+        height: 300px;
+}
         
-        #download a {
-                font-size: 200%;
+.about-me div h1 {
+        font-size: 0.97rem;
+        text-transform: uppercase;
+}
+        
+.about-me div p {
+        font-size: 0.8rem;
+}
+        
+.bottom-margin {
+        margin-bottom: 1.5vw;
+}
+
+/* footer */
+
+.footer {
+        height: 13vw;
+}
+
+
+.footer div {
+        font-size: 0.44rem;
+}
+
+/* cooperation footer (right) */
+#cooperation {
+                
+        float: right;
+        margin-right: 5%;
+}
+
+/* download footer (left) */
+#download {
+        float: left;
+        margin-left: 5%;
+}
+        
+#download a {
+        font-size: 200%;
 }
 
 /* end of screen 321px-767px */
 }
 
-/* tablets 768px-1024px */
+/* tablets 768px-1023px */
 @media screen and (min-width: 768px) and (max-width: 1023px){
         /* hero image */
         
@@ -453,7 +470,7 @@ footer div {
         /* Header style */
         
         .header-menu ul li a {
-                font-size: 1.7rem;
+                font-size: 1.4rem;
         }
         
         /* title area */
@@ -492,10 +509,13 @@ footer div {
                 height: 400px;
         }
         
+        
         .about-me div h1 {
                 font-size: 2rem;
         }
         
+
+
         .about-me div p {
                 font-size: 1.3rem;
         }
@@ -503,14 +523,15 @@ footer div {
         /* work expirence */
         
         .work-expirence {
-                height: 400px;
-                margin-bottom: 10vh;
+                height: 440px;
+                margin-bottom: 8vh;
         }
         
         .work-expirence div h1 {
                 font-size: 2rem;
         }
-        
+
+
         .work-expirence div p {
                 font-size: 1.3rem;
                 text-decoration: underline;
@@ -519,7 +540,6 @@ footer div {
         .work-task li {
                 font-size: 1.4rem;
         }
-        
         /* contact form */
         
         .contact-form {
@@ -612,11 +632,11 @@ footer div {
         /* About me */
         
         .about-me {
-                height: 400px;
+                height: 600px;
         }
         
         .about-me div h1 {
-                font-size: 2rem;
+                font-size: 3rem;
         }
         
         .about-me div p {
