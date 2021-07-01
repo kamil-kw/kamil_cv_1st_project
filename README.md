@@ -73,15 +73,15 @@ To be able to provide for users the best expirence on device which they use my w
 
 For creating wireframes I did use a [Balsamiq](https://balsamiq.com/), which help me with defininig layout for 2 types of devices (desktop and mobile).
 
-About me - home page Wireframes:
+* About me - home page Wireframes:
 
 ![About me](assets/images/about_me_screenshot.PNG)
 
-Resume - Work history page Wireframes:
+* Resume - Work history page Wireframes:
 
 ![Resume](assets/images/resume_screenshot.PNG)
 
-Contact - Get in touch page Wireframes:
+* Contact - Get in touch page Wireframes:
 
 ![Contact](assets/images/about_me_screenshot.PNG)
 
@@ -117,7 +117,7 @@ As goal was to achive a one consistant layout within all pages, I did include:
 
 During my page creation jurney I did use:
 
-* [HTML%](https://en.wikipedia.org/wiki/HTML)
+* [HTML5](https://en.wikipedia.org/wiki/HTML)
     * Current project uses HyperText Markup Language.
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
     * Current project uses Cascading Style Sheet.
@@ -131,4 +131,7 @@ During my page creation jurney I did use:
     * To provide icons to page
 * [Github](http://github.com)
     * For storing project code writen in gitpod
-* 
+* [JS Fiddle](https://jsfiddle.net/)
+    * Used as playground for code
+* [W3School](https://www.w3schools.com/)
+    * For problem solving and code searching
