@@ -295,12 +295,13 @@ fieldset label {
 #cooperation {
                 
         float: right;
+        margin-left: 1%;
 }
 
 /* download footer (left) */
 #download {
         float: left;
-        margin-left: 5%;
+        margin-left: 1%;
 }
         
 #download a {
