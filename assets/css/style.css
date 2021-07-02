@@ -105,8 +105,9 @@ body {
         width: 100%;
         background: url(../images/hero1-1.jpg) no-repeat center center/cover;
         border-radius: 0 0 40px 40px;
-        box-shadow:  -18px 10px 36px #8b8d88,
-             18px -18px 36px #f8f8f4;
+        box-shadow:
+        -18px 10px 36px #8b8d88,
+        18px -18px 36px #f8f8f4;
 }
 
 /* title area */
@@ -748,7 +749,7 @@ table {
         /* hero image */
 
 .line {
-        margin-right: 14.5%;
+        margin-right: 15%;
         margin-left: 15%;
 }
 
@@ -788,8 +789,8 @@ table {
 }
 
 #title {
-        font-size: 0.7vw;
-        margin-right: 15.5%;
+        font-size: 0.7vw; 
+        margin-right: 15%;
 }
 
 /* Get in touch */
@@ -805,7 +806,7 @@ table {
 
 .social {
         font-size: 1.4vw;
-        margin-right: 14.5%;
+        margin-right: 15%;
 }
 
 /* About me */
