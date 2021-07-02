@@ -135,3 +135,67 @@ During my page creation jurney I did use:
     * Used as playground for code
 * [W3School](https://www.w3schools.com/)
     * For problem solving and code searching
+
+## 3. Testing
+
+### Google developer Tool
+
+Used during entire project to test code and unbug issues related with responsiveness,  
+
+### Responsive tools 
+
+TBA
+
+### W3C Validateor tools
+
+TBA
+
+### 
+
+TBA
+
+## Manual testing
+
+## Page details
+
+* Navigation Bar
+
+    All buttons have text color set to blanchedalmond same as borders arround once site is actice after visit will chnge color to sea blue to match with background image:
+    * **About me** button will direct you to Home page.
+    * **Resume** button will direct you to my work history.
+    * **Contact** button will direct you to Home page.
+
+* Hero image
+ 
+    Was style to achvie multi dementional
+
+* Title area 
+
+    Text was checked against typos, the font size ensured to match the most popular screen sizes
+
+* Personal Details
+
+    Build in table form to ensure position of the text left right
+
+* Middle section (About me, Resume, Contact):
+
+    Scale to fit most popular devices, add gray transparecy background to separete form page background
+    * About me - short sentence for visitors
+    * Resume - work history in easy to read form
+    * Contact - Contact form with decision point (radio buttons)
+        * Buttons with soft color diffrence in gray tone
+
+* Footer
+    Set to blanchedalmond to compliment top section of the web with shadow to softy conect with page
+
+* Responsiveness
+
+    Was checked at multiple device sizes to focus on majority of devices currently used world wide
+
+* 
+
+
+
+
+
+
