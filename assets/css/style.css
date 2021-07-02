@@ -11,7 +11,7 @@ body {
     font-weight: 300;
     color: black;
     font-size: 1em;
-    background-color: rgb(145, 183, 199);
+    background: rgb(145, 183, 199);
     background-image: url(/assets/images/pexels-matheus-natan.jpg);
     background-repeat: no-repeat;
     background-size: cover;
