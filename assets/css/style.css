@@ -14,6 +14,7 @@ body {
     background-image: url(/assets/images/pexels-matheus-natan.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: rgb(145, 183, 199);
 }
 
 .line {
@@ -103,6 +104,9 @@ body {
         height: 100%;
         width: 100%;
         background: url(../images/hero1-1.jpg) no-repeat center center/cover;
+        border-radius: 0 0 40px 40px;
+        box-shadow:  -18px 10px 36px #8b8d88,
+             18px -18px 36px #f8f8f4;
 }
     
 /* title area */
@@ -160,6 +164,7 @@ table {
         position: relative;
         overflow: auto;
         margin-bottom: 10vh;
+        background-color: rgba(192, 192, 192, 0.19);
 }
 
 .about-me div h1 {
@@ -189,6 +194,7 @@ table {
         height: 300px;
         position: relative;
         margin-bottom: 10vh;
+        background-color: rgba(192, 192, 192, 0.19);
 }
 
 .work-expirence div h1 {
@@ -214,6 +220,7 @@ span {
         height: 300px;
         position: relative;
         margin-bottom: 10vh;
+        background-color: rgba(192, 192, 192, 0.19);
 }
 
 .contact-form h1 {
@@ -283,6 +290,11 @@ fieldset label {
         background-color: rgb(255, 235, 205);
         margin-left: 5%;
         border: 1px solid black;
+        border-radius: 25px 0;
+        box-shadow:
+        -10px -18px 36px #c1c1c1,
+        18px 18px 36px #ffffff;
+
 }
     
 .footer div {
@@ -306,7 +318,9 @@ fieldset label {
         
 #download a {
         font-size: 200%;
+        color: black;
 }
+
 
 @media screen and (max-width: 279px) {
 
@@ -436,7 +450,6 @@ table {
         font-size: 4.2vw;
 }
 
-
 /* About me */
 .about-me {
         height: 300px;
@@ -446,15 +459,14 @@ table {
         font-size: 0.97rem;
         text-transform: uppercase;
 }
-        
+
 .about-me div p {
         font-size: 0.8rem;
 }
-        
+
 .bottom-margin {
         margin-bottom: 1.5vw;
 }
-
 
 /* Contact Form */
 
@@ -492,261 +504,252 @@ table {
 
 /* end of screen 321px-767px */
 }
+    
 
-@media screen and (min-width: 400px) and (max-width: 767px) and (min-height: 730px){
+@media screen and (min-width: 280px) and (max-width: 767px) and (min-height: 730px){        
 /* work expirence */
 
-.work-expirence {
-        height: 400px;
+.about-me, .work-expirence, .contact-form {
+        height: 480px;
 }
 
 .footer div {
         font-size: 0.5rem;
 }
-}     
 
-@media screen and (min-width: 400px) and (max-width: 767px) and (min-height: 800px){
-        /* work expirence */
-                
-        .work-expirence {
-                height: 480px;
-        }
-        
-        .footer div {
-                font-size: 0.5rem;
-        }
-        
 }
 
 /* tablets 768px-1023px */
+
 @media screen and (min-width: 768px) and (max-width: 1023px){
-        /* hero image */
-        
-        .hero-image-area {
-                height: 250px;
-        }
-        
-        /* Header style */
-        
-        .header-menu ul li a {
-                font-size: 1.4rem;
-        }
-        
-        /* title area */
-            
-        .title-area {
-                height: 9vw;
-        }
-            
-        #name {
-                font-size: 3.6vw;
-                top: 10px;
-        
-        }
-                 
-        #title {
-                font-size: 1.8vw;
-        }
-            
-        /* Get in touch */
-            
-        table {
-                font-size: 3vw;
-        }
-            
-        .col-a {
-            column-width: 300px;
-        }
-        
-        .social {
-                font-size: 4vw;
-        }
-            
-        /* About me */
-        
-        .about-me {
-                height: 400px;
-        }
-        
-        
-        .about-me div h1 {
-                font-size: 2rem;
-        }
-        
 
+/* hero image */
 
-        .about-me div p {
-                font-size: 1.3rem;
-        }
-        
-        /* work expirence */
-        
-        .work-expirence {
-                height: 440px;
-                margin-bottom: 8vh;
-        }
-        
-        .work-expirence div h1 {
-                font-size: 2rem;
-        }
+.hero-image-area {
+        height: 250px;
+}
 
+/* Header style */
 
-        .work-expirence div p {
-                font-size: 1.3rem;
-                text-decoration: underline;
-        }
-        
-        .work-task li {
-                font-size: 1.4rem;
-        }
-        /* contact form */
-        
-        .contact-form {
-                height: 450px;
-                margin-bottom: 10vh;
-        }
-        .contact-form h1 {
-                font-size: 1.3 rem;
-        }
-        /* cooperation type */
+.header-menu ul li a {
+        font-size: 1.4rem;
+}
 
-        fieldset input, textarea {
-                float: right;
-                margin-right: 5%;
-                margin-top: 1%;
-                width: 40vw;
-                font-size: 60%;
-        }
-        
-        fieldset label, fieldset legend {
-                font-size: 1.4rem;
-        }
+/* title area */
 
-        /* buttons */
-                
-        .button1, .button2 {
-                font-size: 1.4rem;
-        }
-        
-        /* footer */
-            
-        .footer {
-                height: 10vh;
-        }
-            
-        .footer div {
-                font-size: 0.9rem;
-                
-        }
-        
-        /* end of tablets 768px-1024px */
-        }
+.title-area {
+        height: 9vw;
+}
+
+#name {
+        font-size: 3.6vw;
+        top: 10px;
+}
+
+#title {
+        font-size: 1.8vw;
+}
+
+/* Get in touch */
+
+table {
+        font-size: 3vw;
+}
+
+.col-a {
+        column-width: 300px;
+}
+
+.social {
+        font-size: 4vw;
+}
+ 
+/* About me */
+
+.about-me {
+        height: 450px;
+}
+
+.about-me div h1 {
+        font-size: 2rem;
+}
+
+.about-me div p {
+        font-size: 1.3rem;
+}
+
+/* work expirence */
+
+.work-expirence {
+        height: 440px;
+        margin-bottom: 8vh;
+}
+
+.work-expirence div h1 {
+        font-size: 2rem;
+}
+
+.work-expirence div p {
+        font-size: 1.3rem;
+        text-decoration: underline;
+}
+
+.work-task li {
+        font-size: 1.4rem;
+}
+
+/* contact form */
+
+.contact-form {
+        height: 450px;
+        margin-bottom: 10vh;
+}
+
+.contact-form h1 {
+        font-size: 1.3 rem;
+}
+
+/* cooperation type */
+
+fieldset input, textarea {
+        float: right;
+        margin-right: 5%;
+        margin-top: 1%;
+        width: 40vw;
+        font-size: 60%;
+}
+
+fieldset label, fieldset legend {
+        font-size: 1.4rem;
+}
+
+/* buttons */
+
+.button1, .button2 {
+        font-size: 1.4rem;
+}
+
+/* footer */
+
+.footer {
+        height: 10vh;
+}
+
+.footer div {
+        font-size: 0.9rem;   
+}
+
+/* end of tablets 768px-1024px */
+
+}
 
 /* iPad PRO 1024px-1279px not standard laptops */
 @media screen and (min-width: 1024px) and (max-width: 1279px){
-        /* hero image */
         
-        .hero-image-area {
-                height: 300px;
-        }
-        
-        /* Header style */
-        
-        .header-menu ul li a {
-                font-size: 1.7rem;
-        }
-        
-        /* title area */
-            
-        .title-area {
-                height: 9vw;
-        }
-            
-        #name {
-                font-size: 3.6vw;
-                top: 10px;
-        
-        }
-                 
-        #title {
-                font-size: 1.8vw;
-        }
-            
-        /* Get in touch */
-            
-        table {
-                font-size: 3vw;
-        }
-            
-        .col-a {
-            column-width: 300px;
-        }
-        
-        .social {
-                font-size: 4vw;
-        }
-            
-        /* About me */
-        
-        .about-me {
-                height: 600px;
-        }
-        
-        .about-me div h1 {
-                font-size: 3rem;
-        }
-        
-        .about-me div p {
-                font-size: 1.3rem;
-        }
-        
-        /* work expirence */
-        
-        .work-expirence {
-                height: 625px;
-                margin-bottom: 10vh;
-        }
-        
-        .work-expirence div h1 {
-                font-size: 2rem;
-        }
-        
-        .work-expirence div p {
-                font-size: 1.3rem;
-                text-decoration: underline;
-        }
-        
-        .work-task li {
-                font-size: 1.4rem;
-        }
-        
-        /* contact form */
-        
-        .contact-form {
-                height: 600px;
-                margin-bottom: 10vh;
-        }
-        
-        /* buttons */
-                
-        .button1, .button2 {
-                font-size: 2rem;
-        }
-        
-        /* footer */
-            
-        .footer {
-                height: 10vh;
-        }
-            
-        .footer div {
-                font-size: 1.2rem;
-                
-        }
-        
-        /* end of tablets 768px-1024px */
-        }
+/* hero image */
+
+.hero-image-area {
+        height: 300px;
+}
+
+/* Header style */
+
+.header-menu ul li a {
+        font-size: 1.7rem;
+}
+
+/* title area */
+
+.title-area {
+        height: 9vw;
+}
+
+#name {
+        font-size: 3.6vw;
+        top: 10px;
+
+}
+      
+#title {
+        font-size: 1.8vw;
+}
+
+/* Get in touch */
+
+table {
+        font-size: 3vw;
+}
+   
+.col-a {
+        column-width: 300px;
+}
+
+.social {
+        font-size: 4vw;
+}
+   
+/* About me */
+
+.about-me {
+        height: 600px;
+}
+
+.about-me div h1 {
+        font-size: 3rem;
+}
+
+.about-me div p {
+        font-size: 1.3rem;
+}
+
+/* work expirence */
+
+.work-expirence {
+        height: 625px;
+        margin-bottom: 10vh;
+}
+
+.work-expirence div h1 {
+        font-size: 2rem;
+}
+
+.work-expirence div p {
+        font-size: 1.3rem;
+        text-decoration: underline;
+}
+
+.work-task li {
+       font-size: 1.4rem;
+}
+
+/* contact form */
+
+.contact-form {
+        height: 600px;
+        margin-bottom: 10vh;
+}
+
+/* buttons */
+       
+.button1, .button2 {
+        font-size: 2rem;
+}
+
+/* footer */
+ 
+.footer {
+        height: 10vh;
+}
+
+.footer div {
+        font-size: 1.2rem;     
+}
+
+/* end of tablets 768px-1024px */
+}
+
 /* 1280px up */
+
 @media screen and (min-width: 1280px){
         /* hero image */
 
@@ -759,10 +762,10 @@ table {
         float: left;
         margin-left: 15%;
         }
-            
-        #right {
+
+#right {
         float: right;
-        margin-right: 15%;
+        margin-right: 15.2%;
 }
 
 .hero-image-area {
@@ -771,84 +774,83 @@ table {
         margin-right: 15%;
         height: 320px;
 }
-        
+
 /* Header style */
-        
+
 .header-menu ul li a {
         font-size: 1.4rem;
 }
-        
+
 /* title area */
-            
+
 .title-area {
         height: 3.2vw;
 }
-            
+
 #name {
         font-size: 1.5vw;
         top: 3px;
         margin-left: 15%;
-        
 }
-                 
+
 #title {
         font-size: 0.7vw;
-        margin-right: 15%;
+        margin-right: 15.5%;
 }
-            
+
 /* Get in touch */
-            
+
 table {
         font-size: 1vw;
         margin-left: 15%;
 }
-            
+
 .col-a {
         column-width: 300px;
 }
+
+.social {
+        font-size: 1.4vw;
+        margin-right: 14.5%;
+}
+
+/* About me */
+
+.about-me {
+        height: 600px;
+        margin-left: 15%;
+        width: 70vw;
+}
+
+.about-me div h1 {
+        font-size: 1.5rem;
+}
+
+.about-me div p {
+        font-size: 1.3rem;
+}
+
+/* work expirence */
+
+.work-expirence {
+        height: 625px;
+        margin-bottom: 10vh;
+        margin-left: 15%;
+        margin-right: 14.5%;
+}
         
-        .social {
-                font-size: 1.4vw;
-                margin-right: 14.5%;
-        }
-            
-        /* About me */
+.work-expirence div h1 {
+        font-size: 2rem;
+}
         
-        .about-me {
-                height: 600px;
-                margin-left: 15%;
-                width: 70vw;
-        }
-        
-        .about-me div h1 {
-                font-size: 1.5rem;
-        }
-        
-        .about-me div p {
-                font-size: 1.3rem;
-        }
-        
-        /* work expirence */
-        
-        .work-expirence {
-                height: 625px;
-                margin-bottom: 10vh;
-                margin-left: 15%;
-                margin-right: 14.5%;
-        }
-        
-        .work-expirence div h1 {
-                font-size: 2rem;
-        }
-        
-        .work-expirence div p {
-                font-size: 1.3rem;
-                text-decoration: underline;
-        }
-        
-        .work-task li {
-                font-size: 1.4rem;
-        }
+.work-expirence div p {
+        font-size: 1.3rem;
+        text-decoration: underline;
+}
+
+.work-task li {
+        font-size: 1.4rem;
+}
         
 /* contact form */
         
@@ -864,8 +866,9 @@ table {
 }
 
 .contact-form h1 {
-        font-size: 1.6rem;   
+        font-size: 1.6rem;
 }
+
 /* cooperation type */
 
 fieldset input, textarea {
@@ -873,7 +876,7 @@ fieldset input, textarea {
         margin-right: 10%;
         margin-top: 1%;
         width: 20vw;
-        font-size: 50%;
+        font-size: 80%;
 }
 
 /* contact details form */
@@ -904,10 +907,6 @@ fieldset legend {
                 
 .button1, .button2 {
         font-size: 1.3rem;
-}
-/* buttons */
-
-.button1, .button2 {
         margin-top: 0%;
 }
 
@@ -923,7 +922,6 @@ fieldset legend {
         font-size: 1rem;
                 
 }
-        
+
 /* end of tablets 768px-1024px */
 }
-
