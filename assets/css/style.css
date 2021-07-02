@@ -23,8 +23,6 @@ body {
     margin-left: 5%;
 }
 
-
-
 #left {
     float: left;
     margin-left: 5%;
@@ -45,7 +43,7 @@ body {
 }
 
 /* Header style */
-   
+
 .header-menu {
         position: fixed;
         top: 5px;
@@ -77,9 +75,11 @@ body {
         border-radius: 25px;
         padding: 4px 2px;
 }
+
 .header-menu ul li a:visited {
         color: rgba(0, 204, 255, 0.534);
 }
+
 .header-menu ul li a:hover {
         border-bottom: 1px solid green;
 }
@@ -99,7 +99,7 @@ body {
         width: 90vw;
         margin-left: 5%;
 }
-    
+
 #hero-image {
         height: 100%;
         width: 100%;
@@ -108,7 +108,7 @@ body {
         box-shadow:  -18px 10px 36px #8b8d88,
              18px -18px 36px #f8f8f4;
 }
-    
+
 /* title area */
 
 .title-area {
@@ -116,7 +116,7 @@ body {
         height: 10vw;
         position: relative;
 }
-    
+
 #name {
         font-size: 4.1vw;
         position: relative;
@@ -124,7 +124,7 @@ body {
         top: 5px;
         margin-left: 5%;
 }
-         
+
 #title {
         font-size: 2vw;
         position: relative;
@@ -133,14 +133,14 @@ body {
         margin-right: 5%;
         top: 0;
 }
-    
+
 /* Get in touch */
-    
+
 table {
         font-size: 4vw;
         margin-left: 5%;
 }
-    
+
 .col-a {
     font-weight: 800;
     column-width: 400px;
@@ -153,8 +153,9 @@ table {
         list-style-type: none;
         font-size: 5.2vw;
 }
-    
+
 /* About me */
+
 .about-me {
         margin-left: 5%;
         margin-right: 5%;
@@ -171,6 +172,7 @@ table {
         font-size: 1rem;
         text-transform: uppercase;
 }
+
 .about-me div:first-child {
         text-decoration: underline double black;
         
@@ -183,7 +185,7 @@ table {
 .bottom-margin {
         margin-bottom: 1.5vw;
 }
-    
+
 /* work expirence */
 .work-expirence {
         margin-left: 5%;
@@ -226,6 +228,7 @@ span {
 .contact-form h1 {
         text-decoration: underline double black;   
 }
+
 /* cooperation type */
 
 fieldset input, textarea {
@@ -243,7 +246,6 @@ textarea {
         font-family: inherit;
 }
 
-
 fieldset {
         border: 1px solid black;
         margin-right: 5%;
@@ -255,7 +257,6 @@ fieldset label {
         margin-left: 5%;
         clear: both;
 }
-        
 
 /* buttons */
 
@@ -272,6 +273,7 @@ fieldset label {
         margin-left: 25%;
         padding: 0 5px 0 5px;
 }
+
 .button2 {
         background-color: #634444;
         float: right;
@@ -281,7 +283,7 @@ fieldset label {
 }
 
 /* footer */
-    
+
 .footer {
         position: fixed;
         bottom: 0;
@@ -294,7 +296,6 @@ fieldset label {
         box-shadow:
         -10px -18px 36px #c1c1c1,
         18px 18px 36px #ffffff;
-
 }
     
 .footer div {
@@ -305,7 +306,6 @@ fieldset label {
 
 /* cooperation footer (right) */
 #cooperation {
-                
         float: right;
         margin-left: 1%;
 }
@@ -315,12 +315,11 @@ fieldset label {
         float: left;
         margin-left: 1%;
 }
-        
+
 #download a {
         font-size: 200%;
         color: black;
 }
-
 
 @media screen and (max-width: 279px) {
 
@@ -339,8 +338,6 @@ fieldset label {
         font-size: 0.75rem;
 }
 
-
-
 .about-me div p {
         font-size: 0.5rem;
 }
@@ -350,7 +347,7 @@ fieldset label {
 }
 
 /* footer */
-    
+
 .footer {
         position: fixed;
         bottom: 0;
@@ -359,15 +356,12 @@ fieldset label {
         background-color: blanchedalmond;
         margin-right: 5%;
 }
-    
+
 .footer div {
         text-align: center;
         font-size: 0.39rem;
         margin: 5px;
 }
-
-
-
 
 }
 
@@ -822,6 +816,10 @@ table {
         width: 70vw;
 }
 
+.contact-form h1 {
+        font-size: 1.6rem;
+}
+
 .about-me div h1 {
         font-size: 1.5rem;
 }
@@ -863,10 +861,6 @@ table {
         height: 450px;
         position: relative;
         margin-bottom: 10vh;
-}
-
-.contact-form h1 {
-        font-size: 1.6rem;
 }
 
 /* cooperation type */
