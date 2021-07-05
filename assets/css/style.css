@@ -12,7 +12,7 @@ body {
     color: black;
     font-size: 1em;
     background: rgb(145, 183, 199);
-    background-image: url(/assets/images/pexels-matheus-natan.jpg);
+    background-image: url(../images/pexels-matheus-natan.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
