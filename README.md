@@ -22,10 +22,9 @@ Welcome to my first Full Stack Course project. This page is my "Welcome World" p
 3. Technologies Used
 4. Testing
 5. Development Cycle
-6. Deployment
-7. End Product
-8. Known Bugs
-9. Credit
+6. End Product
+7. Known Bugs
+8. Credit
 
 
 ## 1. UX
@@ -213,8 +212,28 @@ Multiple elements was changed during this jurney, start with first wireframe for
  
 During first days of project I did use diferent photo for positioninig, however I change it later for my own picture.
 
-Original desine was with only a gray color background, this chenged in last days to provide more complimentary photo.
+Original desine was with only a gray color background, this chenged in last days to provide more complimentary photo on top of which I was able to apply gray transparent box to highlight test section.
 
+## 6. End Product
+
+See End Product screens:
+
+
+## 7. Known bugs
+
+* POST action doesn't have a php setup
+
+
+## 8. Credits
+
+
+**Code:**
+
+* Icons came from [Font Awsome](https://fontawesome.com/)
+
+**Content:**
+
+* Background photo download from [Pexels](https://www.pexels.com/)
 
 
 
