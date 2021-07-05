@@ -119,7 +119,7 @@ body {
 }
 
 #name {
-        font-size: 4.1vw;
+        font-size: 2.4vw;
         position: relative;
         float: left;
         top: 5px;
@@ -138,13 +138,13 @@ body {
 /* Get in touch */
 
 table {
-        font-size: 4vw;
+        font-size: 3.2vw;
         margin-left: 5%;
 }
 
 .col-a {
     font-weight: 800;
-    column-width: 400px;
+    column-width: 100px;
 }
 
 .social {
@@ -152,7 +152,7 @@ table {
         float: right;
         margin-right: 5%;
         list-style-type: none;
-        font-size: 5.2vw;
+        font-size: 5vw;
 }
 
 /* About me */
