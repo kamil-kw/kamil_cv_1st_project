@@ -59,7 +59,7 @@ body {
         text-align: center;
         width: auto;
         height: auto;
-        border: 1px solid rgba(80, 83, 83, 0.7);
+        border: 1px solid rgba(82, 85, 85, 0.7);
         border-radius: 25px;
         background-color: rgba(80, 83, 83, 0.7);
 }
@@ -108,6 +108,21 @@ body {
         box-shadow:
         -18px 10px 36px #8b8d88,
         18px -18px 36px #f8f8f4;
+
+        /* animates hero image */
+        animation-name: hero-animation;
+        animation-duration: 2s;
+
+}
+/* anmation to to hero image */
+
+@keyframes hero-animation {
+        from{
+                transfrom: scale(1)
+        }
+        to{
+                transform: scale(1.1)
+        }
 }
 
 /* title area */
