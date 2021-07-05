@@ -113,7 +113,7 @@ As goal was to achive a one consistant layout within all pages, I did include:
 
 * Contact form specified type of cooperation
 
-## 3. Technologies
+## 3. Technologies Used
 
 During my page creation jurney I did use:
 
@@ -136,7 +136,7 @@ During my page creation jurney I did use:
 * [W3School](https://www.w3schools.com/)
     * For problem solving and code searching
 
-## 3. Testing
+## 4. Testing
 
 ### Google developer Tool
 
@@ -148,51 +148,75 @@ TBA
 
 ### W3C Validateor tools
 
-TBA
+Tested by W3C validators, issues discovered:
+* Sections where missing H1-6 tags - corrected to div
+* Typo in input hirig ID
+* Atribiute typo in the form tag
 
-### 
-
-TBA
+Issues corrected
 
 ## Manual testing
 
+* **Manual testing performed on:**
+
+    * Laptop (14")
+    * Desktop (24")
+    * iPhone 7 and 8 (5.5")
+    * Samsung Galaxy 9 (5.8")
+    * Samsung A70 (6.7")
+
 ## Page details
 
-* Navigation Bar
+* **Navigation Bar:**
 
     All buttons have text color set to blanchedalmond same as borders arround once site is actice after visit will chnge color to sea blue to match with background image:
     * **About me** button will direct you to Home page.
     * **Resume** button will direct you to my work history.
     * **Contact** button will direct you to Home page.
 
-* Hero image
+* **Hero image:**
  
-    Was style to achvie multi dementional
+    Was style to achvie multi dementional, animation added to increase size of hero image to 1.1
 
-* Title area 
+* **Title area:** 
 
     Text was checked against typos, the font size ensured to match the most popular screen sizes
 
-* Personal Details
+* **Personal Details:**
 
     Build in table form to ensure position of the text left right
 
-* Middle section (About me, Resume, Contact):
+* **Middle section (About me, Resume, Contact):**
 
     Scale to fit most popular devices, add gray transparecy background to separete form page background
-    * About me - short sentence for visitors
-    * Resume - work history in easy to read form
-    * Contact - Contact form with decision point (radio buttons)
-        * Buttons with soft color diffrence in gray tone
+    * **About me** - short sentence for visitors
+    * **Resume** - work history in easy to read form
+    * **Contact** - Contact form with decision point (radio buttons)
+        * Buttons with soft color in gray tone
 
-* Footer
+* **Footer:**
+
     Set to blanchedalmond to compliment top section of the web with shadow to softy conect with page
 
-* Responsiveness
+    Footer include downloadable CV under download icon.
+
+
+* **Responsiveness:**
 
     Was checked at multiple device sizes to focus on majority of devices currently used world wide
 
-* 
+## 5. Development
+
+Multiple elements was changed during this jurney, start with first wireframe for training reasons, this is my second respiratory I did use to create this project.
+
+* **All pages:**
+ 
+During first days of project I did use diferent photo for positioninig, however I change it later for my own picture.
+
+Original desine was with only a gray color background, this chenged in last days to provide more complimentary photo.
+
+
+
 
 
 
