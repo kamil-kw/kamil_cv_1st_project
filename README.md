@@ -221,8 +221,7 @@ See End Product screens:
 
 ## 7. Known bugs
 
-* POST action doesn't have a php setup
-
+* 
 
 ## 8. Credits
 
@@ -230,7 +229,9 @@ See End Product screens:
 **Code:**
 
 * Icons came from [Font Awsome](https://fontawesome.com/)
+* Font came from [Google Fonts](https://fonts.google.com/)
+* Shadows code from [Neumorphism/Soft UI CSS shadow generator](https://neumorphism.io/#e0e0e0) thank you for sharing @Aukje - Red Pepper_Alumni
 
 **Content:**
 
-* Background photo download from [Pexels](https://www.pexels.com/)
+* Background photo download from [Pexels](https://www.pexels.com/) Author: Matheus Natan

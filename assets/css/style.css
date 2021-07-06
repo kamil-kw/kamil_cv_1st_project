@@ -75,7 +75,7 @@ body {
 .header-menu ul li a:link {
         color: blanchedalmond;
         border-radius: 25px;
-        padding: 4px 2px;
+        padding: 0;
 }
 
 .header-menu ul li a:visited {
@@ -83,7 +83,9 @@ body {
 }
 
 .header-menu ul li a:hover {
-        border-bottom: 1px solid green;
+        border: 2px solid rgb(0, 204, 255);
+        border-radius: 25px;
+        padding: 0;
 }
 
 .header-menu ul li a:active {
@@ -172,7 +174,9 @@ table {
         list-style-type: none;
         font-size: 5vw;
 }
-
+.work-expirence hr {
+        height: 10px;
+}
 /* About me */
 
 .about-me {
@@ -190,11 +194,6 @@ table {
 .about-me div h1 {
         font-size: 1rem;
         text-transform: uppercase;
-}
-
-.about-me div:first-child {
-        text-decoration: underline double black;
-        
 }
 
 .about-me div p {
@@ -221,7 +220,7 @@ table {
         text-transform: uppercase;
 }
 
-.work-expirence div:first-child {
+.about-me div:first-child, .work-expirence div:first-child, .contact-form h1 {
         text-decoration: underline double black;
 }
 
@@ -242,9 +241,6 @@ span {
         background-color: rgba(192, 192, 192, 0.19);
 }
 
-.contact-form h1 {
-        text-decoration: underline double black;   
-}
 
 /* cooperation type */
 
@@ -281,22 +277,25 @@ fieldset label {
         color: #ffebcd;
         border: 1px solid #FFEBCD;
         border-radius: 25px;
+        margin-top: -3%;
+        padding: 0 5px 0 5px;
 }
 
 .button1 {
         background-color: #445045b3;
         float: left;
-        margin-top: -3%;
         margin-left: 25%;
-        padding: 0 5px 0 5px;
 }
 
 .button2 {
         background-color: #634444;
         float: right;
-        margin-top: -3%;
         margin-right: 25%;
-        padding: 0 5px 0 5px;
+}
+.button1:hover, .button2:hover {
+        border: 2px solid rgb(0, 204, 255);
+        border-radius: 25px;
+        padding: 0;
 }
 
 /* footer */
@@ -324,7 +323,7 @@ fieldset label {
 /* cooperation footer (right) */
 #cooperation {
         float: right;
-        margin-left: 1%;
+        margin-right: 1%;
 }
 
 /* download footer (left) */
@@ -341,14 +340,7 @@ fieldset label {
 @media screen and (max-width: 279px) {
 
 .header-menu ul li a {
-        text-align: center;
         font-size: 0.5rem;
-}
-
-.title-area {
-        margin-left: 5%;
-        margin-right: 5%;
-        width: 90vw;
 }
 
 /* About me */
@@ -357,11 +349,11 @@ fieldset label {
         height: 300px;
 }
 
-.about-me div h1 {
+.about-me div h1, .work-expirence div h1, .contact-form h1  {
         font-size: 0.75rem;
 }
 
-.about-me div p {
+.about-me div p, .work-expirence div p, .work-task ul li, .contact-form, fieldset, textarea {
         font-size: 0.5rem;
 }
 
@@ -372,18 +364,7 @@ fieldset label {
 /* footer */
 
 .footer {
-        position: fixed;
-        bottom: 0;
-        width: 90vw;
-        height: 20vh;
-        background-color: blanchedalmond;
-        margin-right: 5%;
-}
-
-.footer div {
-        text-align: center;
-        font-size: 0.39rem;
-        margin: 5px;
+        height: 100px;
 }
 
 }
@@ -396,11 +377,11 @@ fieldset label {
         height: 215px;
 }
 
-.about-me div h1 {
+.about-me div h1, .work-expirence div h1, .contact-form h1 {
         font-size: 0.78rem;
 }
 
-.about-me div p {
+.about-me div p, .work-expirence div p, .work-task ul li, .contact-form, fieldset, textarea {
         font-size: 0.577rem;
 }
 
@@ -411,25 +392,12 @@ fieldset label {
         margin-bottom: 8vh;
 }
 
-.work-expirence div h1 {
-        text-transform: uppercase;
-        font-size: 0.78rem;
-}
-
-.work-expirence div p {
-        font-size: 0.577rem;
-}
-
-.work-task ul li {
-        font-size: 0.577rem;
-}
-
 /* contact form */
 
 .contact-form {
         height: 250px;
-        font-size: 0.5rem;
 }
+
 /* footer */
     
 .footer {
@@ -438,7 +406,6 @@ fieldset label {
     
 .footer div {
         font-size: 0.349rem;
-        
 }
 
 /* cooperation form */
@@ -470,8 +437,7 @@ table {
 }
 
 .col-a {
-        font-weight: 800;
-        column-width: 150px;
+        column-width: 120px;
 }
 
 .social {
@@ -479,47 +445,21 @@ table {
 }
 
 /* About me */
-.about-me {
+
+.about-me, .work-expirence, .contact-form {
         height: 300px;
 }
         
-.about-me div h1 {
+.about-me div h1, .work-expirence div h1, .contact-form h1 {
         font-size: 0.97rem;
-        text-transform: uppercase;
 }
 
-.about-me div p {
+.about-me div p, .work-expirence div p, .work-task ul li, .contact-form, fieldset, textarea {
         font-size: 0.7rem;
 }
 
 .bottom-margin {
         margin-bottom: 1.5vw;
-}
-
-/* work task */
-
-.work-expirence div h1 {
-        text-transform: uppercase;
-        font-size: 0.97rem;
-}
-
-.work-expirence div p {
-        font-size: 0.6rem;
-}
-
-.work-task ul li {
-        font-size: 0.7rem;
-}
-
-/* Contact Form */
-
-.contact-form h1 {
-        font-size: 0.97rem;
-}
-
-.contact-form {
-        height: 310px;
-        font-size: 0.78rem;
 }
 
 /* footer */
@@ -528,33 +468,19 @@ table {
         height: 13vw;
 }
 
-
 .footer div {
-        font-size: 0.48rem;
+        font-size: 1.5vw;
 }
-
-/* cooperation footer (right) */
-#cooperation {
-                
-        float: right;
-        margin-right: 1%;
-}
-
-/* download footer (left) */
-#download {
-        float: left;
-        margin-left: 1%;
-}
-        
+    
 #download a {
         font-size: 200%;
 }
 
 /* end of screen 321px-767px */
 }
-    
 
-@media screen and (min-width: 280px) and (max-width: 767px) and (min-height: 730px){        
+@media screen and (min-width: 280px) and (max-width: 767px) and (min-height: 730px){
+
 /* work expirence */
 
 .about-me, .work-expirence, .contact-form {
@@ -601,7 +527,7 @@ table {
 /* Get in touch */
 
 table {
-        font-size: 3vw;
+        font-size: 2.5vw;
 }
 
 .col-a {
@@ -609,67 +535,22 @@ table {
 }
 
 .social {
-        font-size: 4vw;
+        font-size: 3.5vw;
 }
  
 /* About me */
 
-.about-me {
-        height: 450px;
+.about-me, .work-expirence, .contact-form {
+        height: 480px;
+
 }
 
-.about-me div h1 {
+.about-me div h1, .work-expirence div h1, .contact-form h1 {
         font-size: 1.5rem;
 }
 
-.about-me div p {
-        font-size: 1.3rem;
-}
-
-/* work expirence */
-
-.work-expirence {
-        height: 440px;
-        margin-bottom: 8vh;
-}
-
-.work-expirence div h1 {
-        font-size: 1.5rem;
-}
-
-.work-expirence div p {
+.about-me div p, .work-expirence div p, .work-task ul li, .contact-form, fieldset, textarea {
         font-size: 0.9rem;
-        text-decoration: underline;
-}
-
-.work-task li {
-        font-size: 1.1rem;
-}
-
-/* contact form */
-
-.contact-form {
-        height: 450px;
-        margin-bottom: 10vh;
-}
-
-
-.contact-form h1 {
-        font-size: 1.5rem;
-}
-
-/* cooperation type */
-
-fieldset input, textarea {
-        float: right;
-        margin-right: 5%;
-        margin-top: 1%;
-        width: 40vw;
-        font-size: 100%;
-}
-
-fieldset label, fieldset legend {
-        font-size: 1.4rem;
 }
 
 /* buttons */
@@ -681,11 +562,11 @@ fieldset label, fieldset legend {
 /* footer */
 
 .footer {
-        height: 90px;
+        height: 9vw;
 }
 
 .footer div {
-        font-size: 0.9rem;  
+        font-size: 0.7rem;  
 }
 
 /* end of tablets 768px-1024px */
@@ -704,29 +585,28 @@ fieldset label, fieldset legend {
 /* Header style */
 
 .header-menu ul li a {
-        font-size: 1.7rem;
+        font-size: 1.3rem;
 }
 
 /* title area */
 
 .title-area {
-        height: 9vw;
+        height: 6vw;
 }
 
 #name {
-        font-size: 2.5vw;
+        font-size: 1.6vw;
         top: 10px;
-
 }
       
 #title {
-        font-size: 1.8vw;
+        font-size: 1.3vw;
 }
 
 /* Get in touch */
 
 table {
-        font-size: 3vw;
+        font-size: 1.9vw;
 }
    
 .col-a {
@@ -734,69 +614,36 @@ table {
 }
 
 .social {
-        font-size: 4vw;
+        font-size: 2.6vw;
 }
-   
-/* About me */
+/* Middle area */
 
-.about-me {
-        height: 600px;
+.about-me, .work-expirence, .contact-form {
+        height: 737px;
 }
 
-.about-me div h1 {
+.about-me div h1, .work-expirence div h1, .contact-form h1 {
         font-size: 2rem;
 }
 
-.about-me div p {
+.about-me div p, .work-expirence div p, .work-task ul li, .contact-form, fieldset, textarea {
         font-size: 1.4rem;
-}
-
-/* work expirence */
-
-.work-expirence {
-        height: 625px;
-        margin-bottom: 10vh;
-}
-
-.work-expirence div h1 {
-        font-size: 2rem;
-}
-
-.work-expirence div p {
-        font-size: 1.3rem;
-        text-decoration: underline;
-}
-
-.work-task li {
-       font-size: 1.4rem;
-}
-
-/* contact form */
-
-.contact-form {
-        height: 600px;
-        margin-bottom: 10vh;
-        font-size: 1.6rem;
-}
-
-.contact-form h1 {
-        font-size: 2rem;   
 }
 
 /* buttons */
        
 .button1, .button2 {
-        font-size: 2rem;
+        font-size: 1.5rem;
 }
 
 /* footer */
  
 .footer {
-        height: 10vh;
+        height: 9vh;
 }
 
 .footer div {
-        font-size: 1.2rem;     
+        font-size: 1rem;     
 }
 
 /* end of tablets 768px-1024px */
@@ -871,79 +718,29 @@ table {
         font-size: 1.4vw;
 }
 
-/* About me */
+/* Middle area */
 
-.about-me {
+.about-me, .work-expirence, .contact-form {
         height: 500px;
         margin-left: 15%;
         width: 70vw;
 }
 
-.contact-form h1 {
+.about-me div h1, .work-expirence div h1, .contact-form h1 {
         font-size: 1.4rem;
 }
 
-.about-me div h1 {
-        font-size: 1.4rem;
-}
-
-.about-me div p {
-        font-size: 1rem;
-}
-
-/* work expirence */
-
-.work-expirence {
-        height: 625px;
-        margin-bottom: 10vh;
-        margin-left: 15%;
-        margin-right: 15%;
-}
-        
-.work-expirence div h1 {
-        font-size: 1.4rem;
-}
-        
-.work-expirence div p {
+.about-me div p, .work-expirence div p, .work-task ul li, .contact-form, fieldset, textarea {
         font-size: 1.2rem;
-        text-decoration: underline;
-}
-
-.work-task li {
-        font-size: 1.3rem;
-}
-        
-/* contact form */
-        
-.contact-form {
-        margin-left: 15%;
-        margin-right: 15%;
-        width: 70vw;
-        text-align: center;
-        font-size: 1.3vw;
-        overflow: auto;
-        height: 500px;
-        position: relative;
-        margin-bottom: 10vh;
 }
 
 /* cooperation type */
 
 fieldset input, textarea {
         float: right;
-        margin-right: 10%;
-        margin-top: 1%;
+        margin-right: 15%;
         width: 20vw;
-        font-size: 80%;
 }
-
-/* contact details form */
-
-textarea {
-        margin-bottom: 2%;
-        font-family: inherit;
-}
-
 
 fieldset {
         border: 1px solid black;
@@ -955,11 +752,8 @@ fieldset label {
         float: left;
         margin-left: 15%;
         clear: both;
-        font-size: 1.3rem;
 }
-fieldset legend {
-        font-size: 1.3rem;
-}
+
         
 /* buttons */
                 

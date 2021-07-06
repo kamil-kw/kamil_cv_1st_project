@@ -94,29 +94,29 @@
 
              <!-- Contact form -->
             <form action="https://formdump.codeinstitute.net/" method="POST" target="_blank">
-                 <!-- Cooperation type -->
+                <!-- Cooperation type -->
                 <fieldset class="choose-cooperation">
                     <legend>What type of cooperation are you intrested in?</legend>
                     <label for="project">Project</label>
-                    <input type="radio" id="project" name="cooperation-type" value="Project">
+                    <input type="radio" id="project" name="cooperation-type" value="Project" required>
                     <br>
                     <label for="hiring">Hiring</label>
-                    <input type="radio" id="hiring" name="cooperation-type" value="Hiring">
+                    <input type="radio" id="hiring" name="cooperation-type" value="Hiring" required>
                 </fieldset>
                 <!-- Visitor contact details -->
                 <fieldset>
                     <legend>Your contact details:</legend>
                     <!-- Visitor name -->
                     <label for="contact-name">Name:</label>
-                    <input type="text" id="contact-name" name="contact-details" placeholder="Your name" required>
+                    <input type="text" id="contact-name" name="contact-name" placeholder="Your name" required>
                     <br>
                     <!-- Visitor email -->
                     <label for="contact-email">Email Addres:</label>
-                    <input type="email" id="contact-email" name="contact-details" placeholder="Email@Address.add" required>
+                    <input type="email" id="contact-email" name="contact-email" placeholder="Email@Address.add" required>
                     <br>
                     <!-- Visitor comments -->
                     <label for="words-to-author">Words to author:</label>
-                    <textarea id="words-to-author" name="contact-details" placeholder="Leave message" rows="4" cols="6"></textarea>
+                    <textarea id="words-to-author" name="words-to-author" placeholder="Leave message" rows="4" cols="6"></textarea>
                 </fieldset>
                 <br>
                 <!-- form buttons -->
