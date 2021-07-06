@@ -9,22 +9,22 @@ Welcome to my first Full Stack Course project. This page is my "Welcome World" p
 ## Table of Contents
 
 1. UX
-    1.1 Strategy
-    * Project Goals
-    * User target
-        * 1st time visitors
-         * Returning visitors
+**1.1 Strategy**
+* Project Goals
+* User target
+    * 1st time visitors
+        * Returning visitors
     * User expectations
-    1.2 Structure
-    1.3 Skeleton
-    1.4 Surface
-2. Features
-3. Technologies Used
-4. Testing
-5. Development Cycle
-6. End Product
-7. Known Bugs
-8. Credit
+**1.2 Structure**
+**1.3 Skeleton**
+**1.4 Surface**
+2. **Features**
+3. **Technologies Used**
+4. **Testing**
+5. **Development Cycle**
+6. **End Product**
+7. **Known Bugs**
+8. **Credit**
 
 
 ## 1. UX
@@ -43,9 +43,9 @@ The reason for this web page is to show my skills to potential recruiters and al
 
 ### First time visitors:
 
-* 1st time Visitors who wants to know more about my background and work history
-* 1st time Visitors who search for work candidates
-* 1st time Visitors who search for developers to work with
+* 1st time Visitors who wants to know more about my background and work history;
+* 1st time Visitors who search for work candidates;
+* 1st time Visitors who search for developers to work with.
 
 ### Returning visitors:
 
@@ -54,11 +54,11 @@ The reason for this web page is to show my skills to potential recruiters and al
 
 ### User Expectations:
 
-* Interface is easy to navigate
-* The website is responsive across all devices (mobile, tablet and desktop)
-* Content is displayed in a clear and understanding format
-* To have ability to contact with creator
-* User can download printable version of CV
+* Interface is easy to navigate;
+* The website is responsive across all devices (mobile, tablet and desktop);
+* Content is displayed in a clear and understanding format;
+* To have ability to contact with creator;
+* User can download printable version of CV.
 
 ## 1.2. Structure
 
@@ -66,21 +66,21 @@ To be able to provide for users the best experience on devices which they use, m
 
 * One consistent layout design across all pages providing easy to understand and intuitive for all users;
 * Navigation bar placed on top of the screen easily accessible even once scrolling down;
-* Easy accessible Footer with downloadable CV.
+* Easy accessible footer with downloadable CV.
 
 ## 1.3. Skeleton
 
 For creating wireframes I did use a [Balsamiq](https://balsamiq.com/), which helped me with defining layout for 2 types of devices (desktop and mobile).
 
-* About me - homepage Wireframes:
+* **About me - homepage Wireframes:**
 
 ![About me](assets/images/about_me_screenshot.PNG)
 
-* Resume - Work history page Wireframes:
+* **Resume - Work history page Wireframes:**
 
 ![Resume](assets/images/resume_screenshot.PNG)
 
-* Contact - Get in touch page Wireframes:
+* **Contact - Get in touch page Wireframes:**
 
 ![Contact](assets/images/about_me_screenshot.PNG)
 
@@ -97,20 +97,20 @@ As font of my choice was Poppins provided from [Google Fonts](https://fonts.goog
 
 As goal was to achieve a one consistent layout within all pages, I did include:
 
-* Photo on top of all pages
-* Top navigation bar accessible while scrolling down
-* Contact details below photo
-* Social media icons
-* Standardized information box used for different purposes in all pages
-* Footer with downloadable CV
+* Photo on top of all pages;
+* Top navigation bar accessible while scrolling down;
+* Contact details below photo;
+* Social media icons;
+* Standardized information box used for different purposes in all pages;
+* Footer with downloadable CV.
 
 ### Resume page:
 
-* Work history in chronological way
+* Work history in chronological way.
 
 ### Contact page:
 
-* Contact form specified type of cooperation
+* Contact form specified type of cooperation.
 
 ## 3. Technologies Used
 
@@ -148,21 +148,21 @@ TBA
 ### W3C Validator tools
 
 Tested by W3C validators, issues discovered:
-* Sections where missing H1-6 tags - corrected to div
-* Typo in input hiring ID
-* Atribiute typo in the form tag
+* Sections where missing H1-6 tags - corrected to div structure;
+* Typo in input hiring ID;
+* Atribiute typo in the form tag.
 
-Issues corrected
+All issues corrected.
 
 ## Manual testing
 
 * **Manual testing performed on:**
 
-    * Laptop (14")
-    * Desktop (24")
-    * iPhone 7 and 8 (5.5")
-    * Samsung Galaxy 9 (5.8")
-    * Samsung A70 (6.7")
+    * Laptop (14");
+    * Desktop (24");
+    * iPhone 7 and 8 (5.5");
+    * Samsung Galaxy 9 (5.8");
+    * Samsung A70 (6.7").
 
 ## Page details
 
@@ -175,30 +175,30 @@ Issues corrected
 
 * **Hero image:**
  
-    Was style to achieve multi dimensional, animation added to increase size of hero image to 1.1
+    Was style to achieve multi dimensional, animation added to increase size of hero image to 1.1.
 
 * **Title area:**
 
-    Text was checked against typos, the font size ensured to match the most popular screen sizes
+    Text was checked against typos, the font size ensured to match the most popular screen sizes.
 
 * **Personal Details:**
 
-    Build in table form to ensure position of the text left right
+    Build in table form to ensure position of the text left right.
 
 * **Middle section (About me, Resume, Contact):**
 
-    Scale to fit most popular devices, add gray transparent background to separate form page background
-    * **About me** - short sentence for visitors
-    * **Resume** - work history in easy to read form
-    * **Contact** - Contact form with decision point (radio buttons)
-        * Buttons with soft color in gray tone
+    Scale to fit most popular devices, add gray transparent background to separate form page background.
+    Per page:
+    * **About me** - short sentence with quote for visitors.
+    * **Resume** - work history in easy to read form.
+    * **Contact** - Contact form with decision point (radio buttons);
+        * Buttons with soft color in gray tone.
 
 * **Footer:**
 
-    Set to blanchedalmond to compliment top section of the web with shadow to softy blend with the page
+    Set to blanchedalmond to compliment top section of the web with shadow to softy blend with the page.
 
     Footers include downloadable CV under download icon.
-
 
 * **Responsiveness:**
 
@@ -221,21 +221,18 @@ See End Product screens:
 
 ## 7. Known bugs
 
-* Incorrect data send from form - fixed by providing correct names
-* Multiple lines reacting in the same way - reduced in last stage of project
-* Nav bar was hidden once animated fixed by z-index
-
-
+* Incorrect data send from form - fixed by providing correct names;
+* Multiple lines reacting in the same way - reduced in last stage of project;
+* Nav bar was hidden once animated fixed by z-index.
 
 ## 8. Credits
 
+* **Code:**
 
-**Code:**
+    * Icons came from [Font Awsome](https://fontawesome.com/)
+    * Font came from [Google Fonts](https://fonts.google.com/)
+    * Shadows code from [Neumorphism/Soft UI CSS shadow generator](https://neumorphism.io/#e0e0e0) thank you for sharing @Aukje - Red Pepper_Alumni
 
-* Icons came from [Font Awsome](https://fontawesome.com/)
-* Font came from [Google Fonts](https://fonts.google.com/)
-* Shadows code from [Neumorphism/Soft UI CSS shadow generator](https://neumorphism.io/#e0e0e0) thank you for sharing @Aukje - Red Pepper_Alumni
+* **Content:**
 
-**Content:**
-
-* Background photo download from [Pexels](https://www.pexels.com/) Author: Matheus Natan
+    * Background photo download from [Pexels](https://www.pexels.com/) Author: Matheus Natan
