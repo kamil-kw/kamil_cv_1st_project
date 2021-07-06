@@ -52,6 +52,7 @@ body {
         margin-right: 2%;
         height: 5px;
         text-align: center;
+        z-index: 10;
 
 }
 
@@ -115,7 +116,8 @@ body {
 
         /* animates hero image */
         animation-name: hero-animation;
-        animation-duration: 2s;
+        animation-duration: 5s;
+        animation-fill-mode: forward;
 }
 /* anmation to to hero image */
 
@@ -771,7 +773,7 @@ fieldset label {
 }
             
 .footer div {
-        font-size: 1rem;
+        font-size: 0.7rem;
                 
 }
 

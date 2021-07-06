@@ -221,7 +221,11 @@ See End Product screens:
 
 ## 7. Known bugs
 
-* 
+* Incorrect data send from form - fixed by providing correct names
+* Multiple lines reacting in the same way - reduced in last stage of project
+* Nav bar was hidden once animated fixed by z-index
+
+
 
 ## 8. Credits
 
