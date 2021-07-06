@@ -1,8 +1,8 @@
-# Kamil Kwiatkowski Ciriculum Vitae
+# Kamil Kwiatkowski Curriculum Vitae
 
 ## Introduction
 
-Welcome to my first Full Stack Course project. This page is my "Welcome World" project a way for me to say Hi! to developers world. Webpage will tell you something more about myself and show my achievements
+Welcome to my first Full Stack Course project. This page is my "Welcome World" project, a way for me to say Hi! to developers world. Webpage will tell you something more about myself and show my achievements
 
 # See live webpage here
 
@@ -29,13 +29,13 @@ Welcome to my first Full Stack Course project. This page is my "Welcome World" p
 
 ## 1. UX
 
-My ultimate goal is to change my carrier path and become full time developer, therefore I have decided to use my first project to create my own CV website. This could be used currently as part of my own portfolio, where I can show my skills, as well as current achievements and accomplishments. 
+My ultimate goal is to change my career path and become a full time developer, therefore I have decided to use my first project to create my own CV website. This could be used currently as part of my own portfolio, where I can show my skills, as well as current achievements and accomplishments.
 
 This project will show my work history and path of becoming a software developer from zero to hero :)
 
 ## 1.1 Strategy
 
-### * Project Goals 
+### * Project Goals
 
 The reason for this web page is to show my skills to potential recruiters and all who wants to cooperate with me in the future in projects
 
@@ -43,36 +43,36 @@ The reason for this web page is to show my skills to potential recruiters and al
 
 ### First time visitors:
 
-* 1st time Visitors who wants to know more about my backgorund and work history
+* 1st time Visitors who wants to know more about my background and work history
 * 1st time Visitors who search for work candidates
 * 1st time Visitors who search for developers to work with
 
-### Returninig visitors:
+### Returning visitors:
 
 * Visitors who would like to continue cooperation
 * Visitors who search contact details
 
-### User Expectaions:
+### User Expectations:
 
 * Interface is easy to navigate
-* The website is responsive accross all devices (mobile, tablet and desktop)
+* The website is responsive across all devices (mobile, tablet and desktop)
 * Content is displayed in a clear and understanding format
 * To have ability to contact with creator
 * User can download printable version of CV
 
 ## 1.2. Structure
 
-To be able to provide for users the best expirence on device which they use my website  n  should have responsive designe to cover majority of currently used devices (mobile, tablet, laptop/dektop).
+To be able to provide for users the best experience on devices which they use, my website should have responsive design to cover the majority of currently used devices (mobile, tablet, laptop/desktop).
 
-* One consistent layout designe across all pages providing easy to understand and intuitive for all users;
-* Navigation bar placed on top of the screen easly accessible even once scrolling down;
+* One consistent layout design across all pages providing easy to understand and intuitive for all users;
+* Navigation bar placed on top of the screen easily accessible even once scrolling down;
 * Easy accessible Footer with downloadable CV.
 
 ## 1.3. Skeleton
 
-For creating wireframes I did use a [Balsamiq](https://balsamiq.com/), which help me with defininig layout for 2 types of devices (desktop and mobile).
+For creating wireframes I did use a [Balsamiq](https://balsamiq.com/), which helped me with defining layout for 2 types of devices (desktop and mobile).
 
-* About me - home page Wireframes:
+* About me - homepage Wireframes:
 
 ![About me](assets/images/about_me_screenshot.PNG)
 
@@ -89,24 +89,24 @@ For creating wireframes I did use a [Balsamiq](https://balsamiq.com/), which hel
 
 Typography
 
-As font of my choice was Poppins provided from [Google Fonts](https://fonts.google.com/) in case of lack of support for Poopins font I did set sans serif font as a backup. 
+As font of my choice was Poppins provided from [Google Fonts](https://fonts.google.com/) in case of lack of support for Poopins font I did set sans serif font as a backup.
 
 ## 2. Features
 
 ### All pages:
 
-As goal was to achive a one consistant layout within all pages, I did include:
+As goal was to achieve a one consistent layout within all pages, I did include:
 
 * Photo on top of all pages
 * Top navigation bar accessible while scrolling down
 * Contact details below photo
 * Social media icons
-* Standarized information box used for diferent porpuses in all pages
+* Standardized information box used for different purposes in all pages
 * Footer with downloadable CV
 
 ### Resume page:
 
-* Work history in chrolnological way
+* Work history in chronological way
 
 ### Contact page:
 
@@ -114,12 +114,12 @@ As goal was to achive a one consistant layout within all pages, I did include:
 
 ## 3. Technologies Used
 
-During my page creation jurney I did use:
+During my page creation journey I did use:
 
 * [HTML5](https://en.wikipedia.org/wiki/HTML)
     * Current project uses HyperText Markup Language.
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
-    * Current project uses Cascading Style Sheet.
+    * Current project uses Cascading Style Sheets.
 * [Chrome](https://www.google.com/intl/en_uk/chrome/)
     * Chrome dev tool used to debug and test code while building
 * [Balsamiq](https://balsamiq.com/)
@@ -129,7 +129,7 @@ During my page creation jurney I did use:
 * [Font Awsome](https://fontawesome.com/)
     * To provide icons to page
 * [Github](http://github.com)
-    * For storing project code writen in gitpod
+    * For storing project code written in gitpod
 * [JS Fiddle](https://jsfiddle.net/)
     * Used as playground for code
 * [W3School](https://www.w3schools.com/)
@@ -141,15 +141,15 @@ During my page creation jurney I did use:
 
 Used during entire project to test code and unbug issues related with responsiveness,  
 
-### Responsive tools 
+### Responsive tools
 
 TBA
 
-### W3C Validateor tools
+### W3C Validator tools
 
 Tested by W3C validators, issues discovered:
 * Sections where missing H1-6 tags - corrected to div
-* Typo in input hirig ID
+* Typo in input hiring ID
 * Atribiute typo in the form tag
 
 Issues corrected
@@ -168,16 +168,16 @@ Issues corrected
 
 * **Navigation Bar:**
 
-    All buttons have text color set to blanchedalmond same as borders arround once site is actice after visit will chnge color to sea blue to match with background image:
-    * **About me** button will direct you to Home page.
+    All buttons have text color set to blanchedalmond same as borders -once a site is active. After the visit this will change to sea blue color to match the background image:
+    * **About me** button will direct you to the Home page.
     * **Resume** button will direct you to my work history.
-    * **Contact** button will direct you to Home page.
+    * **Contact** button will direct you to the Contact page.
 
 * **Hero image:**
  
-    Was style to achvie multi dementional, animation added to increase size of hero image to 1.1
+    Was style to achieve multi dimensional, animation added to increase size of hero image to 1.1
 
-* **Title area:** 
+* **Title area:**
 
     Text was checked against typos, the font size ensured to match the most popular screen sizes
 
@@ -187,7 +187,7 @@ Issues corrected
 
 * **Middle section (About me, Resume, Contact):**
 
-    Scale to fit most popular devices, add gray transparecy background to separete form page background
+    Scale to fit most popular devices, add gray transparent background to separate form page background
     * **About me** - short sentence for visitors
     * **Resume** - work history in easy to read form
     * **Contact** - Contact form with decision point (radio buttons)
@@ -195,24 +195,24 @@ Issues corrected
 
 * **Footer:**
 
-    Set to blanchedalmond to compliment top section of the web with shadow to softy conect with page
+    Set to blanchedalmond to compliment top section of the web with shadow to softy blend with the page
 
-    Footer include downloadable CV under download icon.
+    Footers include downloadable CV under download icon.
 
 
 * **Responsiveness:**
 
-    Was checked at multiple device sizes to focus on majority of devices currently used world wide
+    Was checked at multiple device sizes to focus on majority of devices currently used worldwide
 
 ## 5. Development
 
-Multiple elements was changed during this jurney, start with first wireframe for training reasons, this is my second respiratory I did use to create this project.
+Multiple elements were changed during this journey, starting with the first wireframe for training reasons, this is my second respiratory which I used to create this project.
 
 * **All pages:**
  
-During first days of project I did use diferent photo for positioninig, however I change it later for my own picture.
+During the first days of the project I did use different pictures for positioning, however I changed it later for my own picture.
 
-Original desine was with only a gray color background, this chenged in last days to provide more complimentary photo on top of which I was able to apply gray transparent box to highlight test section.
+Original design was with only a gray color background, this changed recently to provide a more complimentary photo on top of which I was able to apply a gray transparent box to highlight the text section.
 
 ## 6. End Product
 
@@ -234,11 +234,3 @@ See End Product screens:
 **Content:**
 
 * Background photo download from [Pexels](https://www.pexels.com/)
-
-
-
-
-
-
-
-

@@ -47,7 +47,9 @@ body {
 .header-menu {
         position: fixed;
         top: 5px;
-        width: 100vw;
+        width: 96vw;
+        margin-left: 2%;
+        margin-right: 2%;
         height: 5px;
         text-align: center;
 
@@ -895,7 +897,7 @@ table {
         height: 625px;
         margin-bottom: 10vh;
         margin-left: 15%;
-        margin-right: 14.5%;
+        margin-right: 15%;
 }
         
 .work-expirence div h1 {
