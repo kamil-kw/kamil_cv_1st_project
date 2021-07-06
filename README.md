@@ -8,16 +8,16 @@ Welcome to my first Full Stack Course project. This page is my "Welcome World" p
 
 ## Table of Contents
 
-1. UX
-**1.1 Strategy**
-* Project Goals
-* User target
-    * 1st time visitors
-        * Returning visitors
-    * User expectations
-**1.2 Structure**
-**1.3 Skeleton**
-**1.4 Surface**
+1. **UX**
+    * **1.1. Strategy**
+        * Project Goals
+        * User target
+        * 1st time visitors
+            * Returning visitors
+        * User expectations
+    * **1.2. Structure**
+    * **1.3. Skeleton**
+    * **1.4. Surface**
 2. **Features**
 3. **Technologies Used**
 4. **Testing**
