@@ -311,6 +311,8 @@ fieldset label {
         margin-left: 5%;
         border: 1px solid black;
         border-radius: 25px 0;
+
+        /* code source from Neumorphism/Soft UI CSS shadow generator */
         box-shadow:
         -10px -18px 36px #c1c1c1,
         18px 18px 36px #ffffff;
@@ -479,20 +481,6 @@ table {
 }
 
 /* end of screen 321px-767px */
-}
-
-@media screen and (min-width: 280px) and (max-width: 767px) and (min-height: 730px){
-
-/* work expirence */
-
-.about-me, .work-expirence, .contact-form {
-        height: 480px;
-}
-
-.footer div {
-        font-size: 0.5rem;
-}
-
 }
 
 /* tablets 768px-1023px */
