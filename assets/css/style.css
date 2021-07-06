@@ -303,9 +303,9 @@ fieldset label {
 /* footer */
 
 .footer {
-        position: fixed;
-        bottom: 0;
-        width: 90vw;
+position: fixed;
+bottom: 0;
+width: 90vw;
         height: 11vw;
         background-color: rgb(255, 235, 205);
         margin-left: 5%;
