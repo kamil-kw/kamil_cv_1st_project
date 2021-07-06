@@ -82,7 +82,7 @@ For creating wireframes I did use a [Balsamiq](https://balsamiq.com/), which hel
 
 * **Contact - Get in touch page Wireframes:**
 
-![Contact](assets/images/about_me_screenshot.PNG)
+![Contact](assets/images/contact_screenshot.PNG)
 
 
 ## 1.4. Surface
