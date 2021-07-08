@@ -31,7 +31,7 @@ Welcome to my first Full Stack Course project. This page is my "Welcome World" p
 
 My ultimate goal is to change my career path and become a full time developer, therefore I have decided to use my first project to create my own CV website. This could be used currently as part of my own portfolio, where I can show my skills, as well as current achievements and accomplishments.
 
-This project will show my work history and path of becoming a software developer from zero to hero :)
+This project will show my work history and path of becoming a software developer from zero to hero 😊
 
 ## 1.1 Strategy
 
