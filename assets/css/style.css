@@ -1,775 +1,744 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-
 * {
-    margin: 0;
-    padding: 0;
-    border: none;
+	margin: 0;
+	padding: 0;
+	border: none;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    color: black;
-    font-size: 1em;
-    background: rgb(145, 183, 199);
-    background-image: url(../images/pexels-matheus-natan.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	color: black;
+	font-size: 1em;
+	background: rgb(145, 183, 199);
+	background-image: url(../images/pexels-matheus-natan.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .line {
-    border: 1px solid black;
-    margin-right: 5%;
-    margin-left: 5%;
+	border: 1px solid black;
+	margin-right: 5%;
+	margin-left: 5%;
 }
 
 #left {
-    float: left;
-    margin-left: 5%;
+	float: left;
+	margin-left: 5%;
 }
 
 #right {
-    float: right;
-    margin-right: 5%;
+	float: right;
+	margin-right: 5%;
 }
 
 .circle {
-    list-style-position: inside;
-    list-style-type: circle;
+	list-style-position: inside;
+	list-style-type: circle;
 }
 
 .social a i {
-    color: black;
+	color: black;
 }
+
 
 /* Header style */
 
 .header-menu {
-        position: fixed;
-        top: 5px;
-        width: 96vw;
-        margin-left: 2%;
-        margin-right: 2%;
-        height: 5px;
-        text-align: center;
-        z-index: 10;
-
+	position: fixed;
+	top: 5px;
+	width: 96vw;
+	margin-left: 2%;
+	margin-right: 2%;
+	height: 5px;
+	text-align: center;
+	z-index: 10;
 }
 
 .header-menu ul li {
-        display: inline-block;
-        list-style-type: none;
-        text-align: center;
-        width: auto;
-        height: auto;
-        border: 1px solid rgba(82, 85, 85, 0.7);
-        border-radius: 25px;
-        background-color: rgba(80, 83, 83, 0.7);
+	display: inline-block;
+	list-style-type: none;
+	text-align: center;
+	width: auto;
+	height: auto;
+	border: 1px solid rgba(82, 85, 85, 0.7);
+	border-radius: 25px;
+	background-color: rgba(80, 83, 83, 0.7);
 }
 
 .header-menu ul li a {
-        text-align: center;
-        font-size: 0.8rem;
-        text-decoration: none;
+	text-align: center;
+	font-size: 0.8rem;
+	text-decoration: none;
 }
 
 .header-menu ul li a:link {
-        color: blanchedalmond;
-        border-radius: 25px;
-        padding: 0;
+	color: blanchedalmond;
+	border-radius: 25px;
+	padding: 0;
 }
 
 .header-menu ul li a:visited {
-        color: rgba(0, 204, 255, 0.534);
+	color: rgba(0, 204, 255, 0.534);
 }
 
 .header-menu ul li a:hover {
-        border: 2px solid rgb(0, 204, 255);
-        border-radius: 25px;
-        padding: 0;
+	border: 2px solid rgb(0, 204, 255);
+	border-radius: 25px;
+	padding: 0;
 }
 
 .header-menu ul li a:active {
-        color: black;
+	color: black;
 }
 
 .active {
-        border: 2px solid blanchedalmond;
+	border: 2px solid blanchedalmond;
 }
+
 
 /* hero image */
 
 .hero-image-area {
-        height: 200px;
-        width: 90vw;
-        margin-left: 5%;
+	height: 200px;
+	width: 90vw;
+	margin-left: 5%;
 }
 
 #hero-image {
-        height: 100%;
-        width: 100%;
-        background: url(../images/hero1-1.jpg) no-repeat center center/cover;
-        border-radius: 0 0 40px 40px;
-        box-shadow:
-        -18px 10px 36px #8b8d88,
-        18px -18px 36px #f8f8f4;
-
-        /* animates hero image */
-        animation-name: hero-animation;
-        animation-duration: 5s;
-        animation-fill-mode: forward;
+	height: 100%;
+	width: 100%;
+	background: url(../images/hero1-1.jpg) no-repeat center center/cover;
+	border-radius: 0 0 40px 40px;
+	box-shadow: -18px 10px 36px #8b8d88, 18px -18px 36px #f8f8f4;
+	/* animates hero image */
+	animation-name: hero-animation;
+	animation-duration: 5s;
+	animation-fill-mode: forward;
 }
+
+
 /* anmation to to hero image */
 
 @keyframes hero-animation {
-        from{
-                transfrom: scale(1)
-        }
-        to{
-                transform: scale(1.1)
-        }
+	from {
+		transfrom: scale(1)
+	}
+	to {
+		transform: scale(1.1)
+	}
 }
+
 
 /* title area */
 
 .title-area {
-        height: 10vw;
-        position: relative;
+	height: 10vw;
+	position: relative;
 }
 
-.title-area, .personal-info {
-        width: 90vw;
-        margin-left: 5%;
-        margin-right: 5%;
-        background-color: rgba(192, 192, 192, 0.19);
+.title-area,
+.personal-info {
+	width: 90vw;
+	margin-left: 5%;
+	margin-right: 5%;
+	background-color: rgba(192, 192, 192, 0.19);
 }
 
 #name {
-        font-size: 2.4vw;
-        position: relative;
-        float: left;
-        top: 5px;
+	font-size: 2.4vw;
+	position: relative;
+	float: left;
+	top: 5px;
 }
 
 #title {
-        font-size: 2vw;
-        position: relative;
-        text-align: right;
-        float: right;
-        top: 0;
+	font-size: 2vw;
+	position: relative;
+	text-align: right;
+	float: right;
+	top: 0;
 }
+
 
 /* Get in touch */
 
 table {
-        font-size: 3.2vw;
+	font-size: 3.2vw;
 }
 
 .col-a {
-    font-weight: 800;
-    column-width: 100px;
+	font-weight: 800;
+	column-width: 100px;
 }
 
 .social {
-        position: relative;
-        float: right;
-        list-style-type: none;
-        font-size: 5vw;
+	position: relative;
+	float: right;
+	list-style-type: none;
+	font-size: 5vw;
 }
+
 .work-expirence hr {
-        height: 10px;
+	height: 10px;
 }
+
+
 /* About me */
 
 .about-me {
-        margin-left: 5%;
-        margin-right: 5%;
-        text-align: center;
-        height: 350px;
-        width: 90vw;
-        position: relative;
-        overflow: auto;
-        margin-bottom: 10vh;
-        background-color: rgba(192, 192, 192, 0.19);
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: center;
+	height: 350px;
+	width: 90vw;
+	position: relative;
+	overflow: auto;
+	margin-bottom: 10vh;
+	background-color: rgba(192, 192, 192, 0.19);
 }
 
 .about-me div h1 {
-        font-size: 1rem;
-        text-transform: uppercase;
+	font-size: 1rem;
+	text-transform: uppercase;
 }
 
 .about-me div p {
-        font-size: 0.75rem;
+	font-size: 0.75rem;
 }
 
 .bottom-margin {
-        margin-bottom: 1.5vw;
+	margin-bottom: 1.5vw;
 }
 
+
 /* work expirence */
+
 .work-expirence {
-        margin-left: 5%;
-        margin-right: 5%;
-        text-align: center;
-        overflow: auto;
-        height: 300px;
-        position: relative;
-        margin-bottom: 10vh;
-        background-color: rgba(192, 192, 192, 0.19);
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: center;
+	overflow: auto;
+	height: 300px;
+	position: relative;
+	margin-bottom: 10vh;
+	background-color: rgba(192, 192, 192, 0.19);
 }
 
 .work-expirence div h1 {
-        text-transform: uppercase;
+	text-transform: uppercase;
 }
 
-.about-me div:first-child, .work-expirence div:first-child, .contact-form h1 {
-        text-decoration: underline double black;
+.about-me div:first-child,
+.work-expirence div:first-child,
+.contact-form h1 {
+	text-decoration: underline double black;
 }
 
 span {
-        font-style: italic;
+	font-style: italic;
 }
+
 
 /* Contact Form */
 
 .contact-form {
-        margin-left: 5%;
-        margin-right: 5%;
-        text-align: center;
-        overflow: auto;
-        height: 300px;
-        position: relative;
-        margin-bottom: 10vh;
-        background-color: rgba(192, 192, 192, 0.19);
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: center;
+	overflow: auto;
+	height: 300px;
+	position: relative;
+	margin-bottom: 10vh;
+	background-color: rgba(192, 192, 192, 0.19);
 }
 
 
 /* cooperation type */
 
-fieldset input, textarea {
-        float: right;
-        margin-right: 5%;
-        margin-top: 1%;
-        width: 40vw;
-        font-size: 80%;
+fieldset input,
+textarea {
+	float: right;
+	margin-right: 5%;
+	margin-top: 1%;
+	width: 40vw;
+	font-size: 80%;
 }
+
 
 /* contact details form */
 
 textarea {
-        margin-bottom: 2%;
-        font-family: inherit;
+	margin-bottom: 2%;
+	font-family: inherit;
 }
 
 fieldset {
-        border: 1px solid black;
-        margin-right: 5%;
-        margin-left: 5%;
+	border: 1px solid black;
+	margin-right: 5%;
+	margin-left: 5%;
 }
 
 fieldset label {
-        float: left;
-        margin-left: 5%;
-        clear: both;
+	float: left;
+	margin-left: 5%;
+	clear: both;
 }
+
 
 /* buttons */
 
-.button1, .button2 {
-        color: #ffebcd;
-        border: 1px solid #FFEBCD;
-        border-radius: 25px;
-        margin-top: -3%;
-        padding: 0 5px 0 5px;
+.button1,
+.button2 {
+	color: #ffebcd;
+	border: 1px solid #FFEBCD;
+	border-radius: 25px;
+	margin-top: -3%;
+	padding: 0 5px 0 5px;
 }
 
 .button1 {
-        background-color: #445045b3;
-        float: left;
-        margin-left: 25%;
+	background-color: #445045b3;
+	float: left;
+	margin-left: 25%;
 }
 
 .button2 {
-        background-color: #634444;
-        float: right;
-        margin-right: 25%;
+	background-color: #634444;
+	float: right;
+	margin-right: 25%;
 }
-.button1:hover, .button2:hover {
-        border: 2px solid rgb(0, 204, 255);
-        border-radius: 25px;
-        padding: 0;
+
+.button1:hover,
+.button2:hover {
+	border: 2px solid rgb(0, 204, 255);
+	border-radius: 25px;
+	padding: 0;
 }
+
 
 /* footer */
 
 .footer {
-position: fixed;
-bottom: 0;
-width: 90vw;
-        height: 11vw;
-        background-color: rgb(255, 235, 205);
-        margin-left: 5%;
-        border: 1px solid black;
-        border-radius: 25px 0;
+	position: fixed;
+	bottom: 0;
+	width: 90vw;
+	height: 11vw;
+	background-color: rgb(255, 235, 205);
+	margin-left: 5%;
+	border: 1px solid black;
+	border-radius: 25px 0;
+	/* code source from Neumorphism/Soft UI CSS shadow generator */
+	box-shadow: -10px -18px 36px #c1c1c1, 18px 18px 36px #ffffff;
+}
 
-        /* code source from Neumorphism/Soft UI CSS shadow generator */
-        box-shadow:
-        -10px -18px 36px #c1c1c1,
-        18px 18px 36px #ffffff;
-}
-    
 .footer div {
-        text-align: center;
-        font-size: 0.39rem;
-        margin-bottom: 5px;
+	text-align: center;
+	font-size: 0.39rem;
+	margin-bottom: 5px;
 }
+
 
 /* cooperation footer (right) */
+
 #cooperation {
-        float: right;
-        margin-right: 1%;
+	float: right;
+	margin-right: 1%;
 }
 
+
 /* download footer (left) */
+
 #download {
-        float: left;
-        margin-left: 1%;
+	float: left;
+	margin-left: 1%;
 }
 
 #download a {
-        font-size: 200%;
-        color: black;
+	font-size: 200%;
+	color: black;
 }
 
 iframe {
-        width: 100%;
-        height: 200px;
-        margin-top: 30px;
+	width: 100%;
+	height: 200px;
+	margin-top: 30px;
 }
 
 @media screen and (max-width: 279px) {
-
-.header-menu ul li a {
-        font-size: 0.5rem;
+	.header-menu ul li a {
+		font-size: 0.5rem;
+	}
+	/* About me */
+	.about-me {
+		height: 300px;
+	}
+	.about-me div h1,
+	.work-expirence div h1,
+	.contact-form h1 {
+		font-size: 0.75rem;
+	}
+	.about-me div p,
+	.work-expirence div p,
+	.work-task ul li,
+	.contact-form,
+	fieldset,
+	textarea {
+		font-size: 0.5rem;
+	}
+	.button1,
+	.button2 {
+		font-size: 0.6rem;
+	}
+	/* footer */
+	.footer {
+		height: 100px;
+	}
 }
 
-/* About me */
-
-.about-me {
-        height: 300px;
-}
-
-.about-me div h1, .work-expirence div h1, .contact-form h1  {
-        font-size: 0.75rem;
-}
-
-.about-me div p, .work-expirence div p, .work-task ul li, .contact-form, fieldset, textarea {
-        font-size: 0.5rem;
-}
-
-.button1, .button2 {
-        font-size: 0.6rem;
-}
-
-/* footer */
-
-.footer {
-        height: 100px;
-}
-
-}
 
 /* phone generations like iPhone 5S. Galaxy fold */
-@media screen and (min-width: 280px) and (max-width: 320px){
 
-        /* About me */
-.about-me {
-        height: 215px;
+@media screen and (min-width: 280px) and (max-width: 320px) {
+	/* About me */
+	.about-me {
+		height: 215px;
+	}
+	.about-me div h1,
+	.work-expirence div h1,
+	.contact-form h1 {
+		font-size: 0.78rem;
+	}
+	.about-me div p,
+	.work-expirence div p,
+	.work-task ul li,
+	.contact-form,
+	fieldset,
+	textarea {
+		font-size: 0.577rem;
+	}
+	/* work expirence */
+	.work-expirence {
+		height: 370px;
+		margin-bottom: 8vh;
+	}
+	/* contact form */
+	.contact-form {
+		height: 250px;
+	}
+	/* footer */
+	.footer {
+		height: 12vw;
+	}
+	.footer div {
+		font-size: 0.349rem;
+	}
+	/* cooperation form */
+	.choose-cooperation input {
+		width: 4%;
+		float: right;
+		margin-right: 40vw;
+	}
+	.button1,
+	.button2 {
+		font-size: 0.8rem;
+	}
+	/* end of 280-320px */
 }
 
-.about-me div h1, .work-expirence div h1, .contact-form h1 {
-        font-size: 0.78rem;
-}
-
-.about-me div p, .work-expirence div p, .work-task ul li, .contact-form, fieldset, textarea {
-        font-size: 0.577rem;
-}
-
-
-/* work expirence */
-.work-expirence {
-        height: 370px;
-        margin-bottom: 8vh;
-}
-
-/* contact form */
-
-.contact-form {
-        height: 250px;
-}
-
-/* footer */
-    
-.footer {
-        height: 12vw;
-}
-    
-.footer div {
-        font-size: 0.349rem;
-}
-
-/* cooperation form */
-
-.choose-cooperation input {
-        width: 4%;
-        float: right;
-        margin-right: 40vw;
-}
-
-.button1, .button2 {
-        font-size: 0.8rem;
-}
-
-/* end of 280-320px */
-}
 
 /* screen 321px-767px */
-@media screen and (min-width: 321px) and (max-width: 767px){
 
-.hero-image-area {
-        height: 170px;
+@media screen and (min-width: 321px) and (max-width: 767px) {
+	.hero-image-area {
+		height: 170px;
+	}
+	/* Get in touch */
+	table {
+		font-size: 3vw;
+	}
+	.col-a {
+		column-width: 120px;
+	}
+	.social {
+		font-size: 4.2vw;
+	}
+	/* About me */
+	.about-me,
+	.work-expirence,
+	.contact-form {
+		height: 300px;
+	}
+	.about-me div h1,
+	.work-expirence div h1,
+	.contact-form h1 {
+		font-size: 0.97rem;
+	}
+	.about-me div p,
+	.work-expirence div p,
+	.work-task ul li,
+	.contact-form,
+	fieldset,
+	textarea {
+		font-size: 0.7rem;
+	}
+	.bottom-margin {
+		margin-bottom: 1.5vw;
+	}
+	/* footer */
+	.footer {
+		height: 13vw;
+	}
+	.footer div {
+		font-size: 1.5vw;
+	}
+	#download a {
+		font-size: 200%;
+	}
+	/* end of screen 321px-767px */
 }
 
-/* Get in touch */
-            
-table {
-        font-size: 3vw;
-}
-
-.col-a {
-        column-width: 120px;
-}
-
-.social {
-        font-size: 4.2vw;
-}
-
-/* About me */
-
-.about-me, .work-expirence, .contact-form {
-        height: 300px;
-}
-        
-.about-me div h1, .work-expirence div h1, .contact-form h1 {
-        font-size: 0.97rem;
-}
-
-.about-me div p, .work-expirence div p, .work-task ul li, .contact-form, fieldset, textarea {
-        font-size: 0.7rem;
-}
-
-.bottom-margin {
-        margin-bottom: 1.5vw;
-}
-
-/* footer */
-
-.footer {
-        height: 13vw;
-}
-
-.footer div {
-        font-size: 1.5vw;
-}
-    
-#download a {
-        font-size: 200%;
-}
-
-/* end of screen 321px-767px */
-}
 
 /* tablets 768px-1023px */
 
-@media screen and (min-width: 768px) and (max-width: 1023px){
-
-/* hero image */
-
-.hero-image-area {
-        height: 250px;
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	/* hero image */
+	.hero-image-area {
+		height: 250px;
+	}
+	/* Header style */
+	.header-menu ul li a {
+		font-size: 1.4rem;
+	}
+	/* title area */
+	.title-area {
+		height: 9vw;
+	}
+	#name {
+		font-size: 2vw;
+		top: 10px;
+	}
+	#title {
+		font-size: 1.8vw;
+	}
+	/* Get in touch */
+	table {
+		font-size: 2.5vw;
+	}
+	.col-a {
+		column-width: 300px;
+	}
+	.social {
+		font-size: 3.5vw;
+	}
+	/* About me */
+	.about-me,
+	.work-expirence,
+	.contact-form {
+		height: 480px;
+	}
+	.about-me div h1,
+	.work-expirence div h1,
+	.contact-form h1 {
+		font-size: 1.5rem;
+	}
+	.about-me div p,
+	.work-expirence div p,
+	.work-task ul li,
+	.contact-form,
+	fieldset,
+	textarea {
+		font-size: 0.9rem;
+	}
+	/* buttons */
+	.button1,
+	.button2 {
+		font-size: 1.4rem;
+	}
+	/* footer */
+	.footer {
+		height: 9vw;
+	}
+	.footer div {
+		font-size: 0.7rem;
+	}
+	/* end of tablets 768px-1024px */
 }
 
-/* Header style */
-
-.header-menu ul li a {
-        font-size: 1.4rem;
-}
-
-/* title area */
-
-.title-area {
-        height: 9vw;
-}
-
-#name {
-        font-size: 2vw;
-        top: 10px;
-}
-
-#title {
-        font-size: 1.8vw;
-}
-
-/* Get in touch */
-
-table {
-        font-size: 2.5vw;
-}
-
-.col-a {
-        column-width: 300px;
-}
-
-.social {
-        font-size: 3.5vw;
-}
- 
-/* About me */
-
-.about-me, .work-expirence, .contact-form {
-        height: 480px;
-
-}
-
-.about-me div h1, .work-expirence div h1, .contact-form h1 {
-        font-size: 1.5rem;
-}
-
-.about-me div p, .work-expirence div p, .work-task ul li, .contact-form, fieldset, textarea {
-        font-size: 0.9rem;
-}
-
-/* buttons */
-
-.button1, .button2 {
-        font-size: 1.4rem;
-}
-
-/* footer */
-
-.footer {
-        height: 9vw;
-}
-
-.footer div {
-        font-size: 0.7rem;  
-}
-
-/* end of tablets 768px-1024px */
-
-}
 
 /* iPad PRO 1024px-1279px not standard laptops */
-@media screen and (min-width: 1024px) and (max-width: 1279px){
-        
-/* hero image */
 
-.hero-image-area {
-        height: 300px;
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+	/* hero image */
+	.hero-image-area {
+		height: 300px;
+	}
+	/* Header style */
+	.header-menu ul li a {
+		font-size: 1.3rem;
+	}
+	/* title area */
+	.title-area {
+		height: 6vw;
+	}
+	#name {
+		font-size: 1.6vw;
+		top: 10px;
+	}
+	#title {
+		font-size: 1.3vw;
+	}
+	/* Get in touch */
+	table {
+		font-size: 1.9vw;
+	}
+	.col-a {
+		column-width: 300px;
+	}
+	.social {
+		font-size: 2.6vw;
+	}
+	/* Middle area */
+	.about-me,
+	.work-expirence,
+	.contact-form {
+		height: 737px;
+	}
+	.about-me div h1,
+	.work-expirence div h1,
+	.contact-form h1 {
+		font-size: 2rem;
+	}
+	.about-me div p,
+	.work-expirence div p,
+	.work-task ul li,
+	.contact-form,
+	fieldset,
+	textarea {
+		font-size: 1.4rem;
+	}
+	/* buttons */
+	.button1,
+	.button2 {
+		font-size: 1.5rem;
+	}
+	/* footer */
+	.footer {
+		height: 9vh;
+	}
+	.footer div {
+		font-size: 1rem;
+	}
+	/* end of tablets 768px-1024px */
 }
 
-/* Header style */
-
-.header-menu ul li a {
-        font-size: 1.3rem;
-}
-
-/* title area */
-
-.title-area {
-        height: 6vw;
-}
-
-#name {
-        font-size: 1.6vw;
-        top: 10px;
-}
-      
-#title {
-        font-size: 1.3vw;
-}
-
-/* Get in touch */
-
-table {
-        font-size: 1.9vw;
-}
-   
-.col-a {
-        column-width: 300px;
-}
-
-.social {
-        font-size: 2.6vw;
-}
-/* Middle area */
-
-.about-me, .work-expirence, .contact-form {
-        height: 737px;
-}
-
-.about-me div h1, .work-expirence div h1, .contact-form h1 {
-        font-size: 2rem;
-}
-
-.about-me div p, .work-expirence div p, .work-task ul li, .contact-form, fieldset, textarea {
-        font-size: 1.4rem;
-}
-
-/* buttons */
-       
-.button1, .button2 {
-        font-size: 1.5rem;
-}
-
-/* footer */
- 
-.footer {
-        height: 9vh;
-}
-
-.footer div {
-        font-size: 1rem;     
-}
-
-/* end of tablets 768px-1024px */
-}
 
 /* 1280px up */
 
-@media screen and (min-width: 1280px){
-        /* hero image */
-
-.line {
-        margin-right: 15%;
-        margin-left: 15%;
-        width: 70vw;
-}
-
-#left {
-        float: left;
-        margin-left: 15%;
-        }
-
-#right {
-        float: right;
-        margin-right: 15%;
-}
-
-.hero-image-area {
-        width: 70vw;
-        margin-left: 15%;
-        margin-right: 15%;
-        height: 350px;
-}
-
-/* Header style */
-
-.header-menu ul li a {
-        font-size: 1.4rem;
-}
-
-/* title area */
-
-.title-area {
-        height: 3.2vw;
-}
-
-#name {
-        font-size: 0.8rem;
-        top: 3px;
-}
-
-#title {
-        font-size: 0.7vw;
-}
-
-/* Get in touch */
-
-.title-area, .personal-info {
-        width: 70vw;
-        margin-left: 15%;
-        margin-right: 15%;
-}
-
-table {
-        font-size: 1vw;
-}
-
-.col-a {
-        column-width: 200px;
-}
-
-.social {
-        font-size: 1.4vw;
-}
-
-/* Middle area */
-
-.about-me, .work-expirence, .contact-form {
-        height: 500px;
-        margin-left: 15%;
-        width: 70vw;
-}
-
-.about-me div h1, .work-expirence div h1, .contact-form h1 {
-        font-size: 1.4rem;
-}
-
-.about-me div p, .work-expirence div p, .work-task ul li, .contact-form, fieldset, textarea {
-        font-size: 1.2rem;
-}
-
-/* cooperation type */
-
-fieldset input, textarea {
-        float: right;
-        margin-right: 15%;
-        width: 20vw;
-}
-
-fieldset {
-        border: 1px solid black;
-        margin-right: 15%;
-        margin-left: 15%;
-}
-
-fieldset label {
-        float: left;
-        margin-left: 15%;
-        clear: both;
-}
-
-        
-/* buttons */
-                
-.button1, .button2 {
-        font-size: 1.3rem;
-        margin-top: -1.3%;
-}
-
-/* footer */
-            
-.footer {
-        height: 10vh;
-        width: 70vw;
-        margin-left: 15%;
-}
-            
-.footer div {
-        font-size: 0.7rem;
-                
-}
-
-/* end of tablets 768px-1024px */
+@media screen and (min-width: 1280px) {
+	/* hero image */
+	.line {
+		margin-right: 15%;
+		margin-left: 15%;
+		width: 70vw;
+	}
+	#left {
+		float: left;
+		margin-left: 15%;
+	}
+	#right {
+		float: right;
+		margin-right: 15%;
+	}
+	.hero-image-area {
+		width: 70vw;
+		margin-left: 15%;
+		margin-right: 15%;
+		height: 350px;
+	}
+	/* Header style */
+	.header-menu ul li a {
+		font-size: 1.4rem;
+	}
+	/* title area */
+	.title-area {
+		height: 3.2vw;
+	}
+	#name {
+		font-size: 0.8rem;
+		top: 3px;
+	}
+	#title {
+		font-size: 0.7vw;
+	}
+	/* Get in touch */
+	.title-area,
+	.personal-info {
+		width: 70vw;
+		margin-left: 15%;
+		margin-right: 15%;
+	}
+	table {
+		font-size: 1vw;
+	}
+	.col-a {
+		column-width: 200px;
+	}
+	.social {
+		font-size: 1.4vw;
+	}
+	/* Middle area */
+	.about-me,
+	.work-expirence,
+	.contact-form {
+		height: 500px;
+		margin-left: 15%;
+		width: 70vw;
+	}
+	.about-me div h1,
+	.work-expirence div h1,
+	.contact-form h1 {
+		font-size: 1.4rem;
+	}
+	.about-me div p,
+	.work-expirence div p,
+	.work-task ul li,
+	.contact-form,
+	fieldset,
+	textarea {
+		font-size: 1.2rem;
+	}
+	/* cooperation type */
+	fieldset input,
+	textarea {
+		float: right;
+		margin-right: 15%;
+		width: 20vw;
+	}
+	fieldset {
+		border: 1px solid black;
+		margin-right: 15%;
+		margin-left: 15%;
+	}
+	fieldset label {
+		float: left;
+		margin-left: 15%;
+		clear: both;
+	}
+	/* buttons */
+	.button1,
+	.button2 {
+		font-size: 1.3rem;
+		margin-top: -1.3%;
+	}
+	/* footer */
+	.footer {
+		height: 10vh;
+		width: 70vw;
+		margin-left: 15%;
+	}
+	.footer div {
+		font-size: 0.7rem;
+	}
+	/* end of tablets 768px-1024px */
 }
