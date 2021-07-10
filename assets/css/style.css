@@ -48,8 +48,8 @@ body {
 	position: fixed;
 	top: 5px;
 	width: 96vw;
-	margin-left: 2%;
-	margin-right: 2%;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
 	height: 5px;
 	text-align: center;
 	z-index: 10;
@@ -68,24 +68,24 @@ body {
 
 .header-menu ul li a {
 	text-align: center;
-	font-size: 0.8rem;
+	font-size: 0.7rem;
 	text-decoration: none;
 }
 
 .header-menu ul li a:link {
-	color: blanchedalmond;
+	color: rgb(232, 232, 232);
 	border-radius: 25px;
-	padding: 0;
+	padding: 2px 3px 2px 3px;
 }
 
 .header-menu ul li a:visited {
-	color: rgba(0, 204, 255, 0.534);
+	color: rgba(53, 145, 186, 0.534);
 }
 
 .header-menu ul li a:hover {
-	border: 2px solid rgb(0, 204, 255);
+	border: 2px solid rgba(53, 145, 186, 1);
 	border-radius: 25px;
-	padding: 0;
+	padding: 2px 3px 2px 3px;
 }
 
 .header-menu ul li a:active {
@@ -93,7 +93,7 @@ body {
 }
 
 .active {
-	border: 2px solid blanchedalmond;
+	border: 2px solid rgb(232, 232, 232);
 }
 
 
@@ -198,12 +198,12 @@ table {
 	background-color: rgba(192, 192, 192, 0.19);
 }
 
-.about-me div h1 {
+.about-me h1 {
 	font-size: 1rem;
 	text-transform: uppercase;
 }
 
-.about-me div p {
+.about-me p {
 	font-size: 0.75rem;
 }
 
@@ -225,8 +225,11 @@ table {
 	background-color: rgba(192, 192, 192, 0.19);
 }
 
-.work-expirence div h1 {
+.work-expirence h1 {
 	text-transform: uppercase;
+}
+.work-expirence p {
+	text-decoration: underline;
 }
 
 .about-me div:first-child,
@@ -290,11 +293,11 @@ fieldset label {
 
 .button1,
 .button2 {
-	color: #ffebcd;
-	border: 1px solid #FFEBCD;
+	color: rgb(232, 232, 232);
+	border: 1px solid rgb(232, 232, 232);
 	border-radius: 25px;
 	margin-top: -3%;
-	padding: 0 5px 0 5px;
+	padding: 3px 5px 3px 5px;
 }
 
 .button1 {
@@ -311,9 +314,9 @@ fieldset label {
 
 .button1:hover,
 .button2:hover {
-	border: 2px solid rgb(0, 204, 255);
+	border: 2px solid rgb(53, 145, 186);
 	border-radius: 25px;
-	padding: 0;
+	padding: 2px 3px 2px 3px;
 }
 
 
@@ -324,7 +327,7 @@ fieldset label {
 	bottom: 0;
 	width: 90vw;
 	height: 11vw;
-	background-color: rgb(255, 235, 205);
+	background-color: rgb(218, 216, 216);
 	margin-left: 5%;
 	border: 1px solid black;
 	border-radius: 25px 0;
@@ -343,7 +346,7 @@ fieldset label {
 
 #cooperation {
 	float: right;
-	margin-right: 1%;
+	margin: 1%;
 }
 
 
@@ -351,7 +354,7 @@ fieldset label {
 
 #download {
 	float: left;
-	margin-left: 1%;
+	margin: 1%;
 }
 
 #download a {
@@ -370,16 +373,18 @@ iframe {
 		font-size: 0.5rem;
 	}
 	/* About me */
-	.about-me {
+	.about-me,
+	.work-expirence,
+	.contact-form {
 		height: 300px;
 	}
 	.about-me div h1,
-	.work-expirence div h1,
+	.work-expirence h1,
 	.contact-form h1 {
 		font-size: 0.75rem;
 	}
 	.about-me div p,
-	.work-expirence div p,
+	.work-expirence p,
 	.work-task ul li,
 	.contact-form,
 	fieldset,
@@ -401,31 +406,29 @@ iframe {
 
 @media screen and (min-width: 280px) and (max-width: 320px) {
 	/* About me */
-	.about-me {
-		height: 215px;
+	.about-me,
+	.work-expirence,
+	.contact-form {
+		height: 300px;
+	}
+	.about-me h1:first-child,
+	.work-expirence h1:first-child,
+	.contact-form h1:first-child {
+		font-size: 1rem;
 	}
 	.about-me div h1,
-	.work-expirence div h1,
+	.work-expirence h1,
 	.contact-form h1 {
 		font-size: 0.78rem;
 	}
-	.about-me div p,
-	.work-expirence div p,
+	.about-me p,
+	.work-expirence p,
 	.work-task ul li,
-	.contact-form,
 	fieldset,
 	textarea {
 		font-size: 0.577rem;
 	}
-	/* work expirence */
-	.work-expirence {
-		height: 370px;
-		margin-bottom: 8vh;
-	}
-	/* contact form */
-	.contact-form {
-		height: 250px;
-	}
+
 	/* footer */
 	.footer {
 		height: 12vw;
@@ -469,13 +472,20 @@ iframe {
 	.contact-form {
 		height: 300px;
 	}
+
+	.about-me h1:first-child,
+	.work-expirence h1:first-child,
+	.contact-form h1:first-child {
+		font-size: 1rem;
+	}
+
 	.about-me div h1,
-	.work-expirence div h1,
+	.work-expirence h1,
 	.contact-form h1 {
 		font-size: 0.97rem;
 	}
 	.about-me div p,
-	.work-expirence div p,
+	.work-expirence p,
 	.work-task ul li,
 	.contact-form,
 	fieldset,
@@ -535,12 +545,19 @@ iframe {
 	.about-me,
 	.work-expirence,
 	.contact-form {
-		height: 480px;
+		height: 500px;
 	}
-	.about-me div h1,
-	.work-expirence div h1,
-	.contact-form h1 {
+
+	.about-me h1:first-child,
+	.work-expirence h1:first-child,
+	.contact-form h1:first-child {
 		font-size: 1.5rem;
+	}
+
+	.about-me h1,
+	.work-expirence h1,
+	.contact-form h1 {
+		font-size: 1.3rem;
 	}
 	.about-me div p,
 	.work-expirence div p,
@@ -604,10 +621,17 @@ iframe {
 	.contact-form {
 		height: 737px;
 	}
-	.about-me div h1,
-	.work-expirence div h1,
-	.contact-form h1 {
+
+	.about-me h1:first-child,
+	.work-expirence h1:first-child,
+	.contact-form h1:first-child {
 		font-size: 2rem;
+	}
+
+	.about-me h1,
+	.work-expirence h1,
+	.contact-form h1 {
+		font-size: 1.5rem;
 	}
 	.about-me div p,
 	.work-expirence div p,
@@ -695,10 +719,15 @@ iframe {
 		margin-left: 15%;
 		width: 70vw;
 	}
-	.about-me div h1,
-	.work-expirence div h1,
+	.about-me h1:first-child,
+	.work-expirence h1:first-child,
+	.contact-form h1:first-child {
+		font-size: 2rem;
+	}
+	.about-me h1,
+	.work-expirence h1,
 	.contact-form h1 {
-		font-size: 1.4rem;
+		font-size: 1.5rem;
 	}
 	.about-me div p,
 	.work-expirence div p,
@@ -740,5 +769,5 @@ iframe {
 	.footer div {
 		font-size: 0.7rem;
 	}
-	/* end of tablets 768px-1024px */
+	/* end of 1280px + */
 }
