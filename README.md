@@ -65,8 +65,8 @@ The reason for this web page is to show my skills to potential recruiters and al
 To be able to provide for users the best experience on devices which they use, my website should have responsive design to cover the majority of currently used devices (mobile, tablet, laptop/desktop).
 
 * One consistent layout design across all pages providing easy to understand and intuitive for all users;
-* Navigation bar placed on top of the screen easily accessible even once scrolling down;
-* Easy accessible footer with downloadable CV.
+* **Navigation bar** placed on top of the screen easily accessitble even once scrolling down, visited pages in color which match to background blue tone section, the color described by paint eyedropper;
+* **Footer** with downloadable CV color tone from gray part of background picture;
 
 ## 1.3. Skeleton
 
