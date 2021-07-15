@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Welcome to my first Full Stack Course project. This page is my "Welcome World" project, a way for me to say Hi! to developers world. Webpage will tell you something more about myself and show my achievements
+Welcome to my first Full Stack Course project. This page is my "Welcome World" project, a way for me to say Hi! to developers world. Webpage will tell you something more about myself and show my achievements.
 
 # See live webpage here
 
@@ -37,7 +37,7 @@ This project will show my work history and path of becoming a software developer
 
 ### * Project Goals
 
-The reason for this web page is to show my skills to potential recruiters and all who wants to cooperate with me in the future in projects
+The reason for this web page is to show my skills to potential recruiters and all who wants to cooperate with me in the future in projects. The website has been built by using HTML and CSS technologies. 
 
 ### * User Target
 
@@ -49,8 +49,8 @@ The reason for this web page is to show my skills to potential recruiters and al
 
 ### Returning visitors:
 
-* Visitors who would like to continue cooperation
-* Visitors who search contact details
+* Visitors who would like to continue cooperation;
+* Visitors who search contact details.
 
 ### User Expectations:
 
@@ -58,19 +58,23 @@ The reason for this web page is to show my skills to potential recruiters and al
 * The website is responsive across all devices (mobile, tablet and desktop);
 * Content is displayed in a clear and understanding format;
 * To have ability to contact with creator;
+* User can check my work history;
 * User can download printable version of CV.
 
 ## 1.2. Structure
 
-To be able to provide for users the best experience on devices which they use, my website should have responsive design to cover the majority of currently used devices (mobile, tablet, laptop/desktop).
+To be able to provide for users the best experience on devices which they use, my website have responsive design to cover the majority of currently used devices (mobile, tablet, laptop/desktop). This has been tested and proven to be functional. 
 
-* One consistent layout design across all pages providing easy to understand and intuitive for all users;
-* **Navigation bar** placed on top of the screen easily accessitble even once scrolling down, visited pages in color which match to background blue tone section, the color described by paint eyedropper;
-* **Footer** with downloadable CV color tone from gray part of background picture;
+* **All pages** with one consistent layout design being easy to understand and intuitive for all users;
+* **Navigation bar** placed on top of the screen easily accessible even once scrolling down, visited pages are in color which matches background blue tone section, the color is defined by paint eyedropper tool;
+* **Footer** with downloadable CV color tone from grey part of background picture;
+* **About me** includes short about me sentence with interesting quote;
+* **Resume** includes work history in chronological
+* **Contact** includes contact form and google map iframe 
 
 ## 1.3. Skeleton
 
-For creating wireframes I did use a [Balsamiq](https://balsamiq.com/), which helped me with defining layout for 2 types of devices (desktop and mobile).
+For creating wireframes I did use a [Balsamiq](https://balsamiq.com/), which helped me with defining layout for three types of devices (desktop, tablets and mobiles).
 
 * **About me - homepage Wireframes:**
 
@@ -91,7 +95,15 @@ Typography
 
 As font of my choice was Poppins provided from [Google Fonts](https://fonts.google.com/) in case of lack of support for Poopins font I did set sans serif font as a backup.
 
-## 2. Features
+Color
+
+Color has been defined with usage paint eyedrop tool, the reason for that was to ensure consistent design with the background image. 
+
+Icons
+
+The icons were taken from [Font Awsome](https://fontawesome.com/)
+
+## 2. Feature
 
 ### All pages:
 
@@ -103,6 +115,10 @@ As goal was to achieve a one consistent layout within all pages, I did include:
 * Social media icons;
 * Standardized information box used for different purposes in all pages;
 * Footer with downloadable CV.
+
+### About me
+
+* An short overview to showcase who am I and what I do.
 
 ### Resume page:
 
@@ -139,11 +155,11 @@ During my page creation journey I did use:
 
 ### Google developer Tool
 
-Used during entire project to test code and unbug issues related with responsiveness,  
+Used during entire project to test code and unbug issues   
 
 ### Responsive tools
 
-TBA
+Used google dev tool to test responsivness 
 
 ### W3C Validator tools
 
@@ -206,13 +222,18 @@ All issues corrected.
 
 ## 5. Development
 
-Multiple elements were changed during this journey, starting with the first wireframe for training reasons, this is my second respiratory which I used to create this project.
+I tried multiple layouts & elements in my second respiratory to provide the most user friendly interface. The design of the website and the content was created by myself, there was no design bots used to help with development.
+I have defined responsivness break points based on precentage of the most popular devices screen size used in 2021. 
+The code was reviewed multiple times to ensure all dead codes are cleaned, and it's readable for the other testers/ users. 
+CSS code was cleaned and condensed (in total over 200 lines of CSS code lines were removed)
+Code has been runned by HTML/ CSS beautifier to improve code outlook. 
+
 
 * **All pages:**
  
-During the first days of the project I did use different pictures for positioning, however I changed it later for my own picture.
+During the first days of the project I did use different pictures for positioning, however I changed it later to my own picture.
 
-Original design was with only a gray color background, this changed recently to provide a more complimentary photo on top of which I was able to apply a gray transparent box to highlight the text section.
+Original design was with only a grey color background. I have changed that recently to provide a more complimentary photo to the hero image. Based on that, I was able to apply a grey transparent box to highlight the text section.
 
 ## 6. End Product
 
@@ -223,7 +244,8 @@ See End Product screens:
 
 * Incorrect data send from form - fixed by providing correct names;
 * Multiple lines reacting in the same way - reduced in last stage of project;
-* Nav bar was hidden once animated fixed by z-index.
+* Nav bar was hidden once animated fixed by z-index;
+* Incorrect link to download file.
 
 ## 8. Credits
 
