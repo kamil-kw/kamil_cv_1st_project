@@ -159,7 +159,20 @@ Used during entire project to test code and unbug issues
 
 ### Responsive tools
 
-Used google dev tool to test responsivness 
+Used google dev tool to test responsivness:
+
+* Laptop (14");
+    ![Laptop](assets/images/laptop.PNG)
+* Desktop (24");
+    ![Desktop](assets/images/desktop.PNG)
+* iPhone gen 6 up to 8;
+    ![iphone 6-8](assets/images/iphone_6-8.PNG)
+* iPhone plus gen 6 up to 8;
+    ![iphone 6-8](assets/images/iphone_plus_6-8.PNG)
+* Samsung Galaxy S5;
+    ![Samsung Galaxy S5](assets/images/samsung_galaxy_s5.PNG)
+* iPad
+    ![iPad](assets/images/ipad.PNG)
 
 ### W3C Validator tools
 
@@ -175,9 +188,13 @@ All issues corrected.
 * **Manual testing performed on:**
 
     * Laptop (14");
+
     * Desktop (24");
+
     * iPhone 7 and 8 (5.5");
+
     * Samsung Galaxy 9 (5.8");
+
     * Samsung A70 (6.7").
 
 ## Page details
@@ -245,7 +262,8 @@ See End Product screens:
 * Incorrect data send from form - fixed by providing correct names;
 * Multiple lines reacting in the same way - reduced in last stage of project;
 * Nav bar was hidden once animated fixed by z-index;
-* Incorrect link to download file.
+* Incorrect link to download file;
+* CSS typo - incorrect declaration in animation rule.
 
 ## 8. Credits
 

@@ -114,7 +114,6 @@ body {
 	/* animates hero image */
 	animation-name: hero-animation;
 	animation-duration: 5s;
-	animation-fill-mode: forward;
 }
 
 
@@ -122,7 +121,7 @@ body {
 
 @keyframes hero-animation {
 	from {
-		transfrom: scale(1);
+		transform: scale(1);
 	}
 	to {
 		transform: scale(1.1);
