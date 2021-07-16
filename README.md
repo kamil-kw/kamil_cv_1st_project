@@ -198,15 +198,13 @@ All issues corrected.
 
 * **Manual testing performed on:**
 
-    * Laptop (14");
+* Laptop (14");
 
-    * Desktop (24");
+![Laptop](assets/images/manual_laptop_14.PNG)
 
-    * iPhone 7 and 8 (5.5");
+* Desktop (24");
 
-    * Samsung Galaxy 9 (5.8");
-
-    * Samsung A70 (6.7").
+![Laptop](assets/images/manual_desktop_24.PNG)
 
 ## Page details
 
