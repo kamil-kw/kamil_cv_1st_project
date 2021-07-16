@@ -47,7 +47,7 @@ body {
 .header-menu {
 	position: fixed;
 	top: 5px;
-	width: 96vw;
+	width: 99vw;
 	margin-left: 0.5%;
 	margin-right: 0.5%;
 	height: 5px;
@@ -122,10 +122,10 @@ body {
 
 @keyframes hero-animation {
 	from {
-		transfrom: scale(1)
+		transfrom: scale(1);
 	}
 	to {
-		transform: scale(1.1)
+		transform: scale(1.1);
 	}
 }
 
@@ -150,6 +150,17 @@ body {
 	position: relative;
 	float: left;
 	top: 5px;
+	/* easy animation */
+	animation: name-animation 5s ease-in;
+}
+
+@keyframes name-animation {
+	from {
+		left: 3%;
+	}
+	to {
+		left: 0;
+	}
 }
 
 #title {
@@ -158,6 +169,17 @@ body {
 	text-align: right;
 	float: right;
 	top: 0;
+	/* ease animation */
+	animation: title-animation 5s ease-in;
+}
+
+@keyframes title-animation {
+	from {
+		right: 3%;
+	}
+	to {
+		right: 0;
+	}
 }
 
 
@@ -424,6 +446,7 @@ iframe {
 	.about-me div p,
 	.work-expirence p,
 	.work-task ul li,
+	.contact-form,
 	fieldset,
 	textarea {
 		font-size: 0.577rem;
@@ -431,7 +454,7 @@ iframe {
 
 	/* footer */
 	.footer {
-		height: 12vw;
+		height: 40px;
 	}
 	.footer div {
 		font-size: 0.349rem;
@@ -470,7 +493,7 @@ iframe {
 	.about-me,
 	.work-expirence,
 	.contact-form {
-		height: 300px;
+		height: 450px;
 	}
 
 	.about-me h1:first-child,
@@ -497,7 +520,7 @@ iframe {
 	}
 	/* footer */
 	.footer {
-		height: 13vw;
+		height: 50px;
 	}
 	.footer div {
 		font-size: 1.5vw;
@@ -574,7 +597,7 @@ iframe {
 	}
 	/* footer */
 	.footer {
-		height: 9vw;
+		height: 80px;
 	}
 	.footer div {
 		font-size: 0.7rem;
@@ -634,7 +657,7 @@ iframe {
 		font-size: 1.5rem;
 	}
 	.about-me div p,
-	.work-expirence div p,
+	.work-expirence p,
 	.work-task ul li,
 	.contact-form,
 	fieldset,
@@ -730,7 +753,7 @@ iframe {
 		font-size: 1.5rem;
 	}
 	.about-me div p,
-	.work-expirence div p,
+	.work-expirence p,
 	.work-task ul li,
 	.contact-form,
 	fieldset,
@@ -762,7 +785,7 @@ iframe {
 	}
 	/* footer */
 	.footer {
-		height: 12vh;
+		height: 80px;
 		width: 70vw;
 		margin-left: 15%;
 	}
