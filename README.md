@@ -161,22 +161,28 @@ Used during entire project to test code and unbug issues
 
 Used google dev tool to test responsivness:
 
-* Laptop (14");
+* **Laptop (14"):**
+
 ![Laptop](assets/images/laptop.PNG)
 
-* Desktop (24");
+* **Desktop (24"):**
+
 ![Desktop](assets/images/desktop.PNG)
 
-* iPhone gen 6 up to 8;
+* **iPhone gen 6 up to 8:**
+
 ![iphone 6-8](assets/images/iphone_6-8.PNG)
 
-* iPhone plus gen 6 up to 8;
+* **iPhone plus gen 6 up to 8:**
+
 ![iphone 6-8](assets/images/iphone_plus_6-8.PNG)
 
-* Samsung Galaxy S5;
+* **Samsung Galaxy S5:**
+
 ![Samsung Galaxy S5](assets/images/samsung_galaxy_s5.PNG)
 
-* iPad
+* **iPad:**
+
 ![iPad](assets/images/ipad.PNG)
 
 ### W3C Validator tools
