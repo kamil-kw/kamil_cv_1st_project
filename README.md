@@ -43,7 +43,7 @@ The reason for this web page is to show my skills to potential recruiters and al
 
 ### First time visitors:
 
-* 1st time Visitors who wants to know more about my background and work history;
+* 1st time Visitors who want to know more about my background and work history;
 * 1st time Visitors who search for work candidates;
 * 1st time Visitors who search for developers to work with.
 
@@ -57,9 +57,9 @@ The reason for this web page is to show my skills to potential recruiters and al
 * Interface is easy to navigate;
 * The website is responsive across all devices (mobile, tablet and desktop);
 * Content is displayed in a clear and understanding format;
-* To have ability to contact with creator;
-* User can check my work history;
-* User can download printable version of CV.
+* To have the ability to contact the page creator;
+* Users can check my work history;
+* Users can download printable CV.
 
 ## 1.2. Structure
 
@@ -97,7 +97,7 @@ As font of my choice was Poppins provided from [Google Fonts](https://fonts.goog
 
 Color
 
-Color has been defined with usage paint eyedrop tool, the reason for that was to ensure consistent design with the background image. 
+Color has been defined with a paint eyedrop tool, the reason for that was to ensure consistent design with the background image. 
 
 Icons
 
@@ -118,7 +118,7 @@ As goal was to achieve a one consistent layout within all pages, I did include:
 
 ### About me
 
-* An short overview to showcase who am I and what I do.
+* A short overview to showcase who I am and what I d
 
 ### Resume page:
 
@@ -127,7 +127,7 @@ As goal was to achieve a one consistent layout within all pages, I did include:
 ### Contact page:
 
 * Contact form specified type of cooperation;
-* iframe with google maps to show  of my home city.
+* iframe with google maps to show location of my home city.
 
 ## 3. Technologies Used
 
@@ -156,11 +156,11 @@ During my page creation journey I did use:
 
 ### Google developer Tool
 
-Used during entire project to test code and unbug issues   
+Used during entire project to test code and debug issues   
 
 ### Responsive tools
 
-Used google dev tool to test responsivness:
+Used google dev tool to test responsiveness:
 
 * **Laptop (14"):**
 
@@ -191,7 +191,7 @@ Used google dev tool to test responsivness:
 Tested by W3C validators, issues discovered:
 * Sections where missing H1-6 tags - corrected to div structure;
 * Typo in input hiring ID;
-* Atribiute typo in the form tag.
+* Attribute typo in the form tag.
 
 All issues corrected.
 
@@ -218,7 +218,7 @@ All issues corrected.
 
 * **Hero image:**
  
-    Was style to achieve multi dimensional, animation added to increase size of hero image to 1.1.
+    Was styled to achieve a multi dimensional look,  animation added to increase the size of hero image to 1.1.
 
 * **Title area:**
 
@@ -232,27 +232,27 @@ All issues corrected.
 
 * **Middle section (About me, Resume, Contact):**
 
-    Scale to fit most popular devices, add gray transparent background to separate form page background, heading visualy separate by double underline.
+    Scale to fit most popular devices, add gray transparent background to separate form page background, heading visually separate by double underline.
     Per page:
     * **About me** - short sentence with quote for visitors.
-    * **Resume** - work history in easy to read form, job title automaticaly set to uppercase, company and time frames with underline decoration to provide clear separation from main text;
+    * **Resume** - work history in easy to read form, job title automatically set to uppercase, company and time frames with underline decoration to provide clear separation from main text;
     * **Contact** - Contact form with decision point (radio buttons);
         * Buttons with green and red color in soft gray tone.
 
 * **Footer:**
 
-    Set to grey color to compliment top section of the web with shadow to softy blend with the page.
+    Set to grey color to compliment the top section of the web with shadow decoration to blend with the page.
 
-    Footers include downloadable CV under download icon.
+    Footers in main and all sub pages include downloadable CV under download icon.
 
 * **Responsiveness:**
 
-    Was checked at multiple device sizes to focus on majority of devices currently used worldwide.
+    Was checked at multiple device sizes to focus on the majority of devices currently used worldwide.
 
 ## 5. Development
 
-I tried multiple layouts & elements in my second respiratory to provide the most user friendly interface. The design of the website and the content was created by myself, there was no design bots used to help with development.
-I have defined responsivness break points based on precentage of the most popular devices screen size used in 2021.
+I tried multiple layouts & elements in my second respiratory to provide the most user friendly interface. The design of the website and the content was created by myself, there were no design bots used to help with development.
+I have defined responsive breakpoints based on the percentage of the most popular devices screen size used in 2021.
 
 The code was reviewed multiple times to ensure all dead codes are cleaned, and it's readable for the other testers/ users.
 CSS code was cleaned and condensed (in total over 200 lines of CSS code lines were removed).
