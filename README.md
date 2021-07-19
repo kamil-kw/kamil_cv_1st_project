@@ -14,9 +14,9 @@ Welcome to my first Full Stack Course project. This page is my "Welcome World" p
     * **1.1. Strategy**
         * Project Goals
         * User target
-         * 1st time visitors
-         * Returning visitors
-         * User expectations
+            * 1st time visitors
+            * Returning visitors
+        * User expectations
     * **1.2. Structure**
     * **1.3. Skeleton**
     * **1.4. Surface**
@@ -58,7 +58,7 @@ The reason for this web page is to show my skills to potential recruiters and al
 * Visitors who would like to continue cooperation;
 * Visitors who search contact details.
 
-### User Expectations:
+### * User Expectations:
 
 * Interface is easy to navigate;
 * The website is responsive across all devices (mobile, tablet and desktop);
