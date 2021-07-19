@@ -14,12 +14,16 @@ Welcome to my first Full Stack Course project. This page is my "Welcome World" p
     * **1.1. Strategy**
         * Project Goals
         * User target
-        * 1st time visitors
-            * Returning visitors
-        * User expectations
+         * 1st time visitors
+         * Returning visitors
+         * User expectations
     * **1.2. Structure**
     * **1.3. Skeleton**
     * **1.4. Surface**
+      * Typography
+      * Background image
+      * Color
+      * Icons
 2. **Features**
 3. **Technologies Used**
 4. **Testing**
