@@ -71,8 +71,8 @@ To be able to provide for users the best experience on devices which they use, m
 * **Navigation bar** placed on top of the screen easily accessible even once scrolling down, visited pages are in color which matches background blue tone section, the color is defined by paint eyedropper tool;
 * **Footer** with downloadable CV color tone from grey part of background picture;
 * **About me** includes short about me sentence with interesting quote;
-* **Resume** includes work history in chronological
-* **Contact** includes contact form and google map iframe 
+* **Resume** includes work history in chronological order;
+* **Contact** includes contact form and google map iframe.
 
 ## 1.3. Skeleton
 
@@ -95,11 +95,11 @@ For creating wireframes I did use a [Balsamiq](https://balsamiq.com/), which hel
 
 * **Typography**
 
-As font of my choice was Poppins provided from [Google Fonts](https://fonts.google.com/) in case of lack of support for Poopins font I did set sans serif font as a backup.
+A font of my choice is Poppins provided by [Google Fonts](https://fonts.google.com/), as alternative font to Poopins, I used sans serif font.
 
 * **Background image**
 
-Used background image was taken from [Pexels](https://www.pexels.com/).
+The background image used in my project was taken from [Pexels](https://www.pexels.com/).
 
 * **Color**
 
@@ -113,7 +113,7 @@ The icons were taken from [Font Awsome](https://fontawesome.com/)
 
 ### All pages:
 
-As goal was to achieve a one consistent layout within all pages, I did include:
+A goal was to achieve a one consistent layout within all pages. This includes: 
 
 * Photo on top of all pages;
 * Top navigation bar accessible while scrolling down;
@@ -124,7 +124,7 @@ As goal was to achieve a one consistent layout within all pages, I did include:
 
 ### About me
 
-* A short overview to showcase who I am and what I d
+* A short overview to showcase who I am and what I do
 
 ### Resume page:
 
@@ -159,6 +159,8 @@ During my page creation journey I did use:
     * For problem solving and code searching
 * [Am I responsive design](http://ami.responsivedesign.is/)
     * To test responsiveness in end product and create readme screen shots
+* [Beautifier - Free Formater](https://www.freeformatter.com/html-formatter.html) 
+    * Used to improve HTML and CSS code presentation
 
 ## 4. Testing
 
@@ -221,33 +223,33 @@ All issues corrected.
 
 * **Navigation Bar:**
 
-    All buttons have text color set to grey same as borders once a site is active. After the visit this will change to sea blue color to match the background image:
+    All buttons have text color set to grey the same as borders once a site is active. After the visit this will change to sea blue color to match the background image:
     * **About me** button will direct you to the Home page.
     * **Resume** button will direct you to my work history.
     * **Contact** button will direct you to the Contact page.
 
 * **Hero image:**
  
-    Was styled to achieve a multi dimensional look,  animation added to increase the size of hero image to 1.1.
+    Was styled to achieve a multi dimensional look,  animation added to increase the size of hero image to 110% and zoom back after 5 sec.
 
 * **Title area:**
 
-    Text was checked against typos, the font size ensured to match the most popular screen sizes. Slide in animation added to compliment hero image animation.
+    Text was checked against typos, the font size is set to match the most popular screen sizes. Slide in animation added to compliment hero image animation.
 
 * **Personal Details:**
 
-    Build in table form to ensure position of the text left right.
+    Build in table form to ensure correct position of the text. 
 
     Social media icons added without visual text (e.g Facebook), all icons are with active links.
 
 * **Middle section (About me, Resume, Contact):**
 
-    Scale to fit most popular devices, add gray transparent background to separate form page background, heading visually separate by double underline.
+    Scale to fit most popular devices, added grey transparent background to separate form page background, heading is visually separated by double underline.
     Per page:
     * **About me** - short sentence with quote for visitors.
-    * **Resume** - work history in easy to read form, job title automatically set to uppercase, company and time frames with underline decoration to provide clear separation from main text;
-    * **Contact** - Contact form with decision point (radio buttons);
-        * Buttons with green and red color in soft gray tone.
+    * **Resume** - work history in easy to read form, job title automatically set to uppercase, company and work time frames with underline decoration to provide clear separation from main text;
+    * **Contact** - Contact form with decision points (radio buttons);
+        * Buttons with green and red color in soft grey tone.
 
 * **Footer:**
 
@@ -257,7 +259,7 @@ All issues corrected.
 
 * **Responsiveness:**
 
-    Was checked at multiple device sizes to focus on the majority of devices currently used worldwide.
+    Was checked at multiple device sizes to focus the majority of devices currently used worldwide.
 
 ## 5. Development
 
