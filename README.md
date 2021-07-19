@@ -269,6 +269,17 @@ Original design was with only a grey color background. I have changed that recen
 
 See End Product screens:
 
+* **About me:**
+
+![About me](assets/images/end-product_aboutme.PNG)
+
+* **Resume:**
+
+![Resume](assets/images/end-product_resume.PNG)
+
+* **Contact:**
+
+![Contact](assets/images/end-product_contact.PNG)
 
 ## 7. Known bugs
 
