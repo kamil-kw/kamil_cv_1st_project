@@ -235,9 +235,9 @@ All issues corrected.
     Scale to fit most popular devices, add gray transparent background to separate form page background, heading visualy separate by double underline.
     Per page:
     * **About me** - short sentence with quote for visitors.
-    * **Resume** - work history in easy to read form, job title automaticaly set to uppercase, company and time frames with underline decoration;
+    * **Resume** - work history in easy to read form, job title automaticaly set to uppercase, company and time frames with underline decoration to provide clear separation from main text;
     * **Contact** - Contact form with decision point (radio buttons);
-        * Buttons with soft color in gray tone.
+        * Buttons with green and red color in soft gray tone.
 
 * **Footer:**
 
@@ -247,14 +247,15 @@ All issues corrected.
 
 * **Responsiveness:**
 
-    Was checked at multiple device sizes to focus on majority of devices currently used worldwide
+    Was checked at multiple device sizes to focus on majority of devices currently used worldwide.
 
 ## 5. Development
 
 I tried multiple layouts & elements in my second respiratory to provide the most user friendly interface. The design of the website and the content was created by myself, there was no design bots used to help with development.
-I have defined responsivness break points based on precentage of the most popular devices screen size used in 2021. 
-The code was reviewed multiple times to ensure all dead codes are cleaned, and it's readable for the other testers/ users. 
-CSS code was cleaned and condensed (in total over 200 lines of CSS code lines were removed)
+I have defined responsivness break points based on precentage of the most popular devices screen size used in 2021.
+
+The code was reviewed multiple times to ensure all dead codes are cleaned, and it's readable for the other testers/ users.
+CSS code was cleaned and condensed (in total over 200 lines of CSS code lines were removed).
 Code has been runned by HTML/ CSS beautifier to improve code outlook. 
 
 
