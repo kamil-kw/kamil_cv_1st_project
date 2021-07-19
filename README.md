@@ -91,15 +91,19 @@ For creating wireframes I did use a [Balsamiq](https://balsamiq.com/), which hel
 
 ## 1.4. Surface
 
-Typography
+* **Typography**
 
 As font of my choice was Poppins provided from [Google Fonts](https://fonts.google.com/) in case of lack of support for Poopins font I did set sans serif font as a backup.
 
-Color
+* **Background image**
+
+Used background image was taken from [Pexels](https://www.pexels.com/).
+
+* **Color**
 
 Color has been defined with a paint eyedrop tool, the reason for that was to ensure consistent design with the background image. 
 
-Icons
+* **Icons**
 
 The icons were taken from [Font Awsome](https://fontawesome.com/)
 
