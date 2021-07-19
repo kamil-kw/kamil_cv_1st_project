@@ -1,3 +1,5 @@
+![Hero image](assets/images/end-product_aboutme_all-devices.PNG)
+
 # Kamil Kwiatkowski Curriculum Vitae
 
 ## Introduction
@@ -275,15 +277,15 @@ See End Product screens:
 
 * **About me:**
 
-![About me](assets/images/end-product_aboutme.PNG)
+![About me](assets/images/end-product_aboutme_all-devices.PNG)
 
 * **Resume:**
 
-![Resume](assets/images/end-product_resume.PNG)
+![Resume](assets/images/end-product_resume_all-devices.PNG)
 
 * **Contact:**
 
-![Contact](assets/images/end-product_contact.PNG)
+![Contact](assets/images/end-product_contact_all-devices.PNG)
 
 ## 7. Known bugs
 
