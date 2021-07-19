@@ -157,6 +157,8 @@ During my page creation journey I did use:
     * Used as playground for code
 * [W3School](https://www.w3schools.com/)
     * For problem solving and code searching
+* [Am I responsive design](http://ami.responsivedesign.is/)
+    * To test responsiveness in end product and create readme screen shots
 
 ## 4. Testing
 
@@ -166,7 +168,9 @@ Used during entire project to test code and debug issues
 
 ### Responsive tools
 
-Used google dev tool to test responsiveness:
+Used google dev tool to test responsiveness.
+
+[Am I responsive design](http://ami.responsivedesign.is/) used to test end product responsiveness.
 
 * **Laptop (14"):**
 
