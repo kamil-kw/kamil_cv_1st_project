@@ -113,7 +113,7 @@ As goal was to achieve a one consistent layout within all pages, I did include:
 * Top navigation bar accessible while scrolling down;
 * Contact details below photo;
 * Social media icons;
-* Standardized information box used for different purposes in all pages;
+* Standardized personal information box used s in all pages;
 * Footer with downloadable CV.
 
 ### About me
@@ -126,7 +126,8 @@ As goal was to achieve a one consistent layout within all pages, I did include:
 
 ### Contact page:
 
-* Contact form specified type of cooperation.
+* Contact form specified type of cooperation;
+* iframe with google maps to show  of my home city.
 
 ## 3. Technologies Used
 
@@ -210,7 +211,7 @@ All issues corrected.
 
 * **Navigation Bar:**
 
-    All buttons have text color set to blanchedalmond same as borders -once a site is active. After the visit this will change to sea blue color to match the background image:
+    All buttons have text color set to grey same as borders once a site is active. After the visit this will change to sea blue color to match the background image:
     * **About me** button will direct you to the Home page.
     * **Resume** button will direct you to my work history.
     * **Contact** button will direct you to the Contact page.
@@ -221,24 +222,26 @@ All issues corrected.
 
 * **Title area:**
 
-    Text was checked against typos, the font size ensured to match the most popular screen sizes.
+    Text was checked against typos, the font size ensured to match the most popular screen sizes. Slide in animation added to compliment hero image animation.
 
 * **Personal Details:**
 
     Build in table form to ensure position of the text left right.
 
+    Social media icons added without visual text (e.g Facebook), all icons are with active links.
+
 * **Middle section (About me, Resume, Contact):**
 
-    Scale to fit most popular devices, add gray transparent background to separate form page background.
+    Scale to fit most popular devices, add gray transparent background to separate form page background, heading visualy separate by double underline.
     Per page:
     * **About me** - short sentence with quote for visitors.
-    * **Resume** - work history in easy to read form.
+    * **Resume** - work history in easy to read form, job title automaticaly set to uppercase, company and time frames with underline decoration;
     * **Contact** - Contact form with decision point (radio buttons);
         * Buttons with soft color in gray tone.
 
 * **Footer:**
 
-    Set to blanchedalmond to compliment top section of the web with shadow to softy blend with the page.
+    Set to grey color to compliment top section of the web with shadow to softy blend with the page.
 
     Footers include downloadable CV under download icon.
 
