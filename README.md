@@ -14,16 +14,12 @@ Welcome to my first Full Stack Course project. This page is my "Welcome World" p
     * **1.1. Strategy**
         * Project Goals
         * User target
-            * 1st time visitors
+        * 1st time visitors
             * Returning visitors
         * User expectations
     * **1.2. Structure**
     * **1.3. Skeleton**
     * **1.4. Surface**
-      * Typography
-      * Background image
-      * Color
-      * Icons
 2. **Features**
 3. **Technologies Used**
 4. **Testing**
@@ -58,7 +54,7 @@ The reason for this web page is to show my skills to potential recruiters and al
 * Visitors who would like to continue cooperation;
 * Visitors who search contact details.
 
-### * User Expectations:
+### User Expectations:
 
 * Interface is easy to navigate;
 * The website is responsive across all devices (mobile, tablet and desktop);
@@ -213,17 +209,7 @@ All issues corrected.
 
 ## Manual testing
 
-* **Manual testing performed on:**
-
-* Laptop (14");
-
-![Laptop](assets/images/manual_laptop_14.PNG)
-
-* Desktop (24");
-
-![Laptop](assets/images/manual_desktop_24.PNG)
-
-## Page details
+Page details:
 
 * **Navigation Bar:**
 
@@ -231,14 +217,20 @@ All issues corrected.
     * **About me** button will direct you to the Home page.
     * **Resume** button will direct you to my work history.
     * **Contact** button will direct you to the Contact page.
+    
+    *All navigation buttons has pass tests and worked according to project expections.*
 
 * **Hero image:**
  
     Was styled to achieve a multi dimensional look,  animation added to increase the size of hero image to 110% and zoom back after 5 sec.
 
+    *Hero image animation has pass tests and worked according to project expections.*
+
 * **Title area:**
 
     Text was checked against typos, the font size is set to match the most popular screen sizes. Slide in animation added to compliment hero image animation.
+
+    *Title area animation has pass tests and worked according to project expections.*
 
 * **Personal Details:**
 
@@ -246,14 +238,24 @@ All issues corrected.
 
     Social media icons added without visual text (e.g Facebook), all icons are with active links.
 
+    *Social media icons pass tests and worked according to project expections.*
+
 * **Middle section (About me, Resume, Contact):**
 
     Scale to fit most popular devices, added grey transparent background to separate form page background, heading is visually separated by double underline.
     Per page:
     * **About me** - short sentence with quote for visitors.
     * **Resume** - work history in easy to read form, job title automatically set to uppercase, company and work time frames with underline decoration to provide clear separation from main text;
+
+    *Resume page pass tests and worked according to project expections.*
+
     * **Contact** - Contact form with decision points (radio buttons);
-        * Buttons with green and red color in soft grey tone.
+        * Send button with green color, once pressed will check if all fields are filled than direct you to [Code Institute - formdump](https://formdump.codeinstitute.net/) and open in new tab;
+
+        * Clear form button with red color will clear all text from form.
+
+    *Contact page form and buttons pass tests and worked according to project expections.*
+
 
 * **Footer:**
 
@@ -261,9 +263,13 @@ All issues corrected.
 
     Footers in main and all sub pages include downloadable CV under download icon.
 
+    *Download icon pass tests and worked according to project expections.*
+
 * **Responsiveness:**
 
     Was checked at multiple device sizes to focus the majority of devices currently used worldwide.
+
+    *Responsiveness pass all tests and worked according to project expections.*
 
 ## 5. Development
 
