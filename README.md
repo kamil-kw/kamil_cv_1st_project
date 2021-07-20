@@ -309,7 +309,8 @@ See End Product screens:
 * Multiple lines reacting in the same way - reduced in last stage of project;
 * Nav bar was hidden once animated fixed by z-index;
 * Incorrect link to download file;
-* CSS typo - incorrect declaration in animation rule.
+* CSS typo - incorrect declaration in animation rule;
+* Navigation buttons background color transparency changed to 0,9 to increase contrast with visited text color.
 
 ## 8. Credits
 

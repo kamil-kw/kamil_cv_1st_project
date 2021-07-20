@@ -61,9 +61,9 @@ body {
 	text-align: center;
 	width: auto;
 	height: auto;
-	border: 1px solid rgba(82, 85, 85, 0.7);
+	border: 1px solid rgba(80, 83, 83, 0.7);
 	border-radius: 25px;
-	background-color: rgba(80, 83, 83, 0.7);
+	background-color: rgba(80, 83, 83, 0.9);
 }
 
 .header-menu ul li a {
@@ -79,7 +79,7 @@ body {
 }
 
 .header-menu ul li a:visited {
-	color: rgba(53, 145, 186, 0.534);
+	color: rgb(53, 145, 186);
 }
 
 .header-menu ul li a:hover {
