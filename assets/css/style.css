@@ -391,20 +391,23 @@ iframe {
 }
 
 @media screen and (max-width: 279px) {
+	/* Header font size */
 	.header-menu ul li a {
 		font-size: 0.5rem;
 	}
-	/* About me */
+	/* middle section height */
 	.about-me,
 	.work-expirence,
 	.contact-form {
 		height: 300px;
 	}
+	/* middle section header font size */
 	.about-me div h1,
 	.work-expirence h1,
 	.contact-form h1 {
 		font-size: 0.75rem;
 	}
+	/* middle section content font size */
 	.about-me div p,
 	.work-expirence p,
 	.work-task ul li,
@@ -413,6 +416,7 @@ iframe {
 	textarea {
 		font-size: 0.5rem;
 	}
+	/* buttons contact form */
 	.button1,
 	.button2 {
 		font-size: 0.6rem;
@@ -427,22 +431,25 @@ iframe {
 /* phone generations like iPhone 5S. Galaxy fold */
 
 @media screen and (min-width: 280px) and (max-width: 320px) {
-	/* About me */
+	/* middle section height */
 	.about-me,
 	.work-expirence,
 	.contact-form {
 		height: 300px;
 	}
+	/* middle section header font size */
 	.about-me h1:first-child,
 	.work-expirence h1:first-child,
 	.contact-form h1:first-child {
 		font-size: 1rem;
 	}
+	/* middle section title font size */
 	.about-me div h1,
 	.work-expirence h1,
 	.contact-form h1 {
 		font-size: 0.78rem;
 	}
+	/* middle section content font size */
 	.about-me div p,
 	.work-expirence p,
 	.work-task ul li,
@@ -452,10 +459,11 @@ iframe {
 		font-size: 0.577rem;
 	}
 
-	/* footer */
+	/* footer height */
 	.footer {
 		height: 40px;
 	}
+	/* footer font size */
 	.footer div {
 		font-size: 0.349rem;
 	}
@@ -465,6 +473,7 @@ iframe {
 		float: right;
 		margin-right: 40vw;
 	}
+	/* cooperation form buttons font size */
 	.button1,
 	.button2 {
 		font-size: 0.8rem;
@@ -476,37 +485,41 @@ iframe {
 /* screen 321px-767px */
 
 @media screen and (min-width: 321px) and (max-width: 767px) {
+	/* hero image area height */
 	.hero-image-area {
 		height: 170px;
 	}
-	/* Get in touch */
+	/* Get in touch area table font size */
 	table {
 		font-size: 3vw;
 	}
+	/* Get in touch area first column width */
 	.col-a {
 		column-width: 120px;
 	}
+	/* Social media icons size */
 	.social {
 		font-size: 4.2vw;
 	}
-	/* About me */
+	/* middle section height */
 	.about-me,
 	.work-expirence,
 	.contact-form {
 		height: 450px;
 	}
-
+	/* middle section header font size */
 	.about-me h1:first-child,
 	.work-expirence h1:first-child,
 	.contact-form h1:first-child {
 		font-size: 1rem;
 	}
-
+	/* middle section title font size */
 	.about-me div h1,
 	.work-expirence h1,
 	.contact-form h1 {
 		font-size: 0.97rem;
 	}
+	/* middle section content font size */
 	.about-me div p,
 	.work-expirence p,
 	.work-task ul li,
@@ -518,13 +531,15 @@ iframe {
 	.bottom-margin {
 		margin-bottom: 1.5vw;
 	}
-	/* footer */
+	/* footer height */
 	.footer {
 		height: 50px;
 	}
+	/* footer font size */
 	.footer div {
 		font-size: 1.5vw;
 	}
+	/* footer download icon size */
 	#download a {
 		font-size: 200%;
 	}
@@ -535,53 +550,58 @@ iframe {
 /* tablets 768px-1023px */
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-	/* hero image */
+	/* hero image area height */
 	.hero-image-area {
 		height: 250px;
 	}
-	/* Header style */
+	/* Header font size */
 	.header-menu ul li a {
 		font-size: 1.4rem;
 	}
-	/* title area */
+	/* title area height */
 	.title-area {
 		height: 9vw;
 	}
+	/* name size */
 	#name {
 		font-size: 2vw;
 		top: 10px;
 	}
+	/* title size */
 	#title {
 		font-size: 1.8vw;
 	}
-	/* Get in touch */
+	/* Get in touch area table font size */
 	table {
 		font-size: 2.5vw;
 	}
+	/* Get in touch area first column width */
 	.col-a {
 		column-width: 300px;
 	}
+	/* Social media icons size */
 	.social {
 		font-size: 3.5vw;
 	}
-	/* About me */
+	/* middle section height */
 	.about-me,
 	.work-expirence,
 	.contact-form {
 		height: 500px;
 	}
-
+	/* middle section header font size */
 	.about-me h1:first-child,
 	.work-expirence h1:first-child,
 	.contact-form h1:first-child {
 		font-size: 1.5rem;
 	}
-
+	/* middle section title font size */
 	.about-me h1,
 	.work-expirence h1,
 	.contact-form h1 {
 		font-size: 1.3rem;
 	}
+	/* middle section content font size */
 	.about-me div p,
 	.work-expirence div p,
 	.work-task ul li,
@@ -590,15 +610,16 @@ iframe {
 	textarea {
 		font-size: 0.9rem;
 	}
-	/* buttons */
+	/* buttons contact form */
 	.button1,
 	.button2 {
 		font-size: 1.4rem;
 	}
-	/* footer */
+	/* footer height */
 	.footer {
 		height: 80px;
 	}
+	/* footer download icon size */
 	.footer div {
 		font-size: 0.7rem;
 	}
@@ -609,32 +630,36 @@ iframe {
 /* iPad PRO 1024px-1279px not standard laptops */
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
-	/* hero image */
+	/* hero image area height */
 	.hero-image-area {
 		height: 300px;
 	}
-	/* Header style */
+	/* Header font size */
 	.header-menu ul li a {
 		font-size: 1.3rem;
 	}
-	/* title area */
+	/* title area height */
 	.title-area {
 		height: 6vw;
 	}
+	/* name size */
 	#name {
 		font-size: 1.6vw;
 		top: 10px;
 	}
+	/* title size */
 	#title {
 		font-size: 1.3vw;
 	}
-	/* Get in touch */
+	/* Get in touch area table font size */
 	table {
 		font-size: 1.9vw;
 	}
+	/* Get in touch area first column width */
 	.col-a {
 		column-width: 300px;
 	}
+	/* Social media icons size */
 	.social {
 		font-size: 2.6vw;
 	}
@@ -644,18 +669,19 @@ iframe {
 	.contact-form {
 		height: 737px;
 	}
-
+	/* middle section header font size */
 	.about-me h1:first-child,
 	.work-expirence h1:first-child,
 	.contact-form h1:first-child {
 		font-size: 2rem;
 	}
-
+	/* middle section title font size */
 	.about-me h1,
 	.work-expirence h1,
 	.contact-form h1 {
 		font-size: 1.5rem;
 	}
+	/* middle section content font size */
 	.about-me div p,
 	.work-expirence p,
 	.work-task ul li,
@@ -664,73 +690,82 @@ iframe {
 	textarea {
 		font-size: 1.4rem;
 	}
-	/* buttons */
+	/* buttons contact form */
 	.button1,
 	.button2 {
 		font-size: 1.5rem;
 	}
-	/* footer */
+	/* footer height */
 	.footer {
 		height: 9vh;
 	}
+	/* footer font size */
 	.footer div {
 		font-size: 1rem;
 	}
-	/* end of tablets 768px-1024px */
+	/* end of Pad PRO 1024px-1279px not standard laptops */
 }
 
 
 /* 1280px up */
 
 @media screen and (min-width: 1280px) {
-	/* hero image */
+	/* hero image area height */
 	.line {
 		margin-right: 15%;
 		margin-left: 15%;
 		width: 70vw;
 	}
+	/* About me navigation button position */
 	#left {
 		float: left;
 		margin-left: 15%;
 	}
+	/* Contact navigation button position */
 	#right {
 		float: right;
 		margin-right: 15%;
 	}
+	/* hero image area height */
 	.hero-image-area {
 		width: 70vw;
 		margin-left: 15%;
 		margin-right: 15%;
 		height: 350px;
 	}
-	/* Header style */
+	/* Header font size */
 	.header-menu ul li a {
 		font-size: 1.4rem;
 	}
-	/* title area */
+	/* title area height */
 	.title-area {
 		height: 3.2vw;
 	}
+	/* name size */
 	#name {
 		font-size: 0.8rem;
 		top: 3px;
 	}
+	/* title size */
 	#title {
 		font-size: 0.7vw;
 	}
-	/* Get in touch */
+	/* title area and personal info position */
 	.title-area,
 	.personal-info {
 		width: 70vw;
 		margin-left: 15%;
 		margin-right: 15%;
 	}
+	/* Get in touch area table font size */
 	table {
 		font-size: 1vw;
 	}
+	/* Get in touch area first column width */
 	.col-a {
 		column-width: 200px;
 	}
+	/* Social media icons size */
 	.social {
 		font-size: 1.4vw;
 	}
@@ -742,16 +777,19 @@ iframe {
 		margin-left: 15%;
 		width: 70vw;
 	}
+	/* middle section header font size */
 	.about-me h1:first-child,
 	.work-expirence h1:first-child,
 	.contact-form h1:first-child {
 		font-size: 2rem;
 	}
+	/* middle section title font size */
 	.about-me h1,
 	.work-expirence h1,
 	.contact-form h1 {
 		font-size: 1.5rem;
 	}
+	/* middle section content font size */
 	.about-me div p,
 	.work-expirence p,
 	.work-task ul li,
@@ -760,7 +798,7 @@ iframe {
 	textarea {
 		font-size: 1.2rem;
 	}
-	/* cooperation type */
+	/* contact form position */
 	fieldset input,
 	textarea {
 		float: right;
@@ -777,18 +815,19 @@ iframe {
 		margin-left: 15%;
 		clear: both;
 	}
-	/* buttons */
+	/* buttons contact form */
 	.button1,
 	.button2 {
 		font-size: 1.3rem;
 		margin-top: -1.3%;
 	}
-	/* footer */
+	/* footer height */
 	.footer {
 		height: 80px;
 		width: 70vw;
 		margin-left: 15%;
 	}
+	/* footer font size */
 	.footer div {
 		font-size: 0.7rem;
 	}
